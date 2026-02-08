@@ -1,6 +1,6 @@
 # Business, Finance & Skill Acquisition
 
-Practical frameworks extracted from the Diary of a CEO podcast with Steven Bartlett, featuring teachings from Josh Kaufman (The Personal MBA, The First 20 Hours) and Ramit Sethi (I Will Teach You To Be Rich).
+Practical frameworks extracted from podcast teachings by Josh Kaufman (The Personal MBA, The First 20 Hours), Ramit Sethi (I Will Teach You To Be Rich), and Simon Squibb (serial entrepreneur, 19 companies, 78 startup investments).
 
 ## Contents
 
@@ -14,6 +14,14 @@ The five core human drives, features vs benefits, counter-signaling strategy, th
 
 #### [Business Validation Playbook](business-validation-playbook.md)
 Step-by-step guide from problem discovery through sustainability decision. Includes the credit card test, experimentation framework, and common mistakes to avoid.
+
+### Entrepreneurship
+
+#### [Entrepreneurship Playbook](entrepreneurship-playbook.md)
+Starting a business with no money, the passion-first principle, mind maps vs business plans, finding purpose, finding a co-founder, the three-step sales process, marketing systems, and the staircase philosophy for PR.
+
+#### [Scaling, Funding & Exiting](scaling-and-exiting.md)
+Six ways to raise money (family, team-as-investors, angels, VCs, clients, crowdfunding), how to get sponsors, building brand through reference and leadership models, the 7-and-8 firing rule, going global, equity structures, SAFEs, and five exit strategies.
 
 ### Personal Finance
 
@@ -30,7 +38,7 @@ The 10 principles for learning anything in 20 hours. Covers the frustration barr
 
 ## Key Takeaways
 
-### Business
+### Business & Marketing
 1. **Every business has five parts** — Value Creation, Marketing, Sales, Value Delivery, Finance
 2. **Understanding business is a superpower** — it lets you break down any complex organization into simple, actionable parts
 3. **Start simple** — complex systems that work evolved from simpler systems that worked (Gall's Law)
@@ -39,16 +47,26 @@ The 10 principles for learning anything in 20 hours. Covers the frustration barr
 6. **Be distinctive, not vanilla** — polarization beats lukewarm acceptance
 7. **Experiment relentlessly** — but always collect feedback
 
+### Entrepreneurship
+8. **Start with passion, not an original idea** — 500 competitors is fine if you care more than all of them
+9. **Delay gratification** — build value before monetizing; Facebook waited nearly 10 years
+10. **Sell the sizzle, not the steak** — outcomes and philosophy, not features and specs
+11. **Build a brand, not a business** — brands get bought; businesses get commoditized
+12. **Give equity to your team** — aligned incentives beat management stress every time
+13. **The 7-and-8 rule** — fire the almost-good-enough before you lose the truly excellent
+14. **Ask for help, not money** — from investors, mentors, everyone
+15. **Hack your luck** — persistence + knowing your destination + taking risk
+
 ### Personal Finance
-8. **Start investing now** — you don't need to be rich to invest; investing is how you get rich
-9. **Automate everything** — set up your system once and let it run for decades
-10. **Keep costs low** — a 1% fee takes 28% of your lifetime returns
-11. **Run the numbers on big decisions** — especially housing; it's not simply bigger number minus smaller number
-12. **Define your rich life with specificity** — less than 1% of people have done this
-13. **Spend extravagantly on what you love, cut mercilessly on what you don't**
-14. **Your childhood money scripts are running in the background** — acknowledge them to change them
+16. **Start investing now** — you don't need to be rich to invest; investing is how you get rich
+17. **Automate everything** — set up your system once and let it run for decades
+18. **Keep costs low** — a 1% fee takes 28% of your lifetime returns
+19. **Run the numbers on big decisions** — especially housing; it's not simply bigger number minus smaller number
+20. **Define your rich life with specificity** — less than 1% of people have done this
+21. **Spend extravagantly on what you love, cut mercilessly on what you don't**
+22. **Your childhood money scripts are running in the background** — acknowledge them to change them
 
 ### Learning
-15. **20 hours of focused practice** gets you from zero to reasonably good at anything
-16. **Competition is validation** — markets that don't exist don't care how smart you are
-17. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
+23. **20 hours of focused practice** gets you from zero to reasonably good at anything
+24. **Competition is validation** — markets that don't exist don't care how smart you are
+25. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
