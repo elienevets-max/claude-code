@@ -52,59 +52,59 @@ The 10 principles for learning anything in 20 hours. Covers the frustration barr
 ## Key Takeaways
 
 ### Business & Marketing
-1. **Every business has five parts** — Value Creation, Marketing, Sales, Value Delivery, Finance
-2. **Understanding business is a superpower** — it lets you break down any complex organization into simple, actionable parts
-3. **Start simple** — complex systems that work evolved from simpler systems that worked (Gall's Law)
-4. **Validate with credit cards, not compliments** — pre-orders beat friend endorsements
-5. **Hook into core human drives** — Acquire, Bond, Learn, Defend, Feel
-6. **Be distinctive, not vanilla** — polarization beats lukewarm acceptance
-7. **Experiment relentlessly** — but always collect feedback
+- **Every business has five parts** — Value Creation, Marketing, Sales, Value Delivery, Finance
+- **Understanding business is a superpower** — it lets you break down any complex organization into simple, actionable parts
+- **Start simple** — complex systems that work evolved from simpler systems that worked (Gall's Law)
+- **Validate with credit cards, not compliments** — pre-orders beat friend endorsements
+- **Hook into core human drives** — Acquire, Bond, Learn, Defend, Feel
+- **Be distinctive, not vanilla** — polarization beats lukewarm acceptance
+- **Experiment relentlessly** — but always collect feedback
 
 ### Entrepreneurship
-8. **Start with passion, not an original idea** — 500 competitors is fine if you care more than all of them
-9. **Delay gratification** — build value before monetizing; Facebook waited nearly 10 years
-10. **Sell the sizzle, not the steak** — outcomes and philosophy, not features and specs
-11. **Build a brand, not a business** — brands get bought; businesses get commoditized
-12. **Give equity to your team** — aligned incentives beat management stress every time
-13. **The 7-and-8 rule** — fire the almost-good-enough before you lose the truly excellent
-14. **Ask for help, not money** — from investors, mentors, everyone
-15. **Hack your luck** — persistence + knowing your destination + taking risk
+- **Start with passion, not an original idea** — 500 competitors is fine if you care more than all of them
+- **Delay gratification** — build value before monetizing; Facebook waited nearly 10 years
+- **Sell the sizzle, not the steak** — outcomes and philosophy, not features and specs
+- **Build a brand, not a business** — brands get bought; businesses get commoditized
+- **Give equity to your team** — aligned incentives beat management stress every time
+- **The 7-and-8 rule** — fire the almost-good-enough before you lose the truly excellent
+- **Ask for help, not money** — from investors, mentors, everyone
+- **Hack your luck** — persistence + knowing your destination + taking risk
 
 ### AI-Era Strategy
-16. **Apply the Founder's Triangle** — check for domain expertise, craft depth, and distribution advantage; one green vertex = go, three = floor it
-17. **Intelligence is a commodity** — what's still scarce is taste, purpose, relationships, judgment, and critical thinking
-18. **Build moats or die** — counterpositioning, sticky habits, and proprietary data loops are the three defenses AI can't replicate
-19. **Automate one DREAM function this week** — Demand, Revenue, Engine, Admin, or Marketing; pick one task, one tool, start now
+- **Apply the Founder's Triangle** — check for domain expertise, craft depth, and distribution advantage; one green vertex = go, three = floor it
+- **Intelligence is a commodity** — what's still scarce is taste, purpose, relationships, judgment, and critical thinking
+- **Build moats or die** — counterpositioning, sticky habits, and proprietary data loops are the three defenses AI can't replicate
+- **Automate one DREAM function this week** — Demand, Revenue, Engine, Admin, or Marketing; pick one task, one tool, start now
 
 ### Side Hustles & Testing
-20. **Copy what works** — start where your competitor is today; existence is validation, not competition
-21. **Old problems: copy. New problems: experiment.** — don't waste years reinventing solved problems
-22. **Facebook ads are a foundational life skill** — the "infinite money glitch" everyone should learn
-23. **Beware mirage opportunities** — if nobody's made it work despite obvious demand, something fundamental is off
-24. **Follow the profit, then the passion** — the overlap of what you love and what makes money is almost zero at the start
-25. **Focus is overrated, momentum is underrated** — unless you're aiming for a trillion-dollar company
-26. **Entrepreneurship is a trade-off, not a solution** — stability and predictability for optionality and potential
+- **Copy what works** — start where your competitor is today; existence is validation, not competition
+- **Old problems: copy. New problems: experiment.** — don't waste years reinventing solved problems
+- **Facebook ads are a foundational life skill** — the "infinite money glitch" everyone should learn
+- **Beware mirage opportunities** — if nobody's made it work despite obvious demand, something fundamental is off
+- **Follow the profit, then the passion** — the overlap of what you love and what makes money is almost zero at the start
+- **Focus is overrated, momentum is underrated** — unless you're aiming for a trillion-dollar company
+- **Entrepreneurship is a trade-off, not a solution** — stability and predictability for optionality and potential
 
 ### Personal Finance
-27. **Start investing now** — you don't need to be rich to invest; investing is how you get rich
-28. **Automate everything** — set up your system once and let it run for decades
-29. **Keep costs low** — a 1% fee takes 28% of your lifetime returns
-30. **Run the numbers on big decisions** — especially housing; it's not simply bigger number minus smaller number
-31. **Define your rich life with specificity** — less than 1% of people have done this
-32. **Spend extravagantly on what you love, cut mercilessly on what you don't**
-33. **Your childhood money scripts are running in the background** — acknowledge them to change them
+- **Start investing now** — you don't need to be rich to invest; investing is how you get rich
+- **Automate everything** — set up your system once and let it run for decades
+- **Keep costs low** — a 1% fee takes 28% of your lifetime returns
+- **Run the numbers on big decisions** — especially housing; it's not simply bigger number minus smaller number
+- **Define your rich life with specificity** — less than 1% of people have done this
+- **Spend extravagantly on what you love, cut mercilessly on what you don't**
+- **Your childhood money scripts are running in the background** — acknowledge them to change them
 
 ### Behavioral Finance & Wealth Psychology
-34. **Behavior beats intelligence** — how you act with money matters more than what you know about money
-35. **Save for optionality, not just goals** — an unallocated freedom fund handles curveballs you can't foresee
-36. **Tail events drive everything** — most bets fail, a few massive wins drive all returns; structure accordingly
-37. **Reasonable > Rational** — a sustainable strategy you stick with for decades beats the optimal one you abandon
-38. **Wealth is invisible** — the money you didn't spend is your real wealth; spending to impress destroys it
-39. **Getting vs. staying wealthy are opposite skills** — offense (risk, optimism) to get it; defense (humility, paranoia) to keep it
-40. **Room for error is everything** — the most important part of every plan is planning on your plan not going to plan
-41. **Define "enough" and stop** — goalpost shifting is the most common wealth-destruction behavior
+- **Behavior beats intelligence** — how you act with money matters more than what you know about money
+- **Save for optionality, not just goals** — an unallocated freedom fund handles curveballs you can't foresee
+- **Tail events drive everything** — most bets fail, a few massive wins drive all returns; structure accordingly
+- **Reasonable > Rational** — a sustainable strategy you stick with for decades beats the optimal one you abandon
+- **Wealth is invisible** — the money you didn't spend is your real wealth; spending to impress destroys it
+- **Getting vs. staying wealthy are opposite skills** — offense (risk, optimism) to get it; defense (humility, paranoia) to keep it
+- **Room for error is everything** — the most important part of every plan is planning on your plan not going to plan
+- **Define "enough" and stop** — goalpost shifting is the most common wealth-destruction behavior
 
 ### Learning
-42. **20 hours of focused practice** gets you from zero to reasonably good at anything
-43. **Competition is validation** — markets that don't exist don't care how smart you are
-44. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
+- **20 hours of focused practice** gets you from zero to reasonably good at anything
+- **Competition is validation** — markets that don't exist don't care how smart you are
+- **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
