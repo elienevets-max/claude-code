@@ -95,19 +95,16 @@ The 10 principles for learning anything in 20 hours. Covers the frustration barr
 33. **Your childhood money scripts are running in the background** — acknowledge them to change them
 
 ### Behavioral Finance & Wealth Psychology
-30. **Behavior beats intelligence** — how you act with money matters more than what you know about money
-31. **Save for optionality, not just goals** — an unallocated freedom fund handles curveballs you can't foresee
-32. **Tail events drive everything** — most bets fail, a few massive wins drive all returns; structure accordingly
-33. **Reasonable > Rational** — a sustainable strategy you stick with for decades beats the optimal one you abandon
-34. **Wealth is invisible** — the money you didn't spend is your real wealth; spending to impress destroys it
-35. **Getting vs. staying wealthy are opposite skills** — offense (risk, optimism) to get it; defense (humility, paranoia) to keep it
-36. **Room for error is everything** — the most important part of every plan is planning on your plan not going to plan
-37. **Define "enough" and stop** — goalpost shifting is the most common wealth-destruction behavior
+34. **Behavior beats intelligence** — how you act with money matters more than what you know about money
+35. **Save for optionality, not just goals** — an unallocated freedom fund handles curveballs you can't foresee
+36. **Tail events drive everything** — most bets fail, a few massive wins drive all returns; structure accordingly
+37. **Reasonable > Rational** — a sustainable strategy you stick with for decades beats the optimal one you abandon
+38. **Wealth is invisible** — the money you didn't spend is your real wealth; spending to impress destroys it
+39. **Getting vs. staying wealthy are opposite skills** — offense (risk, optimism) to get it; defense (humility, paranoia) to keep it
+40. **Room for error is everything** — the most important part of every plan is planning on your plan not going to plan
+41. **Define "enough" and stop** — goalpost shifting is the most common wealth-destruction behavior
 
 ### Learning
-34. **20 hours of focused practice** gets you from zero to reasonably good at anything
-35. **Competition is validation** — markets that don't exist don't care how smart you are
-36. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
-38. **20 hours of focused practice** gets you from zero to reasonably good at anything
-39. **Competition is validation** — markets that don't exist don't care how smart you are
-40. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
+42. **20 hours of focused practice** gets you from zero to reasonably good at anything
+43. **Competition is validation** — markets that don't exist don't care how smart you are
+44. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
