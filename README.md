@@ -23,6 +23,11 @@ Starting a business with no money, the passion-first principle, mind maps vs bus
 #### [Scaling, Funding & Exiting](scaling-and-exiting.md)
 Six ways to raise money (family, team-as-investors, angels, VCs, clients, crowdfunding), how to get sponsors, building brand through reference and leadership models, the 7-and-8 firing rule, going global, equity structures, SAFEs, and five exit strategies.
 
+### AI-Era Strategy
+
+#### [AI-Era Startup Strategy](ai-era-startup-strategy.md)
+The Founder's Triangle (domain, depth, distribution), the DREAM operating framework for solo founders, three moats AI can't destroy (counterpositioning, sticky habits, proprietary data loops), the 1000x cost collapse in intelligence, and the regret minimization mindset.
+
 ### Side Hustles & Testing
 
 #### [Side Hustle Playbook](side-hustle-playbook.md)
@@ -65,23 +70,29 @@ The 10 principles for learning anything in 20 hours. Covers the frustration barr
 14. **Ask for help, not money** — from investors, mentors, everyone
 15. **Hack your luck** — persistence + knowing your destination + taking risk
 
+### AI-Era Strategy
+16. **Apply the Founder's Triangle** — check for domain expertise, craft depth, and distribution advantage; one green vertex = go, three = floor it
+17. **Intelligence is a commodity** — what's still scarce is taste, purpose, relationships, judgment, and critical thinking
+18. **Build moats or die** — counterpositioning, sticky habits, and proprietary data loops are the three defenses AI can't replicate
+19. **Automate one DREAM function this week** — Demand, Revenue, Engine, Admin, or Marketing; pick one task, one tool, start now
+
 ### Side Hustles & Testing
-16. **Copy what works** — start where your competitor is today; existence is validation, not competition
-17. **Old problems: copy. New problems: experiment.** — don't waste years reinventing solved problems
-18. **Facebook ads are a foundational life skill** — the "infinite money glitch" everyone should learn
-19. **Beware mirage opportunities** — if nobody's made it work despite obvious demand, something fundamental is off
-20. **Follow the profit, then the passion** — the overlap of what you love and what makes money is almost zero at the start
-21. **Focus is overrated, momentum is underrated** — unless you're aiming for a trillion-dollar company
-22. **Entrepreneurship is a trade-off, not a solution** — stability and predictability for optionality and potential
+20. **Copy what works** — start where your competitor is today; existence is validation, not competition
+21. **Old problems: copy. New problems: experiment.** — don't waste years reinventing solved problems
+22. **Facebook ads are a foundational life skill** — the "infinite money glitch" everyone should learn
+23. **Beware mirage opportunities** — if nobody's made it work despite obvious demand, something fundamental is off
+24. **Follow the profit, then the passion** — the overlap of what you love and what makes money is almost zero at the start
+25. **Focus is overrated, momentum is underrated** — unless you're aiming for a trillion-dollar company
+26. **Entrepreneurship is a trade-off, not a solution** — stability and predictability for optionality and potential
 
 ### Personal Finance
-23. **Start investing now** — you don't need to be rich to invest; investing is how you get rich
-24. **Automate everything** — set up your system once and let it run for decades
-25. **Keep costs low** — a 1% fee takes 28% of your lifetime returns
-26. **Run the numbers on big decisions** — especially housing; it's not simply bigger number minus smaller number
-27. **Define your rich life with specificity** — less than 1% of people have done this
-28. **Spend extravagantly on what you love, cut mercilessly on what you don't**
-29. **Your childhood money scripts are running in the background** — acknowledge them to change them
+27. **Start investing now** — you don't need to be rich to invest; investing is how you get rich
+28. **Automate everything** — set up your system once and let it run for decades
+29. **Keep costs low** — a 1% fee takes 28% of your lifetime returns
+30. **Run the numbers on big decisions** — especially housing; it's not simply bigger number minus smaller number
+31. **Define your rich life with specificity** — less than 1% of people have done this
+32. **Spend extravagantly on what you love, cut mercilessly on what you don't**
+33. **Your childhood money scripts are running in the background** — acknowledge them to change them
 
 ### Behavioral Finance & Wealth Psychology
 30. **Behavior beats intelligence** — how you act with money matters more than what you know about money
@@ -94,6 +105,9 @@ The 10 principles for learning anything in 20 hours. Covers the frustration barr
 37. **Define "enough" and stop** — goalpost shifting is the most common wealth-destruction behavior
 
 ### Learning
+34. **20 hours of focused practice** gets you from zero to reasonably good at anything
+35. **Competition is validation** — markets that don't exist don't care how smart you are
+36. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
 38. **20 hours of focused practice** gets you from zero to reasonably good at anything
 39. **Competition is validation** — markets that don't exist don't care how smart you are
 40. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
