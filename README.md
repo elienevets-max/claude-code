@@ -1,6 +1,6 @@
 # Business, Finance & Skill Acquisition
 
-Practical frameworks extracted from podcast teachings by Josh Kaufman (The Personal MBA, The First 20 Hours), Ramit Sethi (I Will Teach You To Be Rich), Simon Squibb (serial entrepreneur, 19 companies, 78 startup investments), and Chris from The Kerner Office (80+ businesses launched).
+Practical frameworks extracted from podcast teachings by Josh Kaufman (The Personal MBA, The First 20 Hours), Ramit Sethi (I Will Teach You To Be Rich), Simon Squibb (serial entrepreneur, 19 companies, 78 startup investments), Chris from The Kerner Office (80+ businesses launched), and Morgan Housel (The Psychology of Money).
 
 ## Contents
 
@@ -35,6 +35,9 @@ The conscious spending plan (four categories of take-home pay), investing fundam
 
 #### [Money Psychology & Designing Your Rich Life](money-psychology-and-rich-life.md)
 How to define your rich life with specificity, childhood money scripts and their lasting impact, Ramit's 10 money rules, talking about money with a partner, prenups, the status trap, and character traits that predict financial outcomes.
+
+#### [The Psychology of Money — Behavioral Finance & Wealth Building](psychology-of-money.md)
+Why behavior beats intelligence with money. Covers experience asymmetry, the compounding paradox, getting vs. staying wealthy, tail events, the survival mindset, room for error, the "enough" framework, wealth as autonomy, and the barbell strategy for life planning. Includes poker-to-business strategy parallels and integration with existing knowledge base modules.
 
 ### Learning
 
@@ -80,7 +83,17 @@ The 10 principles for learning anything in 20 hours. Covers the frustration barr
 28. **Spend extravagantly on what you love, cut mercilessly on what you don't**
 29. **Your childhood money scripts are running in the background** — acknowledge them to change them
 
+### Behavioral Finance & Wealth Psychology
+30. **Behavior beats intelligence** — how you act with money matters more than what you know about money
+31. **Save for optionality, not just goals** — an unallocated freedom fund handles curveballs you can't foresee
+32. **Tail events drive everything** — most bets fail, a few massive wins drive all returns; structure accordingly
+33. **Reasonable > Rational** — a sustainable strategy you stick with for decades beats the optimal one you abandon
+34. **Wealth is invisible** — the money you didn't spend is your real wealth; spending to impress destroys it
+35. **Getting vs. staying wealthy are opposite skills** — offense (risk, optimism) to get it; defense (humility, paranoia) to keep it
+36. **Room for error is everything** — the most important part of every plan is planning on your plan not going to plan
+37. **Define "enough" and stop** — goalpost shifting is the most common wealth-destruction behavior
+
 ### Learning
-30. **20 hours of focused practice** gets you from zero to reasonably good at anything
-31. **Competition is validation** — markets that don't exist don't care how smart you are
-32. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
+38. **20 hours of focused practice** gets you from zero to reasonably good at anything
+39. **Competition is validation** — markets that don't exist don't care how smart you are
+40. **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
