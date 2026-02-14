@@ -1,5 +1,19 @@
 # Ecommerce Playbook - King of Sparklers Growth Strategy
 
+> **Purpose:** Comprehensive ecommerce growth strategy synthesized from 9 business books. 4 pillars, 10 frameworks, and a 90-day execution plan.
+>
+> | | |
+> |---|---|
+> | **Inputs** | An existing ecommerce business ready to systematize growth |
+> | **Outputs** | Customer acquisition engine, brand positioning, conversion system, operations playbook, 90-day plan |
+> | **Dependencies** | [`../business/business-fundamentals.md`](../business/business-fundamentals.md), [`scaling-and-exiting.md`](scaling-and-exiting.md) |
+> | **Example Usage** | *"How do I grow my ecommerce store?"* / *"What frameworks should I use for customer acquisition?"* |
+> | **Related Files** | [`scaling-and-exiting.md`](scaling-and-exiting.md), [`../business/marketing-psychology.md`](../business/marketing-psychology.md), [`../tiktok/README.md`](../tiktok/README.md) |
+> | **Source** | Synthesized from 9 business books (Traction, Ecommerce Evolved, Ultimate Sales Machine, Positioning, Building a StoryBrand, and others) |
+> | **Tags** | `ecommerce` `growth` `acquisition` `brand` `conversion` `operations` `90-day-plan` |
+
+---
+
 ## Overview
 Comprehensive ecommerce growth strategy synthesized from 9 business books into 4 pillars with 10 actionable frameworks and a 90-day execution plan.
 

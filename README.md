@@ -15,6 +15,7 @@ Practical frameworks extracted from podcast teachings by Josh Kaufman (The Perso
 | [Business Fundamentals](business/business-fundamentals.md) | The five parts of every business: Value Creation, Marketing, Sales, Value Delivery, and Finance. Includes the Iron Law of the Market, Gall's Law, and diagnostic questions for any business. |
 | [Marketing Psychology](business/marketing-psychology.md) | The five core human drives, features vs benefits, counter-signaling strategy, the "Piss Off the 80%" rule, and sensory marketing principles. |
 | [Business Validation Playbook](business/business-validation-playbook.md) | Step-by-step guide from problem discovery through sustainability decision. Includes the credit card test and experimentation framework. |
+| [Marketing Learning Resources](business/marketing-learning-resources.md) | Complete marketing curriculum: 34 books and 27 podcasts organized by learning phase. Includes deep dive on emotional/behavioral marketing. |
 
 ### Entrepreneurship — [`entrepreneurship/`](entrepreneurship/)
 
@@ -23,6 +24,7 @@ Practical frameworks extracted from podcast teachings by Josh Kaufman (The Perso
 | [Entrepreneurship Playbook](entrepreneurship/entrepreneurship-playbook.md) | Starting a business with no money, the passion-first principle, mind maps vs business plans, finding purpose, co-founder selection, three-step sales process, and the staircase philosophy for PR. |
 | [Scaling, Funding & Exiting](entrepreneurship/scaling-and-exiting.md) | Six ways to raise money, how to get sponsors, building brand, the 7-and-8 firing rule, going global, equity structures, SAFEs, and five exit strategies. |
 | [AI-Era Startup Strategy](entrepreneurship/ai-era-startup-strategy.md) | The Founder's Triangle, the DREAM operating framework, three moats AI can't destroy, the 1000x cost collapse, and the regret minimization mindset. |
+| [Ecommerce Playbook](entrepreneurship/ecommerce-playbook-knowledge.md) | 4 pillars of ecommerce growth synthesized from 9 books. Bullseye Method, Dream 100, StoryBrand, and a 90-day execution plan. |
 
 ### Side Hustles — [`side-hustles/`](side-hustles/)
 
@@ -38,11 +40,27 @@ Practical frameworks extracted from podcast teachings by Josh Kaufman (The Perso
 | [Money Psychology & Rich Life](finance/money-psychology-and-rich-life.md) | How to define your rich life with specificity, childhood money scripts, Ramit's 10 money rules, talking about money with a partner, prenups, and wealth predictors. |
 | [Psychology of Money](finance/psychology-of-money.md) | Why behavior beats intelligence with money. Experience asymmetry, compounding paradox, getting vs staying wealthy, tail events, survival mindset, room for error, and the barbell strategy. |
 
+### TikTok Growth & Marketing — [`tiktok/`](tiktok/)
+
+| File | What It Covers |
+|------|----------------|
+| [TikTok Knowledge Base](tiktok/README.md) | Master index for all TikTok content with cross-references to business playbooks. |
+| [TikTok Growth Strategies](tiktok/tiktok-growth-strategies.md) | Neurogum CEO playbook: daily posting system, hook framework, creator cultivation, credibility flywheel, full-funnel marketing. |
+| [TikTok Marketing Skills](tiktok/tiktok-marketing/) | 10 core skills: hook engineering, retention, value compression, algorithm signaling, niche positioning, format replication, and more. |
+| [Crushing It on TikTok](tiktok/crushing-it-tiktok/) | 10 marketer-level skills: attention interruption, narrative compression, emotional activation, audience behavior engineering. |
+| [Hacks for TikTok](tiktok/hacks-for-tiktok/) | 5 skill domains / 12 sub-skills: mobile video production, posting optimization, engagement engineering, brand building, monetization. |
+
 ### Learning — [`learning/`](learning/)
 
 | File | What It Covers |
 |------|----------------|
 | [Rapid Skill Acquisition](learning/rapid-skill-acquisition.md) | The 10 principles for learning anything in 20 hours. Covers the frustration barrier, the research trap, pre-commitment, and the explore/exploit trade-off. |
+
+### Tools — [`king-of-sparklers/`](king-of-sparklers/)
+
+| File | What It Covers |
+|------|----------------|
+| [King of Sparklers Dashboard](king-of-sparklers/README.md) | Full-stack Next.js growth dashboard implementing Dream 100, StoryBrand, KPI tracking, content calendar, seasonal planning, and SOP management. |
 
 ---
 
@@ -134,11 +152,13 @@ Practical frameworks extracted from podcast teachings by Josh Kaufman (The Perso
 ├── skills_index.md             # Master searchable catalog of all skills
 ├── skills_lookup.sh            # CLI tool for searching skills
 ├── MAINTENANCE.md              # How to add and maintain skills
-├── business/                   # Business fundamentals & strategy
-├── entrepreneurship/           # Starting, scaling, exiting
+├── business/                   # Business fundamentals, marketing, validation
+├── entrepreneurship/           # Starting, scaling, exiting, ecommerce
 ├── finance/                    # Money management & psychology
 ├── side-hustles/               # Low-barrier business entry
-└── learning/                   # Skill acquisition methods
+├── tiktok/                     # TikTok growth & marketing (30+ skill modules)
+├── learning/                   # Skill acquisition methods
+└── king-of-sparklers/          # Full-stack ecommerce dashboard (Next.js app)
 ```
 
 See [`MAINTENANCE.md`](MAINTENANCE.md) for instructions on adding new skills and maintaining the system.
