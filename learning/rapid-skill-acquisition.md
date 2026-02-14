@@ -1,5 +1,19 @@
 # Rapid Skill Acquisition: The First 20 Hours
 
+> **Purpose:** Learn any new skill to reasonable competency in approximately 20 hours. A structured method for overcoming the frustration barrier and maximizing early learning.
+>
+> | | |
+> |---|---|
+> | **Inputs** | A skill you want to learn, 20 hours of available practice time (~40 min/day for a month) |
+> | **Outputs** | Structured learning plan, practice methodology, competency milestones |
+> | **Dependencies** | None — standalone learning framework |
+> | **Example Usage** | *"I want to learn X but don't have time for 10,000 hours"* / *"How do I learn something new efficiently?"* |
+> | **Related Files** | All modules (this method applies to acquiring any skill, including business skills) |
+> | **Source** | Josh Kaufman — *The First 20 Hours* |
+> | **Tags** | `learning` `skill-acquisition` `practice` `efficiency` `mastery` `20-hours` |
+
+---
+
 > "The narrative out in the market is you have to do 10,000 hours to learn anything. It's actually 20 hours." — Josh Kaufman
 
 ## The Core Insight

@@ -1,10 +1,22 @@
 # The Psychology of Money — Behavioral Finance & Wealth Building
 
+> **Purpose:** Understand why behavior matters more than knowledge in building wealth. Mental models for risk, compounding, "enough," and the survival mindset.
+>
+> | | |
+> |---|---|
+> | **Inputs** | Interest in behavioral finance, desire to avoid common wealth-destruction patterns |
+> | **Outputs** | Mental models for risk management, compounding intuition, tail-event awareness, "enough" framework |
+> | **Dependencies** | None — standalone behavioral framework |
+> | **Example Usage** | *"Why do smart people make dumb financial decisions?"* / *"How do I think about risk?"* |
+> | **Related Files** | [`personal-finance-blueprint.md`](personal-finance-blueprint.md), [`money-psychology-and-rich-life.md`](money-psychology-and-rich-life.md) |
+> | **Source** | Morgan Housel — *The Psychology of Money* |
+> | **Tags** | `finance` `behavioral-psychology` `investing` `risk-management` `wealth-building` `strategy` `decision-making` |
+
+---
+
 > "Financial success is not a hard science—it's a soft skill where how you behave is more important than what you know." — Morgan Housel
 
 Timeless lessons on wealth, greed, and happiness extracted from Morgan Housel's *The Psychology of Money*. Focuses on why behavior beats intelligence when it comes to money, and how psychological forces shape every financial decision we make.
-
-**Tags:** `finance` `behavioral-psychology` `investing` `risk-management` `wealth-building` `strategy` `decision-making`
 
 ---
 

@@ -1,5 +1,19 @@
 # Scaling, Funding & Exiting a Business
 
+> **Purpose:** Frameworks for growing a business beyond startup phase and eventually selling it. Covers funding, hiring, branding, equity, and exit strategies.
+>
+> | | |
+> |---|---|
+> | **Inputs** | An existing business that's ready to scale or a founder planning for growth |
+> | **Outputs** | Funding strategy (6 methods), hiring framework, brand-building plan, exit strategy |
+> | **Dependencies** | [`entrepreneurship-playbook.md`](entrepreneurship-playbook.md) |
+> | **Example Usage** | *"My business is working — how do I grow it?"* / *"How do I raise money?"* / *"When should I sell?"* |
+> | **Related Files** | [`entrepreneurship-playbook.md`](entrepreneurship-playbook.md), [`ai-era-startup-strategy.md`](ai-era-startup-strategy.md) |
+> | **Source** | Simon Squibb — serial entrepreneur (19 companies, 78 startup investments) |
+> | **Tags** | `scaling` `funding` `investors` `hiring` `brand` `equity` `exit-strategy` `SAFEs` |
+
+---
+
 > "Build a brand, not a business. They told me they bought the brand, not the business." — Simon Squibb
 
 Frameworks for funding, scaling, branding, hiring, and selling a business. Extracted from Simon Squibb's masterclass — 19 companies built, 78 startups invested in.
