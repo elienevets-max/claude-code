@@ -4,7 +4,7 @@
 
 **Goal:** Build deep, practitioner-level marketing expertise across strategy, branding, psychology, copywriting, growth, product marketing, content, and analytics.
 
-**Structure:** Three learning phases (Foundational → Intermediate → Advanced), covering 33 essential books and 27 curated podcasts organized by domain.
+**Structure:** Three learning phases (Foundational → Intermediate → Advanced), covering 34 essential books and 27 curated podcasts organized by domain.
 
 ---
 
@@ -15,6 +15,7 @@
   - [Level 2: Intermediate](#level-2-intermediate-months-4-8)
   - [Level 3: Advanced / Expert](#level-3-advanced--expert-months-9-12)
 - [Part 2: Deep Dive — Using Behavioral Science in Marketing](#part-2-deep-dive--using-behavioral-science-in-marketing)
+- [Part 2b: Deep Dive — The Power of Emotional Marketing](#part-2b-deep-dive--the-power-of-emotional-marketing)
 - [Part 3: Podcasts — Continuous Learning](#part-3-podcasts--continuous-learning)
 - [Part 4: Quick Reference](#part-4-quick-reference)
 - [Part 5: Learning Path & Study Plan](#part-5-learning-path--study-plan)
@@ -614,6 +615,180 @@ It sits closer to a **field manual** than an academic treatment.
 
 ---
 
+# Part 2b: Deep Dive — The Power of Emotional Marketing
+
+## The Power of Emotional Marketing — Nancy Harhut
+
+> **One-Sentence Skill-Based Takeaway:** Master marketing by learning to design emotional conditions under which the desired behavior feels obvious, safe, and self-consistent.
+
+### Core Premise
+
+Emotion is not a layer added to marketing — it is the primary driver of attention, memory, and action. Customers do not first evaluate value and then feel; they feel first and justify later. Effective marketing therefore engineers emotional states that make the desired behavior feel natural, safe, and rewarding.
+
+Harhut frames emotional marketing as a **structured discipline grounded in behavioral science**, not creative intuition alone.
+
+---
+
+### The Emotional Mechanism Model
+
+The book consistently links three processes:
+
+1. **Emotion directs attention** — People notice what is emotionally relevant
+2. **Emotion encodes memory** — Emotional stimuli are remembered longer and recalled faster
+3. **Emotion accelerates decisions** — Feeling reduces cognitive load and speeds commitment
+
+Marketing effectiveness therefore scales with the **intensity and relevance** of the emotional response triggered.
+
+---
+
+### Marketing Skills You Can Build From the Book
+
+These are not tips but **capabilities you can systematically develop**.
+
+#### 1. Emotional Outcome Mapping
+
+**Skill:** Identify the target emotional state required for conversion.
+
+Instead of asking "What message should we communicate?", ask:
+- What should the audience *feel* immediately before acting?
+- What emotional barrier prevents action now?
+
+**Common target states:**
+- Reassurance → reduces risk perception
+- Anticipation → increases engagement
+- Belonging → strengthens loyalty
+- Urgency → accelerates decisions
+
+**Application drill:** For every campaign, define: *Current emotion → Desired emotion → Trigger mechanism*
+
+#### 2. Emotion-First Message Framing
+
+**Skill:** Lead with feeling, support with logic.
+
+Structure messaging in this order:
+1. Emotional hook
+2. Identity alignment
+3. Rational justification
+
+This mirrors how real decisions occur neurologically.
+
+**Execution patterns:**
+- Story before statistics
+- Sensory language before claims
+- Human outcome before product feature
+
+#### 3. Emotional Friction Diagnosis
+
+**Skill:** Detect hidden emotional resistance in customer journeys.
+
+Non-conversion is often emotional, not informational.
+
+**Common friction sources:**
+- Fear of regret
+- Uncertainty about fit
+- Perceived social risk
+- Loss aversion
+- Status threat
+
+**Operational practice:** Audit touchpoints for emotional blockers, not just usability problems.
+
+#### 4. Identity-Based Persuasion Design
+
+**Skill:** Align behavior with self-concept.
+
+People act consistently with who they believe they are. Marketing becomes more effective when it signals:
+- "People like you do this"
+- "This choice reflects your values"
+- "This is what responsible/smart/professional people choose"
+
+This transforms a transaction into **identity expression**.
+
+#### 5. Emotional Salience Engineering
+
+**Skill:** Make messages psychologically vivid.
+
+Emotion intensifies when stimuli are:
+- Concrete rather than abstract
+- Specific rather than general
+- Human rather than statistical
+- Immediate rather than distant
+
+**Execution techniques:**
+- Vivid examples
+- Concrete numbers
+- Personal scenarios
+- Visual imagery in language
+
+#### 6. Emotional Sequencing Strategy
+
+**Skill:** Orchestrate emotions across the funnel.
+
+Different stages require different emotional states:
+
+| Stage | Primary Emotion | Strategic Goal |
+|-------|----------------|----------------|
+| Awareness | Curiosity / Surprise | Capture attention |
+| Consideration | Trust / Reassurance | Reduce perceived risk |
+| Conversion | Urgency / Confidence | Trigger action |
+| Retention | Belonging / Pride | Reinforce identity |
+
+This reframes funnels as **emotional journeys**.
+
+#### 7. Memory Reinforcement Through Emotion
+
+**Skill:** Design messages to be remembered, not just seen.
+
+Retention increases when communication:
+- Connects to personal relevance
+- Includes narrative structure
+- Triggers strong but appropriate affect
+- Creates contrast or distinctiveness
+
+Memory is treated as a **competitive advantage**.
+
+---
+
+### Strategic Shift the Book Advocates
+
+**Traditional model:**
+Inform → Persuade → Convert
+
+**Emotional marketing model:**
+Evoke → Align → Prompt → Justify
+
+This moves marketing from **information delivery** to **affective decision design**.
+
+---
+
+### Operational Framework You Can Apply Immediately
+
+When creating any campaign, evaluate it against four diagnostic questions:
+
+1. **What specific emotion are we engineering?**
+2. **What psychological barrier does this emotion remove?**
+3. **How quickly is the emotion triggered?**
+4. **Does the emotion align with the customer's identity?**
+
+If these cannot be answered precisely, the campaign is cognitively oriented rather than behaviorally oriented.
+
+---
+
+### How This Connects to Behavioral Science in Marketing (Part 2)
+
+These two Harhut books form a complementary pair:
+
+| Dimension | Using Behavioral Science | The Power of Emotional Marketing |
+|-----------|------------------------|--------------------------------|
+| Primary lens | Cognitive biases and heuristics | Emotional states and affect |
+| Core mechanism | Make the right choice easy | Make the right choice *feel* right |
+| Design approach | Choice architecture | Emotional architecture |
+| Key question | "What shortcut activates action?" | "What feeling precedes action?" |
+| Overlap | Both: identity alignment, loss aversion, social proof, defaults, framing |
+
+**Combined operating principle:** Design marketing that simultaneously reduces cognitive friction (behavioral science) AND engineers the emotional state (emotional marketing) that makes the desired behavior feel obvious, safe, and self-consistent.
+
+---
+
 # Part 3: Podcasts — Continuous Learning
 
 ## 1. General Marketing Strategy
@@ -1015,6 +1190,7 @@ Deep analysis from one of the most respected marketing publications globally. In
 | 31 | Nudge | Thaler & Sunstein | Psychology, Strategy | Advanced |
 | 32 | Web Analytics 2.0 | Avinash Kaushik | Analytics | Advanced |
 | 33 | Using Behavioral Science in Marketing | Nancy Harhut | Psychology, Copywriting | Advanced |
+| 34 | The Power of Emotional Marketing | Nancy Harhut | Psychology, Strategy | Advanced |
 
 ## Podcast Reference Matrix
 
@@ -1036,7 +1212,7 @@ Deep analysis from one of the most respected marketing publications globally. In
 - **Branding & Positioning:** Building a StoryBrand, Positioning, The Brand Gap, How Brands Grow Part 2, Obviously Awesome
 - **Digital & Growth:** Hacking Growth, Traction, Contagious
 - **Copywriting & Persuasion:** Copywriter's Handbook, Ogilvy on Advertising, Cashvertising, Breakthrough Advertising, Scientific Advertising
-- **Consumer Psychology:** Influence, Thinking Fast and Slow, Alchemy, Pre-Suasion, Decoded, Nudge, Hooked, Using Behavioral Science in Marketing
+- **Consumer Psychology:** Influence, Thinking Fast and Slow, Alchemy, Pre-Suasion, Decoded, Nudge, Hooked, Using Behavioral Science in Marketing, The Power of Emotional Marketing
 - **Content & Storytelling:** Everybody Writes, Epic Content Marketing, Made to Stick
 - **Product Marketing & GTM:** Obviously Awesome, Crossing the Chasm, Hooked
 - **Analytics:** Lean Analytics, Data-Driven Marketing, Web Analytics 2.0, How Brands Grow Part 2
@@ -1091,7 +1267,7 @@ Deep analysis from one of the most respected marketing publications globally. In
 3. *Breakthrough Advertising* + *Scientific Advertising* — mastery-level persuasion
 4. *Alchemy* + *Nudge* + *Decoded* — advanced behavioral frameworks
 5. *Blue Ocean Strategy* + *The Brand Gap* — strategic positioning
-6. *Using Behavioral Science in Marketing* — practitioner-level behavioral design
+6. *Using Behavioral Science in Marketing* + *The Power of Emotional Marketing* — practitioner-level behavioral and emotional design (read as a pair)
 
 **Podcasts for leadership-level thinking:**
 - The CMO Podcast (C-suite perspective)
