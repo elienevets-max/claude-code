@@ -1,5 +1,19 @@
 # Money Psychology & Designing Your Rich Life
 
+> **Purpose:** Understand the psychological forces behind financial decisions and design a life of intentional wealth. Covers money scripts, partner conversations, and defining "rich."
+>
+> | | |
+> |---|---|
+> | **Inputs** | Self-awareness about money habits, willingness to examine beliefs |
+> | **Outputs** | Rich life definition, 10 money rules, partner conversation framework, childhood script awareness |
+> | **Dependencies** | [`personal-finance-blueprint.md`](personal-finance-blueprint.md) (for the mechanics of implementation) |
+> | **Example Usage** | *"Why do I make bad financial decisions?"* / *"How do I talk about money with my partner?"* |
+> | **Related Files** | [`personal-finance-blueprint.md`](personal-finance-blueprint.md), [`psychology-of-money.md`](psychology-of-money.md) |
+> | **Source** | Ramit Sethi — *I Will Teach You To Be Rich* (via Diary of a CEO podcast) |
+> | **Tags** | `psychology` `money-scripts` `rich-life` `relationships` `identity` `behavior-change` |
+
+---
+
 > "You can live a rich life regardless of where you came from. You can live a rich life regardless of your income." — Ramit Sethi
 
 The psychology behind why we make the financial decisions we do, and a framework for designing a life of intentional wealth. Extracted from Ramit Sethi's teachings via the Diary of a CEO podcast with Steven Bartlett.

@@ -1,5 +1,19 @@
 # The Five Parts of Every Business
 
+> **Purpose:** Foundation-level understanding of what every business is and does. The universal diagnostic framework for analyzing any business.
+>
+> | | |
+> |---|---|
+> | **Inputs** | Any business idea or existing business you want to analyze |
+> | **Outputs** | Diagnostic framework, improvement priorities, strategic clarity |
+> | **Dependencies** | None — this is the foundational module |
+> | **Example Usage** | *"I have a business idea — where do I start?"* / *"My business isn't working — what's broken?"* |
+> | **Related Files** | [`marketing-psychology.md`](marketing-psychology.md), [`business-validation-playbook.md`](business-validation-playbook.md) |
+> | **Source** | Josh Kaufman — *The Personal MBA* |
+> | **Tags** | `business` `fundamentals` `value-creation` `marketing` `sales` `finance` `strategy` |
+
+---
+
 > "Every business from the smallest startup to the largest corporation in the world has five fundamental parts." — Josh Kaufman, The Personal MBA
 
 This is the foundation of every business plan that has or ever will exist. Each part is **universal, essential, and fundamental**.

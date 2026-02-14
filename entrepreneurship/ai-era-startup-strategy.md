@@ -1,5 +1,19 @@
 # AI-Era Startup Strategy: Frameworks for Building in the Age of Intelligence
 
+> **Purpose:** Evaluate and build businesses in the age of AI commoditization. Includes idea validation, operating frameworks, and defensibility strategies.
+>
+> | | |
+> |---|---|
+> | **Inputs** | A startup idea in the AI era, understanding of current AI capabilities |
+> | **Outputs** | Founder's Triangle assessment, DREAM framework implementation plan, moat strategy |
+> | **Dependencies** | [`../business/business-fundamentals.md`](../business/business-fundamentals.md), [`entrepreneurship-playbook.md`](entrepreneurship-playbook.md) |
+> | **Example Usage** | *"Is my startup idea AI-proof?"* / *"How do I build a moat in the AI age?"* / *"What should a solo founder automate first?"* |
+> | **Related Files** | [`entrepreneurship-playbook.md`](entrepreneurship-playbook.md), [`../business/business-validation-playbook.md`](../business/business-validation-playbook.md), [`../side-hustles/side-hustle-playbook.md`](../side-hustles/side-hustle-playbook.md) |
+> | **Source** | "The Most Common Startup Mistakes" podcast (2026) |
+> | **Tags** | `AI` `strategy` `moats` `DREAM-framework` `founders-triangle` `solo-founder` `automation` |
+
+---
+
 > "Your competition is no longer just another founder or another company. It's the fact that intelligence itself has become a commodity." — The Most Common Startup Mistakes (2026)
 
 A strategic framework for evaluating, building, defending, and scaling businesses in the AI era. Covers idea validation through the Founder's Triangle, the DREAM operating machine, three moats that AI can't destroy, and the mindset required to act when intelligence is cheap.

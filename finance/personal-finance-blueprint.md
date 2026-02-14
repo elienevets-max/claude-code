@@ -1,5 +1,19 @@
 # The Personal Finance Blueprint
 
+> **Purpose:** Set up a complete personal financial system that runs on autopilot. Covers spending, saving, investing, and fee optimization.
+>
+> | | |
+> |---|---|
+> | **Inputs** | Any income level, willingness to automate finances |
+> | **Outputs** | Conscious spending plan (4-category allocation), automated investment system, fee-aware strategy |
+> | **Dependencies** | None — standalone personal finance module |
+> | **Example Usage** | *"How should I manage my money?"* / *"I want to start investing"* / *"Should I buy a house?"* |
+> | **Related Files** | [`money-psychology-and-rich-life.md`](money-psychology-and-rich-life.md), [`psychology-of-money.md`](psychology-of-money.md) |
+> | **Source** | Ramit Sethi — *I Will Teach You To Be Rich* (via Diary of a CEO podcast) |
+> | **Tags** | `finance` `investing` `budgeting` `automation` `compound-interest` `fees` `spending-plan` |
+
+---
+
 > "To make a lot of money, you don't need to be a genius. You just need to remember a few key things." — Ramit Sethi
 
 Practical financial framework extracted from Ramit Sethi's teachings (I Will Teach You To Be Rich) via the Diary of a CEO podcast with Steven Bartlett.

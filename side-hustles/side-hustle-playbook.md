@@ -1,5 +1,19 @@
 # The Side Hustle Playbook: Testing, Copying & Launching at Volume
 
+> **Purpose:** Find, test, and launch low-risk business ideas at various budget levels. Includes the copying framework, validation methods, and 40+ specific business ideas.
+>
+> | | |
+> |---|---|
+> | **Inputs** | Budget ($500-$5,000), willingness to test multiple ideas rapidly |
+> | **Outputs** | Validated business idea, testing methodology, specific business ideas organized by budget tier |
+> | **Dependencies** | [`../business/business-validation-playbook.md`](../business/business-validation-playbook.md) (for validation process) |
+> | **Example Usage** | *"I want to start making money on the side"* / *"What business can I start with $500?"* |
+> | **Related Files** | [`../business/business-validation-playbook.md`](../business/business-validation-playbook.md), [`../entrepreneurship/entrepreneurship-playbook.md`](../entrepreneurship/entrepreneurship-playbook.md), [`../entrepreneurship/ai-era-startup-strategy.md`](../entrepreneurship/ai-era-startup-strategy.md) |
+> | **Source** | Chris (The Kerner Office) — 80+ businesses launched (via Diary of a CEO podcast) |
+> | **Tags** | `side-hustle` `testing` `copying-framework` `low-budget` `business-ideas` `validation` `volume` |
+
+---
+
 > "I've started at least 80 businesses. Cumulatively, low hundreds of millions of revenue. Low tens of millions of profit. But the majority have been abandoned or fizzled out or failed. It's just a numbers game." — Chris (The Kerner Office)
 
 Frameworks for starting, testing, and scaling side hustles from someone who has launched 80+ businesses. Extracted from The Diary of a CEO podcast with Steven Bartlett.

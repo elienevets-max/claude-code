@@ -1,5 +1,19 @@
 # Marketing Psychology & Strategy
 
+> **Purpose:** Understand how humans make purchasing decisions and how to influence them ethically. The behavioral science behind effective marketing.
+>
+> | | |
+> |---|---|
+> | **Inputs** | A product or service you need to market or position |
+> | **Outputs** | Marketing strategy based on core human drives, positioning decisions, attention-capture tactics |
+> | **Dependencies** | [`business-fundamentals.md`](business-fundamentals.md) (Value Creation context) |
+> | **Example Usage** | *"How do I position my product?"* / *"Why isn't my marketing working?"* |
+> | **Related Files** | [`business-fundamentals.md`](business-fundamentals.md), [`business-validation-playbook.md`](business-validation-playbook.md) |
+> | **Source** | Josh Kaufman — *The Personal MBA* |
+> | **Tags** | `marketing` `psychology` `human-drives` `positioning` `attention` `persuasion` |
+
+---
+
 > "The more drives that you hook into, the more attractive the business offer is going to be." — Josh Kaufman
 
 ## The Attention Problem

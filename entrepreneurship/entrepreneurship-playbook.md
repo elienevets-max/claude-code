@@ -1,5 +1,19 @@
 # The Entrepreneurship Playbook
 
+> **Purpose:** Complete operational guide for starting a business from zero. Covers finding purpose, choosing co-founders, sales process, and marketing systems.
+>
+> | | |
+> |---|---|
+> | **Inputs** | Passion, a problem to solve, willingness to start with nothing |
+> | **Outputs** | Business structure, co-founder criteria, sales process, marketing system, PR strategy |
+> | **Dependencies** | [`../business/business-fundamentals.md`](../business/business-fundamentals.md), [`../business/business-validation-playbook.md`](../business/business-validation-playbook.md) |
+> | **Example Usage** | *"I want to start a business but have no money"* / *"How do I find a co-founder?"* |
+> | **Related Files** | [`scaling-and-exiting.md`](scaling-and-exiting.md), [`../business/business-validation-playbook.md`](../business/business-validation-playbook.md), [`../side-hustles/side-hustle-playbook.md`](../side-hustles/side-hustle-playbook.md) |
+> | **Source** | Simon Squibb — serial entrepreneur (19 companies, 78 startup investments) |
+> | **Tags** | `entrepreneurship` `startup` `sales` `marketing` `co-founders` `purpose` `zero-to-one` |
+
+---
+
 > "I am good at only one thing — business. For the last 30 years I built 19 companies and invested in 78 startups." — Simon Squibb
 
 A complete framework for starting, running, and growing a business from someone who has done it 19 times. Extracted from Simon Squibb's masterclass.

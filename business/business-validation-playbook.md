@@ -1,5 +1,19 @@
 # Business Validation Playbook
 
+> **Purpose:** Test whether a business idea is viable before investing significant resources. A 5-phase process from problem discovery to go/no-go decision.
+>
+> | | |
+> |---|---|
+> | **Inputs** | A business idea or problem you've identified |
+> | **Outputs** | Go/no-go decision backed by real market evidence |
+> | **Dependencies** | [`business-fundamentals.md`](business-fundamentals.md) (understanding what a business needs) |
+> | **Example Usage** | *"I have an idea — how do I know if it will work?"* / *"How do I test before I build?"* |
+> | **Related Files** | [`business-fundamentals.md`](business-fundamentals.md), [`../side-hustles/side-hustle-playbook.md`](../side-hustles/side-hustle-playbook.md), [`../entrepreneurship/entrepreneurship-playbook.md`](../entrepreneurship/entrepreneurship-playbook.md) |
+> | **Source** | Josh Kaufman — *The Personal MBA* |
+> | **Tags** | `validation` `testing` `market-research` `experimentation` `risk-reduction` |
+
+---
+
 > "The difference between doing business and playing business." — Josh Kaufman
 
 A step-by-step guide to validating a business idea before you invest significant time and money.
