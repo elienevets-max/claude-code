@@ -1,5 +1,19 @@
 # Marketing Mastery: Complete Learning Resource
 
+> **Purpose:** Structured curriculum for building practitioner-level marketing expertise. 34 books and 27 podcasts organized by learning phase and domain.
+>
+> | | |
+> |---|---|
+> | **Inputs** | Current marketing skill level (beginner to advanced), available study time |
+> | **Outputs** | Phased reading plan, podcast curriculum, deep-dive resources on emotional marketing |
+> | **Dependencies** | [`marketing-psychology.md`](marketing-psychology.md) (foundational concepts) |
+> | **Example Usage** | *"What marketing books should I read?"* / *"How do I build a marketing curriculum?"* |
+> | **Related Files** | [`marketing-psychology.md`](marketing-psychology.md), [`business-fundamentals.md`](business-fundamentals.md), [`../tiktok/README.md`](../tiktok/README.md) |
+> | **Source** | Curated curriculum + deep dive on Nancy Harhut's *Using Behavioral Science in Marketing* |
+> | **Tags** | `marketing` `learning` `books` `podcasts` `curriculum` `behavioral-science` `copywriting` |
+
+---
+
 > From beginner to expert — a structured curriculum built from the best books and podcasts in marketing.
 
 **Goal:** Build deep, practitioner-level marketing expertise across strategy, branding, psychology, copywriting, growth, product marketing, content, and analytics.

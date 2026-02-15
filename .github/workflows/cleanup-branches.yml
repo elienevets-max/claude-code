@@ -1,0 +1,40 @@
+name: Cleanup stale branches
+
+on:
+  push:
+    branches:
+      - 'claude/organize-codebase-structure-CB0Ei'
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete stale branches
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branches = [
+              'claude/tiktok-growth-strategies-U9bWE',
+              'claude/tiktok-growth-strategies-1aari',
+              'claude/marketing-learning-resources-SubyP',
+              'claude/sparklers-ecommerce-strategy-EbVDp',
+              'claude/extract-money-psychology-jI2fe',
+              'claude/learn-ecommerce-playbook-PsRvI',
+              'claude/podcast-financial-notes-JrV9Z'
+            ];
+
+            for (const branch of branches) {
+              try {
+                await github.rest.git.deleteRef({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ref: `heads/${branch}`
+                });
+                console.log(`Deleted branch: ${branch}`);
+              } catch (error) {
+                console.log(`Failed to delete ${branch}: ${error.message}`);
+              }
+            }
