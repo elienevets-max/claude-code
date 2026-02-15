@@ -23,6 +23,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 13 | TikTok Growth & Marketing | TikTok | [`tiktok/README.md`](tiktok/README.md) | How do I grow and sell on TikTok? |
 | 14 | Rapid Skill Acquisition | Learning | [`learning/rapid-skill-acquisition.md`](learning/rapid-skill-acquisition.md) | How do I learn anything in 20 hours? |
 | 15 | King of Sparklers (App) | Tools | [`king-of-sparklers/README.md`](king-of-sparklers/README.md) | Full-stack ecommerce growth dashboard (Next.js) |
+| 16 | Poker to AI Career Strategy | Finance | [`finance/poker-to-ai-career-strategy.md`](finance/poker-to-ai-career-strategy.md) | How do I transition from poker to AI/e-commerce under financial pressure? |
 
 ---
 
@@ -210,6 +211,7 @@ Use this lookup when you have a specific question or are in a specific situation
 | "I keep making bad financial decisions" | `money-psychology-and-rich-life.md` | `psychology-of-money.md` |
 | "I want to understand investing" | `personal-finance-blueprint.md` | `psychology-of-money.md` |
 | "I want to learn a new skill fast" | `rapid-skill-acquisition.md` | — |
+| "I'm transitioning careers under financial pressure" | `poker-to-ai-career-strategy.md` | `psychology-of-money.md`, `ai-era-startup-strategy.md` |
 | "How do I raise money?" | `scaling-and-exiting.md` | `entrepreneurship-playbook.md` |
 | "How do I sell my business?" | `scaling-and-exiting.md` | — |
 | "How do I grow on TikTok?" | `tiktok/README.md` | `tiktok/tiktok-growth-strategies.md` |
@@ -291,7 +293,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 ├── finance/                           # Money management & psychology
 │   ├── personal-finance-blueprint.md  # Autopilot financial system
 │   ├── money-psychology-and-rich-life.md # Behavioral money patterns
-│   └── psychology-of-money.md         # Behavioral finance
+│   ├── psychology-of-money.md         # Behavioral finance
+│   └── poker-to-ai-career-strategy.md # Career transition strategy
 │
 ├── side-hustles/                      # Low-barrier business entry
 │   └── side-hustle-playbook.md        # Ideas & testing at volume
@@ -312,4 +315,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-14 | Total skills: 15 | Total frameworks: 33 | Total tags: 80+*
+*Last updated: 2026-02-15 | Total skills: 16 | Total frameworks: 33 | Total tags: 85+*
