@@ -165,6 +165,57 @@ export function initDb(): void {
       body          TEXT NOT NULL DEFAULT '',
       channel       TEXT NOT NULL CHECK (channel IN ('email','phone','linkedin','mail'))
     );
+
+    -- TikTok Shop Products
+    CREATE TABLE IF NOT EXISTS tiktok_shop_products (
+      id              TEXT PRIMARY KEY,
+      name            TEXT NOT NULL,
+      sku             TEXT NOT NULL DEFAULT '',
+      category        TEXT NOT NULL CHECK (category IN ('wedding','nightclub','event','holiday','vip','starter')),
+      price           REAL NOT NULL DEFAULT 0,
+      commission_rate REAL NOT NULL DEFAULT 0,
+      status          TEXT NOT NULL DEFAULT 'draft'
+                        CHECK (status IN ('draft','active','paused','out_of_stock')),
+      sample_status   TEXT NOT NULL DEFAULT 'none'
+                        CHECK (sample_status IN ('none','requested','received','filming')),
+      tiktok_url      TEXT NOT NULL DEFAULT '',
+      notes           TEXT NOT NULL DEFAULT '',
+      created_at      TEXT NOT NULL DEFAULT (datetime('now'))
+    );
+
+    -- TikTok Shop Videos
+    CREATE TABLE IF NOT EXISTS tiktok_shop_videos (
+      id                TEXT PRIMARY KEY,
+      product_id        TEXT NOT NULL REFERENCES tiktok_shop_products(id),
+      title             TEXT NOT NULL,
+      hook              TEXT NOT NULL DEFAULT '',
+      format            TEXT NOT NULL CHECK (format IN ('showcase','tutorial','unboxing','behind_scenes','testimonial','trending')),
+      status            TEXT NOT NULL DEFAULT 'idea'
+                          CHECK (status IN ('idea','scripted','filmed','editing','posted')),
+      views             INTEGER NOT NULL DEFAULT 0,
+      likes             INTEGER NOT NULL DEFAULT 0,
+      comments          INTEGER NOT NULL DEFAULT 0,
+      shares            INTEGER NOT NULL DEFAULT 0,
+      orders_generated  INTEGER NOT NULL DEFAULT 0,
+      gmv_generated     REAL NOT NULL DEFAULT 0,
+      posted_date       TEXT NOT NULL DEFAULT '',
+      notes             TEXT NOT NULL DEFAULT '',
+      created_at        TEXT NOT NULL DEFAULT (datetime('now'))
+    );
+
+    -- TikTok Shop Metrics (daily/weekly/monthly snapshots)
+    CREATE TABLE IF NOT EXISTS tiktok_shop_metrics (
+      id                  TEXT PRIMARY KEY,
+      date                TEXT NOT NULL,
+      period              TEXT NOT NULL CHECK (period IN ('daily','weekly','monthly')),
+      total_gmv           REAL NOT NULL DEFAULT 0,
+      total_orders        INTEGER NOT NULL DEFAULT 0,
+      total_views         INTEGER NOT NULL DEFAULT 0,
+      total_videos_posted INTEGER NOT NULL DEFAULT 0,
+      commission_earned   REAL NOT NULL DEFAULT 0,
+      top_product         TEXT NOT NULL DEFAULT '',
+      notes               TEXT NOT NULL DEFAULT ''
+    );
   `);
 }
 

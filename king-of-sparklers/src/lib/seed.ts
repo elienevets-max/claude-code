@@ -1066,6 +1066,333 @@ function seedSafetyCertifications(): void {
 }
 
 // ---------------------------------------------------------------------------
+// 11. TikTok Shop Products (6 products)
+// ---------------------------------------------------------------------------
+
+function seedTikTokShopProducts(): void {
+  const insert = db.prepare(`
+    INSERT OR IGNORE INTO tiktok_shop_products
+      (id, name, sku, category, price, commission_rate, status, sample_status, tiktok_url, notes, created_at)
+    VALUES
+      (@id, @name, @sku, @category, @price, @commissionRate, @status, @sampleStatus, @tiktokUrl, @notes, @createdAt)
+  `);
+
+  const products = [
+    {
+      id: 'ttshop-prod-001',
+      name: 'Wedding Sparkler Starter Pack (12pc)',
+      sku: 'KOS-WED-12',
+      category: 'wedding',
+      price: 19.99,
+      commissionRate: 15,
+      status: 'active',
+      sampleStatus: 'filming',
+      tiktokUrl: '',
+      notes: 'Loss-leader for GMV momentum. Target brides and wedding planners. Best-seller potential.',
+      createdAt: `${CURRENT_YEAR}-01-15`,
+    },
+    {
+      id: 'ttshop-prod-002',
+      name: 'Gold VIP Bottle Sparklers (6pc)',
+      sku: 'KOS-VIP-6',
+      category: 'vip',
+      price: 14.99,
+      commissionRate: 20,
+      status: 'active',
+      sampleStatus: 'filming',
+      tiktokUrl: '',
+      notes: 'Nightlife audience. Great for trending sound mashups and VIP setup tutorials.',
+      createdAt: `${CURRENT_YEAR}-01-15`,
+    },
+    {
+      id: 'ttshop-prod-003',
+      name: '36-Inch Premium Gold Sparklers (24pc)',
+      sku: 'KOS-PREM-24',
+      category: 'wedding',
+      price: 34.99,
+      commissionRate: 15,
+      status: 'active',
+      sampleStatus: 'received',
+      tiktokUrl: '',
+      notes: 'Premium wedding send-off product. Higher AOV driver. Side-by-side comparison content.',
+      createdAt: `${CURRENT_YEAR}-01-22`,
+    },
+    {
+      id: 'ttshop-prod-004',
+      name: 'Sparkler Safety Kit',
+      sku: 'KOS-SAFE-01',
+      category: 'starter',
+      price: 9.99,
+      commissionRate: 25,
+      status: 'draft',
+      sampleStatus: 'none',
+      tiktokUrl: '',
+      notes: 'Trust-building product. Pairs with safety demo videos. High commission to attract affiliates.',
+      createdAt: `${CURRENT_YEAR}-02-01`,
+    },
+    {
+      id: 'ttshop-prod-005',
+      name: 'July 4th Party Pack (48pc)',
+      sku: 'KOS-JUL4-48',
+      category: 'holiday',
+      price: 29.99,
+      commissionRate: 15,
+      status: 'draft',
+      sampleStatus: 'none',
+      tiktokUrl: '',
+      notes: 'Seasonal product. Launch in May for summer content push. Red, white, and blue mix.',
+      createdAt: `${CURRENT_YEAR}-02-10`,
+    },
+    {
+      id: 'ttshop-prod-006',
+      name: 'VIP Experience Bundle',
+      sku: 'KOS-VIPX-01',
+      category: 'vip',
+      price: 49.99,
+      commissionRate: 12,
+      status: 'draft',
+      sampleStatus: 'none',
+      tiktokUrl: '',
+      notes: 'Premium bundle for nightclub/event accounts. Bottle sparklers + safety kit + branded packaging.',
+      createdAt: `${CURRENT_YEAR}-02-10`,
+    },
+  ];
+
+  const insertMany = db.transaction((items: typeof products) => {
+    for (const p of items) {
+      insert.run(p);
+    }
+  });
+
+  insertMany(products);
+  console.log(`  Seeded ${products.length} TikTok Shop products`);
+}
+
+// ---------------------------------------------------------------------------
+// 12. TikTok Shop Videos (10 videos across various formats)
+// ---------------------------------------------------------------------------
+
+function seedTikTokShopVideos(): void {
+  const insert = db.prepare(`
+    INSERT OR IGNORE INTO tiktok_shop_videos
+      (id, product_id, title, hook, format, status, views, likes, comments, shares, orders_generated, gmv_generated, posted_date, notes, created_at)
+    VALUES
+      (@id, @productId, @title, @hook, @format, @status, @views, @likes, @comments, @shares, @ordersGenerated, @gmvGenerated, @postedDate, @notes, @createdAt)
+  `);
+
+  const videos = [
+    {
+      id: 'ttshop-vid-001',
+      productId: 'ttshop-prod-001',
+      title: '$3 sparklers vs $20 sparklers for your wedding',
+      hook: 'Stop buying sparklers from Amazon for your wedding',
+      format: 'showcase',
+      status: 'posted',
+      views: 12400,
+      likes: 890,
+      comments: 67,
+      shares: 23,
+      ordersGenerated: 8,
+      gmvGenerated: 159.92,
+      postedDate: `${CURRENT_YEAR}-01-20`,
+      notes: 'First video posted. Strong hook performance. Comment section full of wedding questions.',
+      createdAt: `${CURRENT_YEAR}-01-18`,
+    },
+    {
+      id: 'ttshop-vid-002',
+      productId: 'ttshop-prod-002',
+      title: 'How nightclubs set up VIP bottle sparklers',
+      hook: 'POV: You ordered bottle service and this happens',
+      format: 'tutorial',
+      status: 'posted',
+      views: 8700,
+      likes: 620,
+      comments: 45,
+      shares: 31,
+      ordersGenerated: 5,
+      gmvGenerated: 74.95,
+      postedDate: `${CURRENT_YEAR}-01-25`,
+      notes: 'Nightlife audience responded well. Several DMs from club promoters.',
+      createdAt: `${CURRENT_YEAR}-01-23`,
+    },
+    {
+      id: 'ttshop-vid-003',
+      productId: 'ttshop-prod-003',
+      title: 'The sparkler that made 200 wedding guests cry',
+      hook: 'The difference between a $3 sparkler and a $25 sparkler',
+      format: 'showcase',
+      status: 'posted',
+      views: 34200,
+      likes: 2800,
+      comments: 189,
+      shares: 87,
+      ordersGenerated: 22,
+      gmvGenerated: 769.78,
+      postedDate: `${CURRENT_YEAR}-02-01`,
+      notes: 'Best performer so far. Slow-motion wedding exit footage. Generated 15 comment reply opportunities.',
+      createdAt: `${CURRENT_YEAR}-01-30`,
+    },
+    {
+      id: 'ttshop-vid-004',
+      productId: 'ttshop-prod-001',
+      title: 'Reply: Are these safe for indoor weddings?',
+      hook: 'Replying to @bridezilla2026 — are sparklers safe indoors?',
+      format: 'tutorial',
+      status: 'posted',
+      views: 6300,
+      likes: 410,
+      comments: 52,
+      shares: 14,
+      ordersGenerated: 4,
+      gmvGenerated: 79.96,
+      postedDate: `${CURRENT_YEAR}-02-05`,
+      notes: 'Comment reply video from vid-003. Safety demo format. Good trust builder.',
+      createdAt: `${CURRENT_YEAR}-02-03`,
+    },
+    {
+      id: 'ttshop-vid-005',
+      productId: 'ttshop-prod-002',
+      title: 'Unboxing the King of Sparklers VIP kit',
+      hook: 'What $15 bottle sparklers actually look like',
+      format: 'unboxing',
+      status: 'posted',
+      views: 4100,
+      likes: 290,
+      comments: 28,
+      shares: 9,
+      ordersGenerated: 3,
+      gmvGenerated: 44.97,
+      postedDate: `${CURRENT_YEAR}-02-08`,
+      notes: 'Unboxing format testing. Lower views but solid conversion rate.',
+      createdAt: `${CURRENT_YEAR}-02-06`,
+    },
+    {
+      id: 'ttshop-vid-006',
+      productId: 'ttshop-prod-003',
+      title: 'How many sparklers do you need for your wedding?',
+      hook: 'Things I wish I knew before my wedding sparkler send-off',
+      format: 'tutorial',
+      status: 'editing',
+      views: 0,
+      likes: 0,
+      comments: 0,
+      shares: 0,
+      ordersGenerated: 0,
+      gmvGenerated: 0,
+      postedDate: '',
+      notes: 'Calculator walkthrough video. Addresses most common comment question.',
+      createdAt: `${CURRENT_YEAR}-02-10`,
+    },
+    {
+      id: 'ttshop-vid-007',
+      productId: 'ttshop-prod-001',
+      title: 'Wedding sparkler fails compilation',
+      hook: 'When you buy $3 sparklers for your wedding...',
+      format: 'trending',
+      status: 'scripted',
+      views: 0,
+      likes: 0,
+      comments: 0,
+      shares: 0,
+      ordersGenerated: 0,
+      gmvGenerated: 0,
+      postedDate: '',
+      notes: 'Humor angle with trending sound. Show cheap sparkler fails then KoS sparklers as the solution.',
+      createdAt: `${CURRENT_YEAR}-02-12`,
+    },
+    {
+      id: 'ttshop-vid-008',
+      productId: 'ttshop-prod-002',
+      title: 'Behind the scenes: Packing 500 sparklers for a Miami club',
+      hook: 'Ever wonder how nightclubs get their sparklers?',
+      format: 'behind_scenes',
+      status: 'filmed',
+      views: 0,
+      likes: 0,
+      comments: 0,
+      shares: 0,
+      ordersGenerated: 0,
+      gmvGenerated: 0,
+      postedDate: '',
+      notes: 'Warehouse BTS content. Shows scale and professionalism. Scheduled for next week.',
+      createdAt: `${CURRENT_YEAR}-02-13`,
+    },
+    {
+      id: 'ttshop-vid-009',
+      productId: 'ttshop-prod-003',
+      title: '10-inch vs 20-inch vs 36-inch sparklers',
+      hook: 'Which sparkler size is right for YOUR event?',
+      format: 'showcase',
+      status: 'idea',
+      views: 0,
+      likes: 0,
+      comments: 0,
+      shares: 0,
+      ordersGenerated: 0,
+      gmvGenerated: 0,
+      postedDate: '',
+      notes: 'Size guide visual. Hold all three sizes side by side. Film at dusk for best contrast.',
+      createdAt: `${CURRENT_YEAR}-02-14`,
+    },
+    {
+      id: 'ttshop-vid-010',
+      productId: 'ttshop-prod-001',
+      title: 'What a $500 sparkler send-off looks like',
+      hook: 'Wait for it...',
+      format: 'testimonial',
+      status: 'idea',
+      views: 0,
+      likes: 0,
+      comments: 0,
+      shares: 0,
+      ordersGenerated: 0,
+      gmvGenerated: 0,
+      postedDate: '',
+      notes: 'Customer testimonial. Request footage from Elegant Affairs (contact-003). Premium feel.',
+      createdAt: `${CURRENT_YEAR}-02-15`,
+    },
+  ];
+
+  const insertMany = db.transaction((items: typeof videos) => {
+    for (const v of items) {
+      insert.run(v);
+    }
+  });
+
+  insertMany(videos);
+  console.log(`  Seeded ${videos.length} TikTok Shop videos`);
+}
+
+// ---------------------------------------------------------------------------
+// 13. TikTok Shop Metrics (daily snapshots for past 2 weeks)
+// ---------------------------------------------------------------------------
+
+function seedTikTokShopMetrics(): void {
+  const insert = db.prepare(`
+    INSERT OR IGNORE INTO tiktok_shop_metrics
+      (id, date, period, total_gmv, total_orders, total_views, total_videos_posted, commission_earned, top_product, notes)
+    VALUES
+      (@id, @date, @period, @totalGmv, @totalOrders, @totalViews, @totalVideosPosted, @commissionEarned, @topProduct, @notes)
+  `);
+
+  const metrics = [
+    { id: 'ttm-w1', date: `${CURRENT_YEAR}-01-26`, period: 'weekly', totalGmv: 234.87, totalOrders: 13, totalViews: 21100, totalVideosPosted: 3, commissionEarned: 35.23, topProduct: 'Wedding Sparkler Starter Pack', notes: 'First full week. 2 videos posted.' },
+    { id: 'ttm-w2', date: `${CURRENT_YEAR}-02-02`, period: 'weekly', totalGmv: 849.74, totalOrders: 30, totalViews: 42500, totalVideosPosted: 5, commissionEarned: 127.46, topProduct: '36-Inch Premium Gold Sparklers', notes: 'Viral video (vid-003) drove most GMV. Algorithm picking up.' },
+    { id: 'ttm-w3', date: `${CURRENT_YEAR}-02-09`, period: 'weekly', totalGmv: 124.93, totalOrders: 7, totalViews: 10400, totalVideosPosted: 2, commissionEarned: 18.74, topProduct: 'Wedding Sparkler Starter Pack', notes: 'Slower week. Need more content variety. Only 2 videos posted.' },
+    { id: 'ttm-m1', date: `${CURRENT_YEAR}-01-31`, period: 'monthly', totalGmv: 459.82, totalOrders: 22, totalViews: 33500, totalVideosPosted: 5, commissionEarned: 68.97, topProduct: 'Wedding Sparkler Starter Pack', notes: 'January launch month. Exceeded $400 GMV target.' },
+  ];
+
+  const insertMany = db.transaction((items: typeof metrics) => {
+    for (const m of items) {
+      insert.run(m);
+    }
+  });
+
+  insertMany(metrics);
+  console.log(`  Seeded ${metrics.length} TikTok Shop metrics`);
+}
+
+// ---------------------------------------------------------------------------
 // Main
 // ---------------------------------------------------------------------------
 
@@ -1090,6 +1417,9 @@ function main(): void {
   seedSOPs();
   seedJourneyCustomers();
   seedSafetyCertifications();
+  seedTikTokShopProducts();
+  seedTikTokShopVideos();
+  seedTikTokShopMetrics();
 
   console.log('');
   console.log('Seed complete!');
