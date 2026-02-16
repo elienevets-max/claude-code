@@ -16,6 +16,18 @@ Full breakdown from the Neurogum CEO podcast (TikTok's fastest growing brand of 
 - Key metrics and revenue benchmarks
 - The Credibility Flywheel framework
 
+### [TikTok Shop Affiliate Beginner Tutorial — Knowledge Extraction](./tiktok-shop-creator-tutorial-knowledge-extraction.md)
+Complete beginner's roadmap for TikTok Shop affiliate marketing. Covers:
+- Realistic expectations (30–60 days before income, 90% dropout rate)
+- How affiliate commissions work (5–25%, $2–3 minimum per sale rule)
+- Applying to TikTok Shop creator program (5,000 standard / 1,000 pilot)
+- Three-criteria product selection (momentum, inventory depth, high commission)
+- Viral video formula (Hook → Information → CTA)
+- Urgency-based CTAs and why they matter more than views
+- 90-day posting discipline (1–3 videos/day)
+- Going live strategy (even 5–6 viewers is valuable)
+- Scaling path from $1K to $100K/month
+
 ---
 
 ## Related Content From Other Playbooks
@@ -60,3 +72,5 @@ Use this when asking for specific TikTok tasks:
 | Scale from TikTok to other channels | `tiktok-growth-strategies.md` → Full-Funnel Marketing + `../entrepreneurship/scaling-and-exiting.md` |
 | Use consumer data for TikTok targeting | `tiktok-growth-strategies.md` → Consumer Insight & Data Literacy |
 | Structure a creator incentive/tier system | `tiktok-growth-strategies.md` → Tiered System + Incentives Beyond Money |
+| Get started as TikTok Shop affiliate | `tiktok-shop-creator-tutorial-knowledge-extraction.md` → Full beginner roadmap + `brandon-lush-tiktok-shop-knowledge-extraction.md` → Advanced scaling |
+| Choose TikTok Shop products to promote | `tiktok-shop-creator-tutorial-knowledge-extraction.md` → Three-Criteria Selection + `tiktok-gold-rush-playbook.md` → Product selection criteria |
