@@ -31,6 +31,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 21 | TikTok Gold Rush Playbook | TikTok | [`tiktok/tiktok-gold-rush-playbook.md`](tiktok/tiktok-gold-rush-playbook.md) | How do I build a $100M brand using TikTok's creator army model? |
 | 22 | TikTok Shop Creator Tutorial | TikTok | [`tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md`](tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md) | How do I get started as a TikTok Shop affiliate from zero? |
 | 23 | Prompt Engineering Mastery | Learning | [`learning/prompt-engineering-mastery.md`](learning/prompt-engineering-mastery.md) | How do I write better prompts for AI? |
+| 24 | TikTok Shop KoS Playbook | TikTok | [`tiktok/tiktok-shop-king-of-sparklers-playbook.md`](tiktok/tiktok-shop-king-of-sparklers-playbook.md) | How do I launch and scale King of Sparklers on TikTok Shop? |
 
 ---
 
@@ -213,6 +214,13 @@ Complete TikTok mastery system across 4 sub-collections with 30+ skill modules.
 - **Key Concepts:** $0 startup cost, 5–25% commission model, 5K/1K follower thresholds, $2–3 minimum commission rule, urgency-based CTAs, broad niche strategy, free refundable samples, going live with small audiences, paralysis by analysis warning, scaling path ($1K → $10K → $100K)
 - **Tags:** `tiktok` `tiktok-shop` `affiliate` `beginner` `tutorial` `CTA` `commission` `consistency` `scaling` `going-live`
 
+#### 24. TikTok Shop KoS Playbook
+- **File:** [`tiktok/tiktok-shop-king-of-sparklers-playbook.md`](tiktok/tiktok-shop-king-of-sparklers-playbook.md)
+- **Source:** Synthesized from Brandon Lush Interview ($14M+ GMV) & TikTok Shop Creator Tutorial — tailored to King of Sparklers
+- **Core Frameworks:** First 1.5 Seconds Principle (KoS-adapted), $2-3 Commission Sweet Spot, 90-Day Launch Plan (Foundation→Momentum→Scaling), Comment Reply Loop, 3-CTA Multiplier, Batch Filming Protocol, Side-by-Side Comparison Format
+- **Key Concepts:** KoS product lineup with pricing/commission matrix, 6 TikTok video formats ranked by conversion, hook templates for sparkler niche, affiliate recruitment strategy, weekly GMV tracking, content pipeline management, safety-as-trust-builder positioning
+- **Tags:** `tiktok` `tiktok-shop` `king-of-sparklers` `sparklers` `wedding` `nightclub` `d2c` `affiliate-marketing` `content-creation` `gmv` `90-day-plan` `batch-filming` `comment-reply-loop` `scaling`
+
 ---
 
 ### Tools & Applications
@@ -254,6 +262,7 @@ Live applications built from the knowledge base frameworks.
 | **Unknown (TikTok Shop Tutorial)** | TikTok Shop affiliate for beginners | `tiktok-shop-creator-tutorial-knowledge-extraction.md` |
 | **King of Sparklers (internal)** | Business ideation, SaaS/marketplace concepts | `ENTREPRENEURIAL_IDEAS.md` |
 | **Synthesized (Prompt Engineering)** | AI prompt engineering best practices | `prompt-engineering-mastery.md` |
+| **Synthesized (KoS TikTok Shop)** | TikTok Shop strategy for King of Sparklers | `tiktok-shop-king-of-sparklers-playbook.md` |
 
 ---
 
@@ -291,6 +300,9 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I write better AI prompts?" | `prompt-engineering-mastery.md` | `ai-era-startup-strategy.md` |
 | "Why does my AI give inconsistent outputs?" | `prompt-engineering-mastery.md` | — |
 | "How do I structure a system prompt?" | `prompt-engineering-mastery.md` | — |
+| "How do I launch King of Sparklers on TikTok Shop?" | `tiktok-shop-king-of-sparklers-playbook.md` | `brandon-lush-tiktok-shop-knowledge-extraction.md` |
+| "What sparkler products should I list on TikTok Shop?" | `tiktok-shop-king-of-sparklers-playbook.md` | `tiktok-shop-creator-tutorial-knowledge-extraction.md` |
+| "How do I create TikTok content for sparklers?" | `tiktok-shop-king-of-sparklers-playbook.md` | `tiktok-gold-rush-playbook.md` |
 
 ---
 
@@ -357,12 +369,17 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Spartan Tone Principle | Prompt Engineering Mastery | Single word "Spartan" reliably produces direct, pragmatic, concise output |
 | Information Density Principle | Prompt Engineering Mastery | Every token must carry meaning; shorter prompts = higher accuracy |
 | One-Shot Goldilocks Zone | Prompt Engineering Mastery | One example is often optimal — ~10% boost vs zero-shot, diminishing returns after |
+| $2-3 Commission Sweet Spot | TikTok Shop KoS Playbook | Products yielding $2-3+ commission hit affiliate viability sweet spot |
+| 90-Day Launch Plan (KoS) | TikTok Shop KoS Playbook | Foundation (Day 1-30) → Momentum (31-60) → Scaling (61-90) for TikTok Shop |
+| Batch Filming Protocol | TikTok Shop KoS Playbook | Saturday 4-hour sessions: 3 stations, film by format, edit Sunday, schedule Mon-Fri |
+| Side-by-Side Comparison Format | TikTok Shop KoS Playbook | Highest-converting format: cheap sparkler vs KoS sparkler dramatic difference |
+| 3-CTA Multiplier (KoS) | TikTok Shop KoS Playbook | Verbal + text overlay + urgency CTA in every video |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `AI` `algorithm` `application` `attention` `automation` `B2B` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `commission` `compound-interest` `consistency` `conversion` `copying-framework` `copywriting` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funding` `GMV` `going-live` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `learning` `LLM` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `operations` `opportunity` `outlier-content` `persuasion` `podcasts` `positioning` `practice` `prompt-engineering` `psychology` `purpose` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `side-hustle` `skill-acquisition` `social-media` `solo-founder` `spending-plan` `startup` `strategy` `structured-data` `system-prompts` `testing` `tiktok` `tiktok-shop` `tool` `tutorial` `validation` `value-creation` `video` `volume` `wealth-building` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `d2c` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `learning` `LLM` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `operations` `opportunity` `outlier-content` `persuasion` `podcasts` `positioning` `practice` `product-listing` `prompt-engineering` `psychology` `purpose` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `solo-founder` `sparklers` `spending-plan` `startup` `strategy` `structured-data` `system-prompts` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `tutorial` `validation` `value-creation` `video` `video-marketing` `volume` `wealth-building` `wedding` `zero-to-one`
 
 ---
 
@@ -404,6 +421,7 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── brandon-lush-tiktok-shop-knowledge-extraction.md # $14M+ TikTok Shop affiliate
 │   ├── tiktok-shop-creator-tutorial-knowledge-extraction.md # Beginner TikTok Shop affiliate tutorial
 │   ├── tiktok-gold-rush-playbook.md   # Creator army model, $100M brand building
+│   ├── tiktok-shop-king-of-sparklers-playbook.md # KoS TikTok Shop launch & scaling playbook
 │   ├── tiktok-marketing/             # 10 core TikTok marketing skills
 │   ├── crushing-it-tiktok/           # 10 marketer-level TikTok skills
 │   └── hacks-for-tiktok/            # 5 domains / 12 execution sub-skills
@@ -419,4 +437,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-16 | Total skills: 23 | Total frameworks: 58 | Total tags: 110+*
+*Last updated: 2026-02-16 | Total skills: 24 | Total frameworks: 63 | Total tags: 120+*

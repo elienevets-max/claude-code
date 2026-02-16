@@ -203,3 +203,79 @@ export interface OutreachTemplate {
 }
 
 export type OutreachChannel = 'email' | 'phone' | 'linkedin' | 'mail';
+
+// ---------------------------------------------------------------------------
+// TikTok Shop
+// ---------------------------------------------------------------------------
+
+/** TikTok Shop Product Listing */
+export interface TikTokShopProduct {
+  id: string;
+  name: string;
+  sku: string;
+  category: TikTokProductCategory;
+  price: number;
+  commissionRate: number;
+  status: TikTokProductStatus;
+  sampleStatus: TikTokSampleStatus;
+  tiktokUrl: string;
+  notes: string;
+  createdAt: string;
+}
+
+export type TikTokProductCategory =
+  | 'wedding'
+  | 'nightclub'
+  | 'event'
+  | 'holiday'
+  | 'vip'
+  | 'starter';
+
+export type TikTokProductStatus = 'draft' | 'active' | 'paused' | 'out_of_stock';
+
+export type TikTokSampleStatus = 'none' | 'requested' | 'received' | 'filming';
+
+/** TikTok Shop Video Content */
+export interface TikTokShopVideo {
+  id: string;
+  productId: string;
+  title: string;
+  hook: string;
+  format: TikTokVideoFormat;
+  status: TikTokVideoStatus;
+  views: number;
+  likes: number;
+  comments: number;
+  shares: number;
+  ordersGenerated: number;
+  gmvGenerated: number;
+  postedDate: string;
+  notes: string;
+  createdAt: string;
+}
+
+export type TikTokVideoFormat =
+  | 'showcase'
+  | 'tutorial'
+  | 'unboxing'
+  | 'behind_scenes'
+  | 'testimonial'
+  | 'trending';
+
+export type TikTokVideoStatus = 'idea' | 'scripted' | 'filmed' | 'editing' | 'posted';
+
+/** TikTok Shop Performance Metrics */
+export interface TikTokShopMetric {
+  id: string;
+  date: string;
+  period: TikTokMetricPeriod;
+  totalGmv: number;
+  totalOrders: number;
+  totalViews: number;
+  totalVideosPosted: number;
+  commissionEarned: number;
+  topProduct: string;
+  notes: string;
+}
+
+export type TikTokMetricPeriod = 'daily' | 'weekly' | 'monthly';
