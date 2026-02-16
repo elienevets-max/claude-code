@@ -56,6 +56,7 @@ Practical frameworks extracted from podcast teachings by Josh Kaufman (The Perso
 | File | What It Covers |
 |------|----------------|
 | [Rapid Skill Acquisition](learning/rapid-skill-acquisition.md) | The 10 principles for learning anything in 20 hours. Covers the frustration barrier, the research trap, pre-commitment, and the explore/exploit trade-off. |
+| [Prompt Engineering Mastery](learning/prompt-engineering-mastery.md) | 12 principles for writing effective AI prompts. Information density, System/User/Assistant structure, one-shot prompting, Monte Carlo testing, Spartan tone, structured data formats, model selection, and a self-audit checklist. |
 
 ### Tools — [`king-of-sparklers/`](king-of-sparklers/)
 
@@ -142,6 +143,10 @@ Practical frameworks extracted from podcast teachings by Josh Kaufman (The Perso
 - **20 hours of focused practice** gets you from zero to reasonably good at anything
 - **Competition is validation** — markets that don't exist don't care how smart you are
 - **Don't play business** — skip the logo and business cards, get to first sale as fast as possible
+- **Every token in your prompt must earn its place** — shorter prompts = higher accuracy; cut ruthlessly
+- **One example is usually enough** — one-shot prompting gives ~10% accuracy boost; more examples have diminishing returns
+- **Test prompts at scale (Monte Carlo)** — run 10-20 times and measure hit rate before declaring a prompt done
+- **Define output format explicitly** — "be detailed" fails; a concrete template succeeds
 
 ---
 

@@ -30,6 +30,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 20 | Brandon Lush TikTok Shop | TikTok | [`tiktok/brandon-lush-tiktok-shop-knowledge-extraction.md`](tiktok/brandon-lush-tiktok-shop-knowledge-extraction.md) | How do I build a $14M+ TikTok Shop affiliate business? |
 | 21 | TikTok Gold Rush Playbook | TikTok | [`tiktok/tiktok-gold-rush-playbook.md`](tiktok/tiktok-gold-rush-playbook.md) | How do I build a $100M brand using TikTok's creator army model? |
 | 22 | TikTok Shop Creator Tutorial | TikTok | [`tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md`](tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md) | How do I get started as a TikTok Shop affiliate from zero? |
+| 23 | Prompt Engineering Mastery | Learning | [`learning/prompt-engineering-mastery.md`](learning/prompt-engineering-mastery.md) | How do I write better prompts for AI? |
 
 ---
 
@@ -161,6 +162,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** 10K hours vs 20 hours, pre-commitment, deliberate practice, 10-point quick start checklist
 - **Tags:** `learning` `skill-acquisition` `practice` `efficiency` `mastery` `20-hours`
 
+#### 23. Prompt Engineering Mastery
+- **File:** [`learning/prompt-engineering-mastery.md`](learning/prompt-engineering-mastery.md)
+- **Source:** Synthesized prompt engineering best practices (2024-2026)
+- **Core Frameworks:** Key Prompt Structure Template, Monte Carlo Prompt Testing, Spartan Tone Principle, Information Density Principle, One-Shot Goldilocks Zone
+- **Key Concepts:** System/User/Assistant architecture, unambiguous language, structured data formats (JSON/XML/CSV), output format specification, model selection strategy, AI-generated training examples, prompt self-audit checklist
+- **Tags:** `prompt-engineering` `AI` `LLM` `system-prompts` `structured-data` `iteration` `efficiency` `automation`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -245,6 +253,7 @@ Live applications built from the knowledge base frameworks.
 | **Rob Marek (Rob the Bank)** | TikTok brand building ($100M+ run rate, $30M exit) | `tiktok-gold-rush-playbook.md` |
 | **Unknown (TikTok Shop Tutorial)** | TikTok Shop affiliate for beginners | `tiktok-shop-creator-tutorial-knowledge-extraction.md` |
 | **King of Sparklers (internal)** | Business ideation, SaaS/marketplace concepts | `ENTREPRENEURIAL_IDEAS.md` |
+| **Synthesized (Prompt Engineering)** | AI prompt engineering best practices | `prompt-engineering-mastery.md` |
 
 ---
 
@@ -279,6 +288,9 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I start TikTok Shop affiliate with zero followers?" | `tiktok-shop-creator-tutorial-knowledge-extraction.md` | `30-day-tiktok-growth-challenge.md` |
 | "What products should I promote on TikTok Shop?" | `tiktok-shop-creator-tutorial-knowledge-extraction.md` | `brandon-lush-tiktok-shop-knowledge-extraction.md` |
 | "What new businesses can I build from King of Sparklers?" | `ENTREPRENEURIAL_IDEAS.md` | `ecommerce-playbook-knowledge.md` |
+| "How do I write better AI prompts?" | `prompt-engineering-mastery.md` | `ai-era-startup-strategy.md` |
+| "Why does my AI give inconsistent outputs?" | `prompt-engineering-mastery.md` | — |
+| "How do I structure a system prompt?" | `prompt-engineering-mastery.md` | — |
 
 ---
 
@@ -340,12 +352,17 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Three-Criteria Product Selection | TikTok Shop Creator Tutorial | Momentum + Inventory Depth + High Commission (all must pass) |
 | Viral Video Formula (Hook + Info + CTA) | TikTok Shop Creator Tutorial | Three-part video structure: hook the scroll, deliver value, convert with urgency |
 | CTA Multiplier Effect | TikTok Shop Creator Tutorial | 100K views + strong CTA > 1M views + weak CTA |
+| Key Prompt Structure Template | Prompt Engineering Mastery | Context, Instructions, Output Format, Rules, Example — universal prompt scaffold |
+| Monte Carlo Prompt Testing | Prompt Engineering Mastery | Run prompt N times, measure consistency before declaring done |
+| Spartan Tone Principle | Prompt Engineering Mastery | Single word "Spartan" reliably produces direct, pragmatic, concise output |
+| Information Density Principle | Prompt Engineering Mastery | Every token must carry meaning; shorter prompts = higher accuracy |
+| One-Shot Goldilocks Zone | Prompt Engineering Mastery | One example is often optimal — ~10% boost vs zero-shot, diminishing returns after |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `AI` `algorithm` `application` `attention` `automation` `B2B` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `commission` `compound-interest` `consistency` `conversion` `copying-framework` `copywriting` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funding` `GMV` `going-live` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `king-of-sparklers` `learning` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `operations` `opportunity` `outlier-content` `persuasion` `podcasts` `positioning` `practice` `psychology` `purpose` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `side-hustle` `skill-acquisition` `social-media` `solo-founder` `spending-plan` `startup` `strategy` `testing` `tiktok` `tiktok-shop` `tool` `tutorial` `validation` `value-creation` `video` `volume` `wealth-building` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `AI` `algorithm` `application` `attention` `automation` `B2B` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `commission` `compound-interest` `consistency` `conversion` `copying-framework` `copywriting` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funding` `GMV` `going-live` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `learning` `LLM` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `operations` `opportunity` `outlier-content` `persuasion` `podcasts` `positioning` `practice` `prompt-engineering` `psychology` `purpose` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `side-hustle` `skill-acquisition` `social-media` `solo-founder` `spending-plan` `startup` `strategy` `structured-data` `system-prompts` `testing` `tiktok` `tiktok-shop` `tool` `tutorial` `validation` `value-creation` `video` `volume` `wealth-building` `zero-to-one`
 
 ---
 
@@ -392,7 +409,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   └── hacks-for-tiktok/            # 5 domains / 12 execution sub-skills
 │
 ├── learning/                          # Skill acquisition methods
-│   └── rapid-skill-acquisition.md     # 20-hour mastery framework
+│   ├── rapid-skill-acquisition.md     # 20-hour mastery framework
+│   └── prompt-engineering-mastery.md  # 12 principles for better AI prompts
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -401,4 +419,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-16 | Total skills: 22 | Total frameworks: 53 | Total tags: 105+*
+*Last updated: 2026-02-16 | Total skills: 23 | Total frameworks: 58 | Total tags: 110+*
