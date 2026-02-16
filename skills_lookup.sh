@@ -65,11 +65,12 @@ show_all() {
     echo ""
     echo -e "${CYAN}Learning${RESET}"
     echo " 14. Rapid Skill Acquisition         learning/rapid-skill-acquisition.md"
+    echo " 23. Prompt Engineering Mastery      learning/prompt-engineering-mastery.md"
     echo ""
     echo -e "${CYAN}Tools & Applications${RESET}"
     echo " 15. King of Sparklers Dashboard     king-of-sparklers/ (Next.js app)"
     echo ""
-    echo -e "${DIM}Total: 16 skills | 37 frameworks | 7 categories${RESET}"
+    echo -e "${DIM}Total: 23 skills | 58 frameworks | 7 categories${RESET}"
     echo -e "${DIM}Use './skills_lookup.sh <keyword>' to search${RESET}"
 }
 
@@ -85,13 +86,13 @@ show_tags() {
     echo "efficiency, engagement, entrepreneurship, equity, exit-strategy,"
     echo "experimentation, fees, finance, founders-triangle, fundamentals, funding,"
     echo "going-live, growth, hiring, hooks, human-drives, identity, investing,"
-    echo "investors,"
-    echo "learning, low-budget, marketing, market-research, mastery, moats,"
+    echo "investors, iteration,"
+    echo "learning, LLM, low-budget, marketing, market-research, mastery, moats,"
     echo "money-scripts, nextjs, operations, persuasion, podcasts, positioning,"
-    echo "practice, psychology, purpose, relationships, retention, rich-life,"
+    echo "practice, prompt-engineering, psychology, purpose, relationships, retention, rich-life,"
     echo "risk-management, risk-reduction, SAFEs, sales, scaling, side-hustle,"
     echo "skill-acquisition, social-media, solo-founder, spending-plan, startup,"
-    echo "strategy, testing, tiktok, tiktok-shop, tool, tutorial, validation,"
+    echo "strategy, structured-data, system-prompts, testing, tiktok, tiktok-shop, tool, tutorial, validation,"
     echo "value-creation, video, volume, wealth-building, zero-to-one, 20-hours"
 }
 
@@ -150,6 +151,11 @@ show_frameworks() {
     echo ""
     echo -e "${GREEN}Learning${RESET}"
     echo "  20-Hour Mastery                  — Zero to reasonably good in 20 hours"
+    echo "  Key Prompt Structure Template    — Context, Instructions, Output Format, Rules, Example"
+    echo "  Monte Carlo Prompt Testing       — Run prompt N times; measure consistency"
+    echo "  Spartan Tone Principle           — Direct, minimal, no filler in prompts and output"
+    echo "  Information Density Principle    — Every token must carry meaning; shorter = better"
+    echo "  One-Shot Goldilocks Zone         — One example often optimal; diminishing returns after"
 }
 
 search_keyword() {
