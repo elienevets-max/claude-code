@@ -24,6 +24,11 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 14 | Rapid Skill Acquisition | Learning | [`learning/rapid-skill-acquisition.md`](learning/rapid-skill-acquisition.md) | How do I learn anything in 20 hours? |
 | 15 | King of Sparklers (App) | Tools | [`king-of-sparklers/README.md`](king-of-sparklers/README.md) | Full-stack ecommerce growth dashboard (Next.js) |
 | 16 | Poker to AI Career Strategy | Finance | [`finance/poker-to-ai-career-strategy.md`](finance/poker-to-ai-career-strategy.md) | How do I transition from poker to AI/e-commerce under financial pressure? |
+| 17 | Entrepreneurial Ideas | King of Sparklers | [`king-of-sparklers/ENTREPRENEURIAL_IDEAS.md`](king-of-sparklers/ENTREPRENEURIAL_IDEAS.md) | What businesses can I build on the King of Sparklers rails? |
+| 18 | GaryVee 2026 Live Q&A | Side Hustles | [`side-hustles/garyvee-2026-live-qa-knowledge-extraction.md`](side-hustles/garyvee-2026-live-qa-knowledge-extraction.md) | How do I stop saying no and start taking action? |
+| 19 | 30-Day TikTok Growth Challenge | TikTok | [`tiktok/30-day-tiktok-growth-challenge.md`](tiktok/30-day-tiktok-growth-challenge.md) | How do I gain 100 followers per day in 30 days? |
+| 20 | Brandon Lush TikTok Shop | TikTok | [`tiktok/brandon-lush-tiktok-shop-knowledge-extraction.md`](tiktok/brandon-lush-tiktok-shop-knowledge-extraction.md) | How do I build a $14M+ TikTok Shop affiliate business? |
+| 21 | TikTok Gold Rush Playbook | TikTok | [`tiktok/tiktok-gold-rush-playbook.md`](tiktok/tiktok-gold-rush-playbook.md) | How do I build a $100M brand using TikTok's creator army model? |
 
 ---
 
@@ -108,6 +113,13 @@ Low-barrier-to-entry business ideas and rapid testing methodology.
 - **Key Concepts:** Three entrepreneur types, equity trap, 40+ business ideas by budget tier ($500/$1K/$5K), AI agencies, drop servicing, directory websites
 - **Tags:** `side-hustle` `testing` `copying-framework` `low-budget` `business-ideas` `validation` `volume`
 
+#### 18. GaryVee 2026 Live Q&A
+- **File:** [`side-hustles/garyvee-2026-live-qa-knowledge-extraction.md`](side-hustles/garyvee-2026-live-qa-knowledge-extraction.md)
+- **Source:** Gary Vaynerchuk (GaryVee) — CEO of VaynerMedia, serial entrepreneur, investor (TikTok Live Stream, January 2026)
+- **Core Frameworks:** "Skewing Toward Yes" vs "Living in Nah," Detachment Principle, "You Are the Niche" Model, Confidence-Insecurity Axis, Opportunity Evaluation Framework
+- **Key Concepts:** TikTok affiliate as 2026 gold rush, overanalysis as insecurity, forgiveness & humility as foundation of joy, faceless/AI content for affiliate marketing, multiple lanes strategy
+- **Tags:** `side-hustle` `tiktok` `affiliate` `mindset` `psychology` `opportunity` `action` `detachment` `forgiveness`
+
 ---
 
 ### Personal Finance
@@ -164,6 +176,27 @@ Complete TikTok mastery system across 4 sub-collections with 30+ skill modules.
 - **Source:** Multiple books + Neurogum CEO podcast
 - **Tags:** `tiktok` `social-media` `hooks` `retention` `algorithm` `creators` `video` `growth` `engagement`
 
+#### 19. 30-Day TikTok Growth Challenge
+- **File:** [`tiktok/30-day-tiktok-growth-challenge.md`](tiktok/30-day-tiktok-growth-challenge.md)
+- **Source:** TikTok growth creator (10K followers in 45 days, 50K in months)
+- **Core Frameworks:** Algorithm Categorization Model, Sample Audience Mechanism, Outlier Content Model, Consistency-Ranking System, Snowball Effect
+- **Key Concepts:** Single-niche lockdown, daily posting, outlier emulation, programming your FYP, multi-location filming, strategic hashtags (10K-100K sweet spot), comment reply loop, remaking top videos
+- **Tags:** `tiktok` `growth` `algorithm` `consistency` `categorization` `hooks` `hashtags` `30-day-challenge` `outlier-content`
+
+#### 20. Brandon Lush TikTok Shop
+- **File:** [`tiktok/brandon-lush-tiktok-shop-knowledge-extraction.md`](tiktok/brandon-lush-tiktok-shop-knowledge-extraction.md)
+- **Source:** Brandon Lush — $14M+ GMV, $1.4M+ annual profit TikTok Shop affiliate (Social Commerce Podcast, late 2025)
+- **Core Frameworks:** First 1.5 Seconds Principle, "Understand Why Not Just What" Framework, Snowball GMV Model, Adaptation Imperative, Ego Drop Prerequisite
+- **Key Concepts:** Comment reply content loop, 10+5 daily video strategy, product diversification, peer circle strategy, 250+ SKUs/day, GMV Max ads, budget buyer platform psychology
+- **Tags:** `tiktok` `tiktok-shop` `affiliate` `GMV` `hooks` `psychology` `volume` `adaptation` `ecommerce` `creators`
+
+#### 21. TikTok Gold Rush Playbook
+- **File:** [`tiktok/tiktok-gold-rush-playbook.md`](tiktok/tiktok-gold-rush-playbook.md)
+- **Source:** Rob Marek (aka "Rob the Bank") — founder of The Genius Brand ($30M Amazon exit), 5 brands at $100M+ annual run rate (My First Million podcast)
+- **Core Frameworks:** Creator Army Model, ROAS Compression Cycle, Halo Effect Flywheel, Craig Clemens Headline Framework, Counter-Positioning Strategy, Democratize What the Rich Have, "Weird Behavior" Signal
+- **Key Concepts:** 7-30x ROAS on TikTok vs 1-1.5x on Amazon, views > followers, platform gold rush patterns, product selection criteria (consumable + novel + fear/insecurity), mimetic desire, Kalodata for product research
+- **Tags:** `tiktok` `tiktok-shop` `gold-rush` `ROAS` `creator-army` `brand-building` `counter-positioning` `ecommerce` `strategy` `affiliate`
+
 ---
 
 ### Tools & Applications
@@ -176,6 +209,13 @@ Live applications built from the knowledge base frameworks.
 - **Architecture:** Next.js 14 + React + TypeScript + Tailwind CSS + SQLite
 - **Implements:** Dream 100, StoryBrand, Customer Value Journey, KPI tracking, content calendar, seasonal planning, SOP management
 - **Tags:** `tool` `nextjs` `ecommerce` `dashboard` `application`
+
+#### 17. Entrepreneurial Ideas — Beyond Sparklers
+- **File:** [`king-of-sparklers/ENTREPRENEURIAL_IDEAS.md`](king-of-sparklers/ENTREPRENEURIAL_IDEAS.md)
+- **Source:** Original business ideation built on King of Sparklers operational rails
+- **Core Frameworks:** Comparison Matrix (Revenue Model × Capital × Complexity), MVP Scope (30 Days), Unfair Advantage Analysis
+- **Key Concepts:** 5 business ideas (VenueShield, SeasonalPulse, SparkBridge, EventStack, NightSafe), SaaS + marketplace + data licensing models, safety compliance as moat, hospitality vertical focus
+- **Tags:** `entrepreneurship` `SaaS` `marketplace` `hospitality` `safety-compliance` `B2B` `king-of-sparklers` `MVP` `business-ideas`
 
 ---
 
@@ -192,6 +232,10 @@ Live applications built from the knowledge base frameworks.
 | **Neurogum CEO** | TikTok growth (fastest growing brand 2024) | `tiktok/tiktok-growth-strategies.md` |
 | **Multiple books (9)** | Ecommerce growth frameworks | `ecommerce-playbook-knowledge.md` |
 | **Multiple books (3)** | TikTok execution skills | `tiktok-marketing/`, `crushing-it-tiktok/`, `hacks-for-tiktok/` |
+| **Gary Vaynerchuk (GaryVee)** | Entrepreneurial mindset, TikTok affiliate gold rush | `garyvee-2026-live-qa-knowledge-extraction.md` |
+| **Brandon Lush** | TikTok Shop affiliate ($14M+ GMV) | `brandon-lush-tiktok-shop-knowledge-extraction.md` |
+| **Rob Marek (Rob the Bank)** | TikTok brand building ($100M+ run rate, $30M exit) | `tiktok-gold-rush-playbook.md` |
+| **King of Sparklers (internal)** | Business ideation, SaaS/marketplace concepts | `ENTREPRENEURIAL_IDEAS.md` |
 
 ---
 
@@ -218,6 +262,12 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I grow my ecommerce store?" | `ecommerce-playbook-knowledge.md` | `scaling-and-exiting.md` |
 | "What marketing books should I read?" | `marketing-learning-resources.md` | `marketing-psychology.md` |
 | "How do I write TikTok hooks?" | `tiktok/tiktok-marketing/01-hook-engineering.md` | `marketing-psychology.md` |
+| "How do I make money on TikTok Shop?" | `brandon-lush-tiktok-shop-knowledge-extraction.md` | `tiktok-gold-rush-playbook.md` |
+| "How do I build a TikTok brand?" | `tiktok-gold-rush-playbook.md` | `brandon-lush-tiktok-shop-knowledge-extraction.md` |
+| "How do I get my first 1000 TikTok followers?" | `30-day-tiktok-growth-challenge.md` | `tiktok/tiktok-growth-strategies.md` |
+| "I keep overthinking and not taking action" | `garyvee-2026-live-qa-knowledge-extraction.md` | `entrepreneurship-playbook.md` |
+| "How do I become a TikTok affiliate?" | `garyvee-2026-live-qa-knowledge-extraction.md` | `brandon-lush-tiktok-shop-knowledge-extraction.md` |
+| "What new businesses can I build from King of Sparklers?" | `ENTREPRENEURIAL_IDEAS.md` | `ecommerce-playbook-knowledge.md` |
 
 ---
 
@@ -260,12 +310,27 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Hook Engineering | TikTok Marketing | First-second attention capture — interrupt the scroll |
 | 3-Phase Marketing Curriculum | Marketing Resources | Foundational → Intermediate → Advanced across 34 books |
 | 20-Hour Mastery | Rapid Skill Acquisition | Zero to reasonably good in 20 focused hours |
+| "Skewing Toward Yes" Framework | GaryVee 2026 Q&A | Default to openness; "nah" is a guaranteed loss |
+| Detachment Principle | GaryVee 2026 Q&A | Detach from praise and criticism for sustained performance |
+| Opportunity Evaluation Framework | GaryVee 2026 Q&A | If downside is only ego → do it; never default to "nah" |
+| Algorithm Categorization Model | 30-Day TikTok Challenge | TikTok must classify your niche before it distributes effectively |
+| Outlier Content Model | 30-Day TikTok Challenge | Reverse-engineer demand from videos that 10x a creator's average |
+| Consistency-Ranking System | 30-Day TikTok Challenge | Daily posting streak = preferential algorithmic treatment |
+| First 1.5 Seconds Principle | Brandon Lush TikTok Shop | Visual pattern interruption in first 1.5s is 90% of the battle |
+| Snowball GMV Model | Brandon Lush TikTok Shop | Hundreds of converting videos compound > chasing single viral hits |
+| "Understand Why Not Just What" | Brandon Lush TikTok Shop | Understanding psychology gives unlimited content; copying gives dependency |
+| Creator Army Model | TikTok Gold Rush Playbook | Recruit many creators making product content on commission |
+| ROAS Compression Cycle | TikTok Gold Rush Playbook | Discovery → Early adopters (5-30x) → Compression → Mature (1-1.5x) |
+| Halo Effect Flywheel | TikTok Gold Rush Playbook | TikTok virality → Google searches → Amazon ranking → DTC sales |
+| Counter-Positioning Strategy | TikTok Gold Rush Playbook | Name an enemy, diagnose a problem — don't just say "we're good" |
+| Democratize What the Rich Have | TikTok Gold Rush Playbook | Uber, Airbnb, Duolingo pattern — make luxury accessible |
+| MVP Scope (30 Days) | Entrepreneurial Ideas | Rapid validation of SaaS/marketplace concepts in 30 days |
 
 ---
 
 ## All Tags
 
-`90-day-plan` `acquisition` `AI` `algorithm` `application` `attention` `automation` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `budgeting` `business` `business-ideas` `co-founders` `compound-interest` `conversion` `copying-framework` `copywriting` `creators` `curriculum` `dashboard` `decision-making` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `exit-strategy` `experimentation` `fees` `finance` `founders-triangle` `fundamentals` `funding` `growth` `hiring` `hooks` `human-drives` `identity` `investing` `investors` `learning` `low-budget` `marketing` `market-research` `mastery` `moats` `money-scripts` `nextjs` `operations` `persuasion` `podcasts` `positioning` `practice` `psychology` `purpose` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `SAFEs` `sales` `scaling` `side-hustle` `skill-acquisition` `social-media` `solo-founder` `spending-plan` `startup` `strategy` `testing` `tiktok` `tool` `validation` `value-creation` `video` `volume` `wealth-building` `zero-to-one` `20-hours`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `AI` `algorithm` `application` `attention` `automation` `B2B` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `compound-interest` `consistency` `conversion` `copying-framework` `copywriting` `counter-positioning` `creator-army` `creators` `curriculum` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funding` `GMV` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `king-of-sparklers` `learning` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `operations` `opportunity` `outlier-content` `persuasion` `podcasts` `positioning` `practice` `psychology` `purpose` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `side-hustle` `skill-acquisition` `social-media` `solo-founder` `spending-plan` `startup` `strategy` `testing` `tiktok` `tiktok-shop` `tool` `validation` `value-creation` `video` `volume` `wealth-building` `zero-to-one`
 
 ---
 
@@ -297,11 +362,15 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   └── poker-to-ai-career-strategy.md # Career transition strategy
 │
 ├── side-hustles/                      # Low-barrier business entry
-│   └── side-hustle-playbook.md        # Ideas & testing at volume
+│   ├── side-hustle-playbook.md        # Ideas & testing at volume
+│   └── garyvee-2026-live-qa-knowledge-extraction.md # GaryVee mindset & TikTok affiliate
 │
 ├── tiktok/                            # TikTok growth & marketing mastery
 │   ├── README.md                      # TikTok index with cross-references
 │   ├── tiktok-growth-strategies.md    # Neurogum CEO growth playbook
+│   ├── 30-day-tiktok-growth-challenge.md # 30-day system: 100 followers/day
+│   ├── brandon-lush-tiktok-shop-knowledge-extraction.md # $14M+ TikTok Shop affiliate
+│   ├── tiktok-gold-rush-playbook.md   # Creator army model, $100M brand building
 │   ├── tiktok-marketing/             # 10 core TikTok marketing skills
 │   ├── crushing-it-tiktok/           # 10 marketer-level TikTok skills
 │   └── hacks-for-tiktok/            # 5 domains / 12 execution sub-skills
@@ -310,9 +379,10 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   └── rapid-skill-acquisition.md     # 20-hour mastery framework
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
+    ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
     └── ...                            # Complete application code
 ```
 
 ---
 
-*Last updated: 2026-02-15 | Total skills: 16 | Total frameworks: 33 | Total tags: 85+*
+*Last updated: 2026-02-16 | Total skills: 21 | Total frameworks: 49 | Total tags: 100+*
