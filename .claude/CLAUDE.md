@@ -8,8 +8,8 @@ repository root. This file is the **master index** of all skills and contains:
 
 - A quick-reference table of every skill with file paths
 - Skills organized by category, source, and situation
-- A key frameworks index (33+ frameworks)
-- 85+ searchable tags
+- A key frameworks index (49+ frameworks)
+- 100+ searchable tags
 
 **Do not rely on memory or partial information.** Always read `skills_index.md` in full
 so you can list all skills accurately.
@@ -32,6 +32,24 @@ skill categories:
 Skills are invoked using `/<skill-name>` commands (e.g., `/business-fundamentals`,
 `/personal-finance-blueprint`). Each skill loads a specialized knowledge module from
 its corresponding markdown file.
+
+## Skill Index Maintenance — MANDATORY
+
+Whenever a new skill file (`.md` knowledge document) is created or added to this
+repository, you MUST update `skills_index.md` at the repository root **in the same
+commit or immediately after**. Update ALL of the following sections:
+
+1. **Quick Reference** table — add a new numbered row
+2. **By Category** — add a detailed entry (File, Source, Core Frameworks, Key Concepts, Tags)
+3. **By Source** — add or update the source row
+4. **By Situation** — add 1-3 relevant situation lookups
+5. **Key Frameworks Index** — add any new frameworks from the skill
+6. **All Tags** — add any new tags (keep alphabetical order)
+7. **Directory Structure** — add the new file to the tree
+8. **Footer metadata** — increment the total skills, frameworks, and tags counts
+
+**Never skip this step.** The skills index must always be in sync with the actual
+skill files in the repository.
 
 ## Searching Skills
 
