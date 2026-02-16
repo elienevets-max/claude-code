@@ -33,6 +33,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 23 | Prompt Engineering Mastery | Learning | [`learning/prompt-engineering-mastery.md`](learning/prompt-engineering-mastery.md) | How do I write better prompts for AI? |
 | 24 | TikTok Shop KoS Playbook | TikTok | [`tiktok/tiktok-shop-king-of-sparklers-playbook.md`](tiktok/tiktok-shop-king-of-sparklers-playbook.md) | How do I launch and scale King of Sparklers on TikTok Shop? |
 | 25 | Code Reviewer | Learning | [`learning/code-reviewer.md`](learning/code-reviewer.md) | How do I get an unbiased code review? |
+| 26 | Business Strategy Toolkit | Business | [`business/business-strategy-toolkit.md`](business/business-strategy-toolkit.md) | Which growth framework do I need for my business right now? |
 | 26 | DotCom Secrets Funnel Strategy | Business | [`business/dotcom-secrets-funnel-strategy.md`](business/dotcom-secrets-funnel-strategy.md) | How do I build and scale an online sales funnel? |
 
 ---
@@ -71,6 +72,12 @@ Foundational frameworks for understanding, analyzing, and building any business.
 - **Key Concepts:** 34 essential marketing books, 27 curated podcasts, learning phases (Foundational → Intermediate → Advanced)
 - **Tags:** `marketing` `learning` `books` `podcasts` `curriculum` `behavioral-science` `copywriting`
 
+#### 26. Business Strategy Toolkit
+- **File:** [`business/business-strategy-toolkit.md`](business/business-strategy-toolkit.md)
+- **Source:** Russell Brunson — *DotCom Secrets*, Gabriel Weinberg & Justin Mares — *Traction*, Donald Miller — *Building a StoryBrand*, Chet Holmes — *The Ultimate Sales Machine*, Nii Larsson — *Ecommerce Evolved*, Aaron Ross — *Predictable Revenue*, Al Ries & Jack Trout — *Positioning*, Michael Gerber — *The E-Myth Revisited*, Mike Michalowicz — *Clockwork*, Gino Wickman — *Traction EOS*
+- **Core Frameworks:** Master Decision Tree, Value Ladder, Funnel Architecture, StoryBrand BrandScript, Dream 100, Bullseye Method, Three Lead Types, Queen Bee Role, Six Key Components (EOS), Franchise Prototype, Hook-Story-Offer, Perfect Webinar Script, Epiphany Bridge, Traffic Temperature, Attractive Character
+- **Key Concepts:** 5-layer system map (Find → Communicate → Convert → Systematize → Scale), funnel math, traffic types (cold/warm/hot), conflict resolution between frameworks, universal 10-question business diagnostic, 19 traction channels, customer value journey (8 stages), application funnel for high-ticket, education-based selling
+- **Tags:** `business` `strategy` `funnels` `messaging` `sales` `operations` `scaling` `positioning` `B2B` `ecommerce` `value-ladder` `growth-channels` `brand` `systems` `90-day-plan`
 #### 26. DotCom Secrets Funnel Strategy
 - **File:** [`business/dotcom-secrets-funnel-strategy.md`](business/dotcom-secrets-funnel-strategy.md)
 - **Source:** Russell Brunson — *DotCom Secrets*
@@ -280,6 +287,15 @@ Live applications built from the knowledge base frameworks.
 | **Synthesized (Prompt Engineering)** | AI prompt engineering best practices | `prompt-engineering-mastery.md` |
 | **Synthesized (KoS TikTok Shop)** | TikTok Shop strategy for King of Sparklers | `tiktok-shop-king-of-sparklers-playbook.md` |
 | **Synthesized (Code Review)** | Code review best practices | `code-reviewer.md` |
+| **Russell Brunson** | Funnels, offers, webinar scripts, email sequences | `business-strategy-toolkit.md` |
+| **Gabriel Weinberg & Justin Mares** | Growth channels, Bullseye Method | `business-strategy-toolkit.md` |
+| **Donald Miller** | Brand messaging, StoryBrand framework | `business-strategy-toolkit.md` |
+| **Chet Holmes** | B2B sales, Dream 100, education-based selling | `business-strategy-toolkit.md` |
+| **Aaron Ross** | B2B pipeline, predictable revenue models | `business-strategy-toolkit.md` |
+| **Al Ries & Jack Trout** | Positioning, category creation | `business-strategy-toolkit.md` |
+| **Michael Gerber** | Systems, franchise prototype, E-Myth | `business-strategy-toolkit.md` |
+| **Mike Michalowicz** | Clockwork, Queen Bee Role, delegation | `business-strategy-toolkit.md` |
+| **Gino Wickman** | EOS, Rocks, Six Key Components | `business-strategy-toolkit.md` |
 | **Russell Brunson** | Online sales funnels, offer design, traffic strategy | `dotcom-secrets-funnel-strategy.md` |
 
 ---
@@ -323,6 +339,14 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I create TikTok content for sparklers?" | `tiktok-shop-king-of-sparklers-playbook.md` | `tiktok-gold-rush-playbook.md` |
 | "How do I review this code for bugs?" | `code-reviewer.md` | `prompt-engineering-mastery.md` |
 | "Is this code secure?" | `code-reviewer.md` | — |
+| "I have traffic but nothing is converting" | `business-strategy-toolkit.md` | `ecommerce-playbook-knowledge.md` |
+| "How do I build a sales funnel?" | `business-strategy-toolkit.md` | `marketing-psychology.md` |
+| "I'm doing everything myself and need to scale" | `business-strategy-toolkit.md` | `scaling-and-exiting.md` |
+| "Which growth channel should I focus on?" | `business-strategy-toolkit.md` | `ecommerce-playbook-knowledge.md` |
+| "My ads aren't profitable" | `business-strategy-toolkit.md` | `marketing-psychology.md` |
+| "How do I sell a $2,000+ product?" | `business-strategy-toolkit.md` | `business-fundamentals.md` |
+| "How do I build a B2B sales process?" | `business-strategy-toolkit.md` | `ecommerce-playbook-knowledge.md` |
+| "My messaging isn't landing with customers" | `business-strategy-toolkit.md` | `marketing-psychology.md` |
 | "How do I build an online sales funnel?" | `dotcom-secrets-funnel-strategy.md` | `marketing-psychology.md` |
 | "How do I make my paid ads profitable?" | `dotcom-secrets-funnel-strategy.md` | `ecommerce-playbook-knowledge.md` |
 | "How do I script a webinar that sells?" | `dotcom-secrets-funnel-strategy.md` | `marketing-psychology.md` |
@@ -400,6 +424,22 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Batch Filming Protocol | TikTok Shop KoS Playbook | Saturday 4-hour sessions: 3 stations, film by format, edit Sunday, schedule Mon-Fri |
 | Side-by-Side Comparison Format | TikTok Shop KoS Playbook | Highest-converting format: cheap sparkler vs KoS sparkler dramatic difference |
 | 3-CTA Multiplier (KoS) | TikTok Shop KoS Playbook | Verbal + text overlay + urgency CTA in every video |
+| Value Ladder | Business Strategy Toolkit | Map product suite from low-ticket entry to high-ticket premium; front-end acquires, backend profits |
+| Funnel Architecture (4 Types) | Business Strategy Toolkit | Lead Funnel, Unboxing Funnel, Webinar Funnel, Application Funnel — matched to price point |
+| Traffic Temperature | Business Strategy Toolkit | Cold/warm/hot traffic classification → match to the right funnel entry point |
+| Hook, Story, Offer | Business Strategy Toolkit | Three-part persuasion structure for every ad, email, and content piece |
+| Epiphany Bridge | Business Strategy Toolkit | Sell through story, not logic — take the prospect through your moment of realization |
+| Perfect Webinar Script | Business Strategy Toolkit | Break three false beliefs, then stack the offer — works for $297-$2,000 |
+| Attractive Character | Business Strategy Toolkit | Brand personality with backstory, parables, flaws, and polarity |
+| Soap Opera + Seinfeld Email Sequences | Business Strategy Toolkit | Days 1-5 story-driven emails, then ongoing entertainment-education emails |
+| Three Traffic Types | Business Strategy Toolkit | Traffic you control, don't control, and own — convert all to owned (email) |
+| Franchise Prototype | Business Strategy Toolkit | Document every process as if building a franchise manual — E-Myth |
+| Queen Bee Role | Business Strategy Toolkit | Single highest-value activity; protect it, delegate everything else — Clockwork |
+| Six Key Components (EOS) | Business Strategy Toolkit | Vision, People, Data, Issues, Process, Traction — score and improve each |
+| Predictable Revenue Pipeline | Business Strategy Toolkit | Seeds (referrals), Nets (marketing), Spears (outbound) — separate processes |
+| Education-Based Selling | Business Strategy Toolkit | Teach before you sell; position as the expert who educates |
+| Universal Business Diagnostic (10 Questions) | Business Strategy Toolkit | 10 cross-framework diagnostic questions to assess any business |
+| 5-Layer System Map | Business Strategy Toolkit | Find → Communicate → Convert → Systematize → Scale — how all 10 books connect |
 | Value Ladder | DotCom Secrets Funnel Strategy | Ascending product suite from free/low-ticket to premium high-ticket offers |
 | Attractive Character | DotCom Secrets Funnel Strategy | Personality-driven brand voice: backstory, parables, flaws, polarity |
 | Epiphany Bridge | DotCom Secrets Funnel Strategy | Story framework that sells through shared realization, not logic |
@@ -415,6 +455,7 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ## All Tags
 
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `d2c` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `learning` `LLM` `low-budget` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `operations` `opportunity` `outlier-content` `performance` `persuasion` `podcasts` `positioning` `practice` `product-listing` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `strategy` `structured-data` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `tutorial` `validation` `value-creation` `value-ladder` `video` `video-marketing` `volume` `wealth-building` `wedding` `zero-to-one`
 `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `d2c` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `learning` `lifetime-value` `LLM` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `performance` `persuasion` `podcasts` `positioning` `practice` `product-listing` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `strategy` `structured-data` `system-prompts` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `upsells` `validation` `value-creation` `value-ladder` `video` `video-marketing` `volume` `wealth-building` `webinars` `wedding` `zero-to-one`
 
 ---
@@ -433,6 +474,7 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── marketing-psychology.md        # Human drives and positioning
 │   ├── business-validation-playbook.md # Idea testing framework
 │   ├── marketing-learning-resources.md # 34 books + 27 podcasts curriculum
+│   └── business-strategy-toolkit.md  # Unified growth framework from 10 books
 │   └── dotcom-secrets-funnel-strategy.md # Online sales funnel architecture & systems
 │
 ├── entrepreneurship/                  # Starting, scaling, exiting
@@ -483,4 +525,5 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
+*Last updated: 2026-02-16 | Total skills: 26 | Total frameworks: 83 | Total tags: 131+*
 *Last updated: 2026-02-16 | Total skills: 26 | Total frameworks: 77 | Total tags: 136+*
