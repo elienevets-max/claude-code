@@ -57,6 +57,7 @@ Practical frameworks extracted from podcast teachings by Josh Kaufman (The Perso
 |------|----------------|
 | [Rapid Skill Acquisition](learning/rapid-skill-acquisition.md) | The 10 principles for learning anything in 20 hours. Covers the frustration barrier, the research trap, pre-commitment, and the explore/exploit trade-off. |
 | [Prompt Engineering Mastery](learning/prompt-engineering-mastery.md) | 12 principles for writing effective AI prompts. Information density, System/User/Assistant structure, one-shot prompting, Monte Carlo testing, Spartan tone, structured data formats, model selection, and a self-audit checklist. |
+| [Code Reviewer](learning/code-reviewer.md) | Unbiased code review framework covering 4 dimensions: correctness, readability, performance, and security. Returns severity-ranked actionable recommendations. Also available as `/code-reviewer` Claude Code command. |
 
 ### Tools — [`king-of-sparklers/`](king-of-sparklers/)
 
