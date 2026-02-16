@@ -49,6 +49,7 @@ Practical frameworks extracted from podcast teachings by Josh Kaufman (The Perso
 | [TikTok Marketing Skills](tiktok/tiktok-marketing/) | 10 core skills: hook engineering, retention, value compression, algorithm signaling, niche positioning, format replication, and more. |
 | [Crushing It on TikTok](tiktok/crushing-it-tiktok/) | 10 marketer-level skills: attention interruption, narrative compression, emotional activation, audience behavior engineering. |
 | [Hacks for TikTok](tiktok/hacks-for-tiktok/) | 5 skill domains / 12 sub-skills: mobile video production, posting optimization, engagement engineering, brand building, monetization. |
+| [TikTok Shop Creator Tutorial](tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md) | Beginner's roadmap: $0 startup, 30–60 day ramp, three-criteria product selection, viral video formula (Hook + Info + CTA), urgency-based CTAs, 90-day posting discipline, scaling from $1K to $100K/month. |
 
 ### Learning — [`learning/`](learning/)
 

@@ -29,6 +29,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 19 | 30-Day TikTok Growth Challenge | TikTok | [`tiktok/30-day-tiktok-growth-challenge.md`](tiktok/30-day-tiktok-growth-challenge.md) | How do I gain 100 followers per day in 30 days? |
 | 20 | Brandon Lush TikTok Shop | TikTok | [`tiktok/brandon-lush-tiktok-shop-knowledge-extraction.md`](tiktok/brandon-lush-tiktok-shop-knowledge-extraction.md) | How do I build a $14M+ TikTok Shop affiliate business? |
 | 21 | TikTok Gold Rush Playbook | TikTok | [`tiktok/tiktok-gold-rush-playbook.md`](tiktok/tiktok-gold-rush-playbook.md) | How do I build a $100M brand using TikTok's creator army model? |
+| 22 | TikTok Shop Creator Tutorial | TikTok | [`tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md`](tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md) | How do I get started as a TikTok Shop affiliate from zero? |
 
 ---
 
@@ -197,6 +198,13 @@ Complete TikTok mastery system across 4 sub-collections with 30+ skill modules.
 - **Key Concepts:** 7-30x ROAS on TikTok vs 1-1.5x on Amazon, views > followers, platform gold rush patterns, product selection criteria (consumable + novel + fear/insecurity), mimetic desire, Kalodata for product research
 - **Tags:** `tiktok` `tiktok-shop` `gold-rush` `ROAS` `creator-army` `brand-building` `counter-positioning` `ecommerce` `strategy` `affiliate`
 
+#### 22. TikTok Shop Creator Tutorial
+- **File:** [`tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md`](tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md)
+- **Source:** Unknown speaker — YouTube tutorial on TikTok Shop affiliate marketing for beginners (2025)
+- **Core Frameworks:** Compounding Timeline Model, Three-Criteria Product Selection, Viral Video Formula (Hook + Information + CTA), CTA Multiplier Effect, 90-Day Posting Discipline
+- **Key Concepts:** $0 startup cost, 5–25% commission model, 5K/1K follower thresholds, $2–3 minimum commission rule, urgency-based CTAs, broad niche strategy, free refundable samples, going live with small audiences, paralysis by analysis warning, scaling path ($1K → $10K → $100K)
+- **Tags:** `tiktok` `tiktok-shop` `affiliate` `beginner` `tutorial` `CTA` `commission` `consistency` `scaling` `going-live`
+
 ---
 
 ### Tools & Applications
@@ -235,6 +243,7 @@ Live applications built from the knowledge base frameworks.
 | **Gary Vaynerchuk (GaryVee)** | Entrepreneurial mindset, TikTok affiliate gold rush | `garyvee-2026-live-qa-knowledge-extraction.md` |
 | **Brandon Lush** | TikTok Shop affiliate ($14M+ GMV) | `brandon-lush-tiktok-shop-knowledge-extraction.md` |
 | **Rob Marek (Rob the Bank)** | TikTok brand building ($100M+ run rate, $30M exit) | `tiktok-gold-rush-playbook.md` |
+| **Unknown (TikTok Shop Tutorial)** | TikTok Shop affiliate for beginners | `tiktok-shop-creator-tutorial-knowledge-extraction.md` |
 | **King of Sparklers (internal)** | Business ideation, SaaS/marketplace concepts | `ENTREPRENEURIAL_IDEAS.md` |
 
 ---
@@ -267,6 +276,8 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I get my first 1000 TikTok followers?" | `30-day-tiktok-growth-challenge.md` | `tiktok/tiktok-growth-strategies.md` |
 | "I keep overthinking and not taking action" | `garyvee-2026-live-qa-knowledge-extraction.md` | `entrepreneurship-playbook.md` |
 | "How do I become a TikTok affiliate?" | `garyvee-2026-live-qa-knowledge-extraction.md` | `brandon-lush-tiktok-shop-knowledge-extraction.md` |
+| "How do I start TikTok Shop affiliate with zero followers?" | `tiktok-shop-creator-tutorial-knowledge-extraction.md` | `30-day-tiktok-growth-challenge.md` |
+| "What products should I promote on TikTok Shop?" | `tiktok-shop-creator-tutorial-knowledge-extraction.md` | `brandon-lush-tiktok-shop-knowledge-extraction.md` |
 | "What new businesses can I build from King of Sparklers?" | `ENTREPRENEURIAL_IDEAS.md` | `ecommerce-playbook-knowledge.md` |
 
 ---
@@ -325,12 +336,16 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Counter-Positioning Strategy | TikTok Gold Rush Playbook | Name an enemy, diagnose a problem — don't just say "we're good" |
 | Democratize What the Rich Have | TikTok Gold Rush Playbook | Uber, Airbnb, Duolingo pattern — make luxury accessible |
 | MVP Scope (30 Days) | Entrepreneurial Ideas | Rapid validation of SaaS/marketplace concepts in 30 days |
+| Compounding Timeline Model | TikTok Shop Creator Tutorial | 30–60 days before income; 1–3 years to serious cash; 90% quit early |
+| Three-Criteria Product Selection | TikTok Shop Creator Tutorial | Momentum + Inventory Depth + High Commission (all must pass) |
+| Viral Video Formula (Hook + Info + CTA) | TikTok Shop Creator Tutorial | Three-part video structure: hook the scroll, deliver value, convert with urgency |
+| CTA Multiplier Effect | TikTok Shop Creator Tutorial | 100K views + strong CTA > 1M views + weak CTA |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `AI` `algorithm` `application` `attention` `automation` `B2B` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `compound-interest` `consistency` `conversion` `copying-framework` `copywriting` `counter-positioning` `creator-army` `creators` `curriculum` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funding` `GMV` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `king-of-sparklers` `learning` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `operations` `opportunity` `outlier-content` `persuasion` `podcasts` `positioning` `practice` `psychology` `purpose` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `side-hustle` `skill-acquisition` `social-media` `solo-founder` `spending-plan` `startup` `strategy` `testing` `tiktok` `tiktok-shop` `tool` `validation` `value-creation` `video` `volume` `wealth-building` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `AI` `algorithm` `application` `attention` `automation` `B2B` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `commission` `compound-interest` `consistency` `conversion` `copying-framework` `copywriting` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funding` `GMV` `going-live` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `king-of-sparklers` `learning` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `operations` `opportunity` `outlier-content` `persuasion` `podcasts` `positioning` `practice` `psychology` `purpose` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `side-hustle` `skill-acquisition` `social-media` `solo-founder` `spending-plan` `startup` `strategy` `testing` `tiktok` `tiktok-shop` `tool` `tutorial` `validation` `value-creation` `video` `volume` `wealth-building` `zero-to-one`
 
 ---
 
@@ -370,6 +385,7 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── tiktok-growth-strategies.md    # Neurogum CEO growth playbook
 │   ├── 30-day-tiktok-growth-challenge.md # 30-day system: 100 followers/day
 │   ├── brandon-lush-tiktok-shop-knowledge-extraction.md # $14M+ TikTok Shop affiliate
+│   ├── tiktok-shop-creator-tutorial-knowledge-extraction.md # Beginner TikTok Shop affiliate tutorial
 │   ├── tiktok-gold-rush-playbook.md   # Creator army model, $100M brand building
 │   ├── tiktok-marketing/             # 10 core TikTok marketing skills
 │   ├── crushing-it-tiktok/           # 10 marketer-level TikTok skills
@@ -385,4 +401,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-16 | Total skills: 21 | Total frameworks: 49 | Total tags: 100+*
+*Last updated: 2026-02-16 | Total skills: 22 | Total frameworks: 53 | Total tags: 105+*
