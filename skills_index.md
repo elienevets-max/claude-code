@@ -32,6 +32,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 22 | TikTok Shop Creator Tutorial | TikTok | [`tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md`](tiktok/tiktok-shop-creator-tutorial-knowledge-extraction.md) | How do I get started as a TikTok Shop affiliate from zero? |
 | 23 | Prompt Engineering Mastery | Learning | [`learning/prompt-engineering-mastery.md`](learning/prompt-engineering-mastery.md) | How do I write better prompts for AI? |
 | 24 | TikTok Shop KoS Playbook | TikTok | [`tiktok/tiktok-shop-king-of-sparklers-playbook.md`](tiktok/tiktok-shop-king-of-sparklers-playbook.md) | How do I launch and scale King of Sparklers on TikTok Shop? |
+| 25 | Code Reviewer | Learning | [`learning/code-reviewer.md`](learning/code-reviewer.md) | How do I get an unbiased code review? |
 
 ---
 
@@ -170,6 +171,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** System/User/Assistant architecture, unambiguous language, structured data formats (JSON/XML/CSV), output format specification, model selection strategy, AI-generated training examples, prompt self-audit checklist
 - **Tags:** `prompt-engineering` `AI` `LLM` `system-prompts` `structured-data` `iteration` `efficiency` `automation`
 
+#### 25. Code Reviewer
+- **File:** [`learning/code-reviewer.md`](learning/code-reviewer.md)
+- **Source:** Synthesized code review best practices
+- **Core Frameworks:** Four-Dimension Review (Correctness, Readability, Performance, Security), Zero-Context Review Protocol, Severity Ranking System
+- **Key Concepts:** Unbiased code review, actionable severity-ranked recommendations, bug detection, security vulnerability identification, error handling at system boundaries, structured review output format
+- **Tags:** `code-review` `software-engineering` `security` `performance` `readability` `correctness` `error-handling` `AI`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -263,6 +271,7 @@ Live applications built from the knowledge base frameworks.
 | **King of Sparklers (internal)** | Business ideation, SaaS/marketplace concepts | `ENTREPRENEURIAL_IDEAS.md` |
 | **Synthesized (Prompt Engineering)** | AI prompt engineering best practices | `prompt-engineering-mastery.md` |
 | **Synthesized (KoS TikTok Shop)** | TikTok Shop strategy for King of Sparklers | `tiktok-shop-king-of-sparklers-playbook.md` |
+| **Synthesized (Code Review)** | Code review best practices | `code-reviewer.md` |
 
 ---
 
@@ -303,6 +312,8 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I launch King of Sparklers on TikTok Shop?" | `tiktok-shop-king-of-sparklers-playbook.md` | `brandon-lush-tiktok-shop-knowledge-extraction.md` |
 | "What sparkler products should I list on TikTok Shop?" | `tiktok-shop-king-of-sparklers-playbook.md` | `tiktok-shop-creator-tutorial-knowledge-extraction.md` |
 | "How do I create TikTok content for sparklers?" | `tiktok-shop-king-of-sparklers-playbook.md` | `tiktok-gold-rush-playbook.md` |
+| "How do I review this code for bugs?" | `code-reviewer.md` | `prompt-engineering-mastery.md` |
+| "Is this code secure?" | `code-reviewer.md` | — |
 
 ---
 
@@ -369,6 +380,9 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Spartan Tone Principle | Prompt Engineering Mastery | Single word "Spartan" reliably produces direct, pragmatic, concise output |
 | Information Density Principle | Prompt Engineering Mastery | Every token must carry meaning; shorter prompts = higher accuracy |
 | One-Shot Goldilocks Zone | Prompt Engineering Mastery | One example is often optimal — ~10% boost vs zero-shot, diminishing returns after |
+| Four-Dimension Review | Code Reviewer | Correctness, Readability, Performance, Security — structured review axes |
+| Zero-Context Review Protocol | Code Reviewer | Unbiased review with no prior knowledge of the codebase |
+| Severity Ranking System | Code Reviewer | High / Medium / Low finding classification for actionable triage |
 | $2-3 Commission Sweet Spot | TikTok Shop KoS Playbook | Products yielding $2-3+ commission hit affiliate viability sweet spot |
 | 90-Day Launch Plan (KoS) | TikTok Shop KoS Playbook | Foundation (Day 1-30) → Momentum (31-60) → Scaling (61-90) for TikTok Shop |
 | Batch Filming Protocol | TikTok Shop KoS Playbook | Saturday 4-hour sessions: 3 stations, film by format, edit Sunday, schedule Mon-Fri |
@@ -379,7 +393,7 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `d2c` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `learning` `LLM` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `operations` `opportunity` `outlier-content` `persuasion` `podcasts` `positioning` `practice` `product-listing` `prompt-engineering` `psychology` `purpose` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `solo-founder` `sparklers` `spending-plan` `startup` `strategy` `structured-data` `system-prompts` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `tutorial` `validation` `value-creation` `video` `video-marketing` `volume` `wealth-building` `wedding` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `d2c` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `learning` `LLM` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `operations` `opportunity` `outlier-content` `performance` `persuasion` `podcasts` `positioning` `practice` `product-listing` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `strategy` `structured-data` `system-prompts` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `tutorial` `validation` `value-creation` `video` `video-marketing` `volume` `wealth-building` `wedding` `zero-to-one`
 
 ---
 
@@ -426,9 +440,18 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── crushing-it-tiktok/           # 10 marketer-level TikTok skills
 │   └── hacks-for-tiktok/            # 5 domains / 12 execution sub-skills
 │
+├── .claude/                           # Claude Code configuration
+│   ├── commands/
+│   │   └── code-reviewer.md          # /code-reviewer slash command (subagent)
+│   ├── hooks/
+│   │   └── session-start.sh          # Session startup hook
+│   ├── CLAUDE.md                     # Project instructions
+│   └── settings.json                 # Hook configuration
+│
 ├── learning/                          # Skill acquisition methods
 │   ├── rapid-skill-acquisition.md     # 20-hour mastery framework
-│   └── prompt-engineering-mastery.md  # 12 principles for better AI prompts
+│   ├── prompt-engineering-mastery.md  # 12 principles for better AI prompts
+│   └── code-reviewer.md              # Unbiased code review (4 dimensions)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -437,4 +460,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-16 | Total skills: 24 | Total frameworks: 63 | Total tags: 120+*
+*Last updated: 2026-02-16 | Total skills: 25 | Total frameworks: 66 | Total tags: 126+*
