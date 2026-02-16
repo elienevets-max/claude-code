@@ -9,23 +9,33 @@ import * as fs from 'fs';
 const DATA_DIR = path.resolve(process.cwd(), 'data');
 const DB_PATH = path.join(DATA_DIR, 'sparklers.db');
 
-// Ensure the data directory exists
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+let _db: DatabaseType | null = null;
+
+function createDb(): DatabaseType {
+  // Ensure the data directory exists
+  if (!fs.existsSync(DATA_DIR)) {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
+  }
+
+  const instance = new Database(DB_PATH);
+
+  // Enable WAL mode for better concurrent read performance
+  instance.pragma('journal_mode = WAL');
+  instance.pragma('foreign_keys = ON');
+  instance.pragma('busy_timeout = 5000');
+
+  return instance;
 }
 
-const db = new Database(DB_PATH);
-
-// Enable WAL mode for better concurrent read performance
-db.pragma('journal_mode = WAL');
-db.pragma('foreign_keys = ON');
-
 /**
- * Returns the singleton database instance.
+ * Returns the singleton database instance (lazily initialized).
  * Used by API routes that import { getDb } from '@/lib/db'.
  */
 export function getDb(): DatabaseType {
-  return db;
+  if (!_db) {
+    _db = createDb();
+  }
+  return _db;
 }
 
 /**
@@ -33,6 +43,7 @@ export function getDb(): DatabaseType {
  * Uses CREATE TABLE IF NOT EXISTS so it is safe to call multiple times.
  */
 export function initDb(): void {
+  const db = getDb();
   db.exec(`
     -- Dream 100 CRM Contacts
     CREATE TABLE IF NOT EXISTS contacts (
@@ -219,4 +230,4 @@ export function initDb(): void {
   `);
 }
 
-export default db;
+export default getDb;
