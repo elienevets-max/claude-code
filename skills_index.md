@@ -35,6 +35,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 25 | Code Reviewer | Learning | [`learning/code-reviewer.md`](learning/code-reviewer.md) | How do I get an unbiased code review? |
 | 26 | Business Strategy Toolkit | Business | [`business/business-strategy-toolkit.md`](business/business-strategy-toolkit.md) | Which growth framework do I need for my business right now? |
 | 26 | DotCom Secrets Funnel Strategy | Business | [`business/dotcom-secrets-funnel-strategy.md`](business/dotcom-secrets-funnel-strategy.md) | How do I build and scale an online sales funnel? |
+| 27 | Ecommerce Evolved | Entrepreneurship | [`entrepreneurship/ecommerce-evolved.md`](entrepreneurship/ecommerce-evolved.md) | How do I optimize e-commerce retention, CLV, and profitability? |
 
 ---
 
@@ -118,6 +119,13 @@ End-to-end frameworks for starting, scaling, and exiting businesses.
 - **Core Frameworks:** Bullseye Method, Customer Value Journey, Dream 100, StoryBrand BrandScript, 4 Pillars of Ecommerce Growth
 - **Key Concepts:** Customer acquisition engine, brand positioning, conversion optimization, operational leverage, 90-day execution plan
 - **Tags:** `ecommerce` `growth` `acquisition` `brand` `conversion` `operations` `90-day-plan`
+
+#### 27. Ecommerce Evolved
+- **File:** [`entrepreneurship/ecommerce-evolved.md`](entrepreneurship/ecommerce-evolved.md)
+- **Source:** Tanner Larsson — *Ecommerce Evolved*
+- **Core Frameworks:** Customer Value Journey (8-Stage), Three Pillars (Acquisition/Monetization/Retention), Front-End vs Back-End Model, E-commerce Profit Equation, Pillar Diagnosis Framework, CVJ Gap Analysis, Conversion Rate Optimization Framework, Email Revenue Assessment Framework, Cart Abandonment Recovery Sequence, Post-Purchase Profit Engine, AOV Optimization System, Subscription Model Framework, Win-Back Sequence Framework
+- **Key Concepts:** 8-stage customer lifecycle, CLV:CAC ratio optimization, backend profit model, email as 25-40% of revenue, cart abandonment recovery (10-25%), AOV boosters (bundles, thresholds, order bumps), subscription/replenishment models, post-purchase experience design, win-back sequences, profit-first thinking
+- **Tags:** `ecommerce` `CLV` `CAC` `AOV` `retention` `email-marketing` `subscriptions` `conversion` `profit` `customer-value-journey` `upsells` `cart-abandonment` `loyalty` `win-back`
 
 ---
 
@@ -297,6 +305,7 @@ Live applications built from the knowledge base frameworks.
 | **Mike Michalowicz** | Clockwork, Queen Bee Role, delegation | `business-strategy-toolkit.md` |
 | **Gino Wickman** | EOS, Rocks, Six Key Components | `business-strategy-toolkit.md` |
 | **Russell Brunson** | Online sales funnels, offer design, traffic strategy | `dotcom-secrets-funnel-strategy.md` |
+| **Tanner Larsson** | E-commerce systems, retention, profit optimization | `ecommerce-evolved.md` |
 
 ---
 
@@ -320,7 +329,10 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I raise money?" | `scaling-and-exiting.md` | `entrepreneurship-playbook.md` |
 | "How do I sell my business?" | `scaling-and-exiting.md` | — |
 | "How do I grow on TikTok?" | `tiktok/README.md` | `tiktok/tiktok-growth-strategies.md` |
-| "How do I grow my ecommerce store?" | `ecommerce-playbook-knowledge.md` | `scaling-and-exiting.md` |
+| "How do I grow my ecommerce store?" | `ecommerce-playbook-knowledge.md` | `ecommerce-evolved.md` |
+| "How do I improve customer lifetime value?" | `ecommerce-evolved.md` | `ecommerce-playbook-knowledge.md` |
+| "Why is my e-commerce store unprofitable?" | `ecommerce-evolved.md` | `dotcom-secrets-funnel-strategy.md` |
+| "What email sequences does my store need?" | `ecommerce-evolved.md` | `dotcom-secrets-funnel-strategy.md` |
 | "What marketing books should I read?" | `marketing-learning-resources.md` | `marketing-psychology.md` |
 | "How do I write TikTok hooks?" | `tiktok/tiktok-marketing/01-hook-engineering.md` | `marketing-psychology.md` |
 | "How do I make money on TikTok Shop?" | `brandon-lush-tiktok-shop-knowledge-extraction.md` | `tiktok-gold-rush-playbook.md` |
@@ -450,13 +462,25 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Funnel Selection Framework | DotCom Secrets Funnel Strategy | Match price point to funnel type: lead, free+shipping, webinar, or application |
 | Funnel Diagnosis Framework | DotCom Secrets Funnel Strategy | Seven-phase drop-off analysis to find and fix funnel conversion bottlenecks |
 | Offer Stack Framework | DotCom Secrets Funnel Strategy | List components, assign values, total them, reveal price as dramatically lower |
+| Customer Value Journey (8-Stage) | Ecommerce Evolved | Awareness → Engagement → Subscription → Conversion → Excitement → Ascension → Advocacy → Promotion |
+| Three Pillars (Acquisition/Monetization/Retention) | Ecommerce Evolved | Score each 1-10, fix the weakest first; Monetization amplifies both others |
+| Front-End vs Back-End Model | Ecommerce Evolved | Front-end acquires at breakeven; back-end (email, upsells, subscriptions) generates all profit |
+| E-commerce Profit Equation | Ecommerce Evolved | Profit = Revenue - COGS - CAC - Operational Costs; optimize all four variables |
+| Pillar Diagnosis Framework | Ecommerce Evolved | Score Acquisition/Monetization/Retention 1-10 to find the bottleneck |
+| CVJ Gap Analysis Framework | Ecommerce Evolved | Map all 8 stages, find missing systems, prioritize gaps near Conversion |
+| Conversion Rate Optimization Framework | Ecommerce Evolved | Map funnel → find biggest drop-off → diagnose WHY → test ONE change → iterate |
+| Email Revenue Assessment Framework | Ecommerce Evolved | Target 25-40% email revenue; audit sequences in ROI order |
+| Cart Abandonment Recovery Sequence | Ecommerce Evolved | 3-email sequence (1hr/24hr/48-72hr) recovers 10-25% of abandoned carts |
+| Post-Purchase Profit Engine | Ecommerce Evolved | 7-step post-purchase email flow: confirmation → shipping → check-in → review → cross-sell → subscription → campaigns |
+| AOV Optimization System | Ecommerce Evolved | Bundles, free shipping threshold, cart cross-sells, order bumps, post-purchase upsells |
+| Subscription Model Framework | Ecommerce Evolved | 10-20% discount, flexible frequency, easy pause/cancel for consumable products |
+| Win-Back Sequence Framework | Ecommerce Evolved | 4-email reactivation at 60-120 days; costs 5-10x less than new acquisition |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `d2c` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `learning` `LLM` `low-budget` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `operations` `opportunity` `outlier-content` `performance` `persuasion` `podcasts` `positioning` `practice` `product-listing` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `strategy` `structured-data` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `tutorial` `validation` `value-creation` `value-ladder` `video` `video-marketing` `volume` `wealth-building` `wedding` `zero-to-one`
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `categorization` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `d2c` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `learning` `lifetime-value` `LLM` `low-budget` `marketing` `marketplace` `market-research` `mastery` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `performance` `persuasion` `podcasts` `positioning` `practice` `product-listing` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `strategy` `structured-data` `system-prompts` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `upsells` `validation` `value-creation` `value-ladder` `video` `video-marketing` `volume` `wealth-building` `webinars` `wedding` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `CAC` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `learning` `lifetime-value` `LLM` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `performance` `persuasion` `podcasts` `positioning` `practice` `product-listing` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `strategy` `structured-data` `subscriptions` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `upsells` `validation` `value-creation` `value-ladder` `video` `video-marketing` `volume` `wealth-building` `webinars` `wedding` `win-back` `zero-to-one`
 
 ---
 
@@ -481,7 +505,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── entrepreneurship-playbook.md   # Zero-to-one business guide
 │   ├── scaling-and-exiting.md         # Growth, funding, and exit
 │   ├── ai-era-startup-strategy.md     # AI-age business strategy
-│   └── ecommerce-playbook-knowledge.md # 4-pillar ecommerce growth system
+│   ├── ecommerce-playbook-knowledge.md # 4-pillar ecommerce growth system
+│   └── ecommerce-evolved.md          # E-commerce retention, CLV & profit optimization
 │
 ├── finance/                           # Money management & psychology
 │   ├── personal-finance-blueprint.md  # Autopilot financial system
@@ -525,5 +550,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-16 | Total skills: 26 | Total frameworks: 83 | Total tags: 131+*
-*Last updated: 2026-02-16 | Total skills: 26 | Total frameworks: 77 | Total tags: 136+*
+*Last updated: 2026-02-17 | Total skills: 27 | Total frameworks: 96 | Total tags: 145+*
