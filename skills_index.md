@@ -36,6 +36,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 26 | Business Strategy Toolkit | Business | [`business/business-strategy-toolkit.md`](business/business-strategy-toolkit.md) | Which growth framework do I need for my business right now? |
 | 26 | DotCom Secrets Funnel Strategy | Business | [`business/dotcom-secrets-funnel-strategy.md`](business/dotcom-secrets-funnel-strategy.md) | How do I build and scale an online sales funnel? |
 | 27 | Ecommerce Evolved | Entrepreneurship | [`entrepreneurship/ecommerce-evolved.md`](entrepreneurship/ecommerce-evolved.md) | How do I optimize e-commerce retention, CLV, and profitability? |
+| 28 | Marketing Content Engine | Business | [`business/marketing-content-engine.md`](business/marketing-content-engine.md) | How do I create viral, high-converting content for any platform? |
 
 ---
 
@@ -85,6 +86,13 @@ Foundational frameworks for understanding, analyzing, and building any business.
 - **Core Frameworks:** Value Ladder, Attractive Character, Epiphany Bridge, Perfect Webinar Script, Hook-Story-Offer, Soap Opera Sequence, Seinfeld Sequence, Funnel Selection Framework, Funnel Diagnosis Framework, Offer Stack Framework
 - **Key Concepts:** Sales funnel architecture, traffic temperature (cold/warm/hot), three types of traffic (control/don't control/own), order bumps, upsells, downsells, free + shipping funnels, webinar funnels, application funnels, customer lifetime value, front-end acquisition vs back-end profit
 - **Tags:** `funnels` `sales` `offers` `upsells` `email-marketing` `webinars` `traffic` `conversion` `value-ladder` `copywriting` `landing-pages` `customer-acquisition` `lifetime-value`
+
+#### 28. Marketing Content Engine
+- **File:** [`business/marketing-content-engine.md`](business/marketing-content-engine.md)
+- **Source:** Synthesized from Alex Hormozi (*$100M Offers*), Gary Vaynerchuk (*Crushing It*, *Jab Jab Jab Right Hook*), Russell Brunson (*DotCom Secrets*, *Expert Secrets*), Dan Kennedy (*No BS Direct Response Marketing*), Eugene Schwartz (*Breakthrough Advertising*), Seth Godin (*Purple Cow*, *Permission Marketing*), Ryan Deiss (DigitalMarketer)
+- **Core Frameworks:** Hormozi Value Equation, Gary Vee Content Pyramid, Brunson Story Framework (Epiphany Bridge), Schwartz 5 Awareness Levels, Kennedy Urgency Framework, Godin Remarkable Positioning, Deiss Customer Value Optimization, Hormozi Thread Formula, Platform-Native Distribution, Offer Stack + Guarantee Template
+- **Key Concepts:** Hook engineering (first-sentence/first-second capture), platform-specific content formats (Twitter threads, LinkedIn stories, Instagram carousels, YouTube scripts, TikTok hooks, email sequences), marketer voice profiles (Hormozi/GaryVee/Brunson/Kennedy/Schwartz), viral content formulas, offer creation methodology, value stacking, urgency layering, awareness-level matching, content repurposing pyramid, direct response principles
+- **Tags:** `marketing` `content-creation` `copywriting` `viral-content` `direct-response` `hooks` `offers` `funnels` `social-media` `email-marketing` `twitter` `linkedin` `instagram` `youtube` `tiktok` `CTA` `conversion` `value-equation` `storytelling` `platform-native`
 
 ---
 
@@ -306,6 +314,12 @@ Live applications built from the knowledge base frameworks.
 | **Gino Wickman** | EOS, Rocks, Six Key Components | `business-strategy-toolkit.md` |
 | **Russell Brunson** | Online sales funnels, offer design, traffic strategy | `dotcom-secrets-funnel-strategy.md` |
 | **Tanner Larsson** | E-commerce systems, retention, profit optimization | `ecommerce-evolved.md` |
+| **Alex Hormozi** | Offer structuring, value equation, content hooks | `marketing-content-engine.md` |
+| **Gary Vaynerchuk (GaryVee)** | Platform-native content, volume strategy | `marketing-content-engine.md`, `garyvee-2026-live-qa-knowledge-extraction.md` |
+| **Eugene Schwartz** | Awareness stages, headline formulas, desire amplification | `marketing-content-engine.md` |
+| **Dan Kennedy** | Direct response, urgency, risk reversal | `marketing-content-engine.md` |
+| **Seth Godin** | Purple cow, remarkable positioning, permission marketing | `marketing-content-engine.md` |
+| **Ryan Deiss** | Customer value optimization, funnel stacking | `marketing-content-engine.md` |
 
 ---
 
@@ -362,6 +376,13 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I build an online sales funnel?" | `dotcom-secrets-funnel-strategy.md` | `marketing-psychology.md` |
 | "How do I make my paid ads profitable?" | `dotcom-secrets-funnel-strategy.md` | `ecommerce-playbook-knowledge.md` |
 | "How do I script a webinar that sells?" | `dotcom-secrets-funnel-strategy.md` | `marketing-psychology.md` |
+| "How do I create viral social media content?" | `marketing-content-engine.md` | `marketing-psychology.md` |
+| "How do I write a Twitter thread that goes viral?" | `marketing-content-engine.md` | `dotcom-secrets-funnel-strategy.md` |
+| "How do I create an irresistible offer?" | `marketing-content-engine.md` | `dotcom-secrets-funnel-strategy.md` |
+| "How do I repurpose one piece of content into 30+ posts?" | `marketing-content-engine.md` | `marketing-learning-resources.md` |
+| "What hooks should I use for my content?" | `marketing-content-engine.md` | `tiktok/tiktok-marketing/01-hook-engineering.md` |
+| "How do I write platform-native content?" | `marketing-content-engine.md` | `marketing-psychology.md` |
+| "How do I add urgency to my marketing?" | `marketing-content-engine.md` | `dotcom-secrets-funnel-strategy.md` |
 
 ---
 
@@ -475,12 +496,22 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | AOV Optimization System | Ecommerce Evolved | Bundles, free shipping threshold, cart cross-sells, order bumps, post-purchase upsells |
 | Subscription Model Framework | Ecommerce Evolved | 10-20% discount, flexible frequency, easy pause/cancel for consumable products |
 | Win-Back Sequence Framework | Ecommerce Evolved | 4-email reactivation at 60-120 days; costs 5-10x less than new acquisition |
+| Hormozi Value Equation | Marketing Content Engine | (Dream Outcome × Perceived Likelihood) / (Time Delay × Effort & Sacrifice) = Value |
+| Gary Vee Content Pyramid | Marketing Content Engine | 1 pillar content → 30+ micro pieces across platforms |
+| Brunson Story Framework | Marketing Content Engine | Character → Desire → Wall → Epiphany → Plan → Conflict → Achievement → Transformation |
+| Schwartz 5 Awareness Levels | Marketing Content Engine | Unaware → Problem Aware → Solution Aware → Product Aware → Most Aware |
+| Kennedy Urgency Framework | Marketing Content Engine | Deadline + Scarcity + Bonus Stack + Penalty + Reason Why |
+| Hormozi Thread Formula | Marketing Content Engine | Bold claim → common mistake → step-by-step tactics → repost CTA |
+| Deiss Customer Value Optimization | Marketing Content Engine | 7-step system: fit → traffic → lead magnet → tripwire → core → maximizer → return path |
+| Godin Remarkable Positioning | Marketing Content Engine | Purple Cow: if it's not remarkable, no marketing fixes it |
+| Platform-Native Distribution | Marketing Content Engine | Algorithm-optimized content per platform — never cross-post |
+| Offer Stack + Guarantee Template | Marketing Content Engine | Core + bonuses + fast-action bonus + risk-reversal guarantee |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `CAC` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `learning` `lifetime-value` `LLM` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `performance` `persuasion` `podcasts` `positioning` `practice` `product-listing` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `strategy` `structured-data` `subscriptions` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `upsells` `validation` `value-creation` `value-ladder` `video` `video-marketing` `volume` `wealth-building` `webinars` `wedding` `win-back` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `CAC` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `learning` `lifetime-value` `linkedin` `LLM` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `performance` `persuasion` `platform-native` `podcasts` `positioning` `practice` `product-listing` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `storytelling` `strategy` `structured-data` `subscriptions` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -498,8 +529,9 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── marketing-psychology.md        # Human drives and positioning
 │   ├── business-validation-playbook.md # Idea testing framework
 │   ├── marketing-learning-resources.md # 34 books + 27 podcasts curriculum
-│   └── business-strategy-toolkit.md  # Unified growth framework from 10 books
-│   └── dotcom-secrets-funnel-strategy.md # Online sales funnel architecture & systems
+│   ├── business-strategy-toolkit.md  # Unified growth framework from 10 books
+│   ├── dotcom-secrets-funnel-strategy.md # Online sales funnel architecture & systems
+│   └── marketing-content-engine.md  # Viral content & direct response system (7 marketers)
 │
 ├── entrepreneurship/                  # Starting, scaling, exiting
 │   ├── entrepreneurship-playbook.md   # Zero-to-one business guide
@@ -550,4 +582,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-17 | Total skills: 27 | Total frameworks: 96 | Total tags: 145+*
+*Last updated: 2026-02-17 | Total skills: 28 | Total frameworks: 107 | Total tags: 155+*
