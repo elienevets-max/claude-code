@@ -37,6 +37,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 26 | DotCom Secrets Funnel Strategy | Business | [`business/dotcom-secrets-funnel-strategy.md`](business/dotcom-secrets-funnel-strategy.md) | How do I build and scale an online sales funnel? |
 | 27 | Ecommerce Evolved | Entrepreneurship | [`entrepreneurship/ecommerce-evolved.md`](entrepreneurship/ecommerce-evolved.md) | How do I optimize e-commerce retention, CLV, and profitability? |
 | 28 | Marketing Content Engine | Business | [`business/marketing-content-engine.md`](business/marketing-content-engine.md) | How do I create viral, high-converting content for any platform? |
+| 29 | Startup Idea Generator | Entrepreneurship | [`entrepreneurship/startup-idea-generator.md`](entrepreneurship/startup-idea-generator.md) | What startup should I build based on my skills? |
 
 ---
 
@@ -127,6 +128,13 @@ End-to-end frameworks for starting, scaling, and exiting businesses.
 - **Core Frameworks:** Bullseye Method, Customer Value Journey, Dream 100, StoryBrand BrandScript, 4 Pillars of Ecommerce Growth
 - **Key Concepts:** Customer acquisition engine, brand positioning, conversion optimization, operational leverage, 90-day execution plan
 - **Tags:** `ecommerce` `growth` `acquisition` `brand` `conversion` `operations` `90-day-plan`
+
+#### 29. Startup Idea Generator
+- **File:** [`entrepreneurship/startup-idea-generator.md`](entrepreneurship/startup-idea-generator.md)
+- **Source:** Custom analysis — Founder's Triangle + DREAM Framework applied to individual skill stack
+- **Core Frameworks:** Skill-Stack Matching, Founder's Triangle Assessment, Monetization Model Mapping, 2-Week Validation Sprint, Risk Mitigation Matrix
+- **Key Concepts:** 12 startup ideas ranked by difficulty and time-to-revenue, top 3 analysis with reasoning, content repurposing agency model, book-to-business-system productized service, AI automation consulting, sprint-based validation, free sample outreach strategy
+- **Tags:** `startup-ideas` `ideation` `AI` `validation` `monetization` `solo-founder` `skill-stack-matching` `Las-Vegas` `digital-business` `content-repurposing` `productized-service` `consulting`
 
 #### 27. Ecommerce Evolved
 - **File:** [`entrepreneurship/ecommerce-evolved.md`](entrepreneurship/ecommerce-evolved.md)
@@ -303,6 +311,7 @@ Live applications built from the knowledge base frameworks.
 | **Synthesized (Prompt Engineering)** | AI prompt engineering best practices | `prompt-engineering-mastery.md` |
 | **Synthesized (KoS TikTok Shop)** | TikTok Shop strategy for King of Sparklers | `tiktok-shop-king-of-sparklers-playbook.md` |
 | **Synthesized (Code Review)** | Code review best practices | `code-reviewer.md` |
+| **Custom Analysis (Startup Ideas)** | Founder's Triangle + DREAM applied to skill stack | `startup-idea-generator.md` |
 | **Russell Brunson** | Funnels, offers, webinar scripts, email sequences | `business-strategy-toolkit.md` |
 | **Gabriel Weinberg & Justin Mares** | Growth channels, Bullseye Method | `business-strategy-toolkit.md` |
 | **Donald Miller** | Brand messaging, StoryBrand framework | `business-strategy-toolkit.md` |
@@ -383,6 +392,9 @@ Use this lookup when you have a specific question or are in a specific situation
 | "What hooks should I use for my content?" | `marketing-content-engine.md` | `tiktok/tiktok-marketing/01-hook-engineering.md` |
 | "How do I write platform-native content?" | `marketing-content-engine.md` | `marketing-psychology.md` |
 | "How do I add urgency to my marketing?" | `marketing-content-engine.md` | `dotcom-secrets-funnel-strategy.md` |
+| "What startup should I build with my skills?" | `startup-idea-generator.md` | `ai-era-startup-strategy.md` |
+| "How do I validate a startup idea in 2 weeks?" | `startup-idea-generator.md` | `business-validation-playbook.md` |
+| "What AI business can I start as a solo founder?" | `startup-idea-generator.md` | `side-hustle-playbook.md` |
 
 ---
 
@@ -506,12 +518,15 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Godin Remarkable Positioning | Marketing Content Engine | Purple Cow: if it's not remarkable, no marketing fixes it |
 | Platform-Native Distribution | Marketing Content Engine | Algorithm-optimized content per platform — never cross-post |
 | Offer Stack + Guarantee Template | Marketing Content Engine | Core + bonuses + fast-action bonus + risk-reversal guarantee |
+| Skill-Stack Matching | Startup Idea Generator | Match founder skills to startup ideas using Founder's Triangle vertices |
+| 2-Week Validation Sprint | Startup Idea Generator | 14-day structured plan: build pipeline → create portfolio → outreach → close |
+| Risk Mitigation Matrix | Startup Idea Generator | Pre-identified risks with specific mitigations for each startup idea |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `CAC` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `content-creation` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `learning` `lifetime-value` `linkedin` `LLM` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `performance` `persuasion` `platform-native` `podcasts` `positioning` `practice` `product-listing` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `storytelling` `strategy` `structured-data` `subscriptions` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `CAC` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `monetization` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `performance` `persuasion` `platform-native` `podcasts` `positioning` `practice` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -538,7 +553,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── scaling-and-exiting.md         # Growth, funding, and exit
 │   ├── ai-era-startup-strategy.md     # AI-age business strategy
 │   ├── ecommerce-playbook-knowledge.md # 4-pillar ecommerce growth system
-│   └── ecommerce-evolved.md          # E-commerce retention, CLV & profit optimization
+│   ├── ecommerce-evolved.md          # E-commerce retention, CLV & profit optimization
+│   └── startup-idea-generator.md     # Personalized startup ideation & validation sprint
 │
 ├── finance/                           # Money management & psychology
 │   ├── personal-finance-blueprint.md  # Autopilot financial system
@@ -582,4 +598,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-17 | Total skills: 28 | Total frameworks: 107 | Total tags: 155+*
+*Last updated: 2026-02-17 | Total skills: 29 | Total frameworks: 110 | Total tags: 165+*
