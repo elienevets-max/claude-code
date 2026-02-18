@@ -26,7 +26,7 @@
  *   --download    Download audio only, skip transcription
  *   --transcribe  Transcribe existing audio only, skip download
  *   --model M     Whisper model: tiny|base|small|medium|large (default: base)
- *   --speed N     Playback speed for MediaRecorder fallback (default: 1)
+ *   --speed N     Playback speed for MediaRecorder fallback (default: 16)
  *
  * Quick start (run locally on your machine):
  *   1. First login to YouTube:
@@ -87,7 +87,7 @@ const HEADED = args.includes('--headed');
 const DOWNLOAD_ONLY = args.includes('--download');
 const TRANSCRIBE_ONLY = args.includes('--transcribe');
 const WHISPER_MODEL = getArg('--model', 'base');
-const PLAYBACK_SPEED = parseFloat(getArg('--speed', '1'));
+const PLAYBACK_SPEED = parseFloat(getArg('--speed', '16'));
 
 mkdirSync(AUDIO_DIR, { recursive: true });
 mkdirSync(TRANSCRIPT_DIR, { recursive: true });
