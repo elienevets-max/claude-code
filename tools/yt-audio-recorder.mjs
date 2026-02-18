@@ -341,7 +341,7 @@ function transcribeAudio(audioPath, outputDir, model) {
     console.log(`    Transcribing with Whisper (model: ${model})...`);
     try {
         execSync(
-            `whisper "${audioPath}" --model ${model} --language en --output_format txt --output_dir "${outputDir}/"`,
+            `python -m whisper "${audioPath}" --model ${model} --language en --output_format txt --output_dir "${outputDir}/"`,
             { stdio: 'pipe', timeout: 600000 } // 10 min timeout
         );
         console.log(`    Transcribed: ${stem}.txt`);
