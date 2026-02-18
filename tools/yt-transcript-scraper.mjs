@@ -103,17 +103,54 @@ async function loginFlow() {
     console.log('Sign in with your Google account that has the membership.');
     console.log('Once you are fully signed in, come back here and press Enter.\n');
 
-    const browser = await chromium.launch({
-        headless: false,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
-    });
+    // Try real Chrome first (Google blocks Playwright's bundled Chromium),
+    // then Edge, then fall back to Chromium with a warning.
+    let browser;
+    let channelUsed = 'chromium';
+    for (const ch of ['chrome', 'msedge', null]) {
+        try {
+            browser = await chromium.launch({
+                headless: false,
+                ...(ch ? { channel: ch } : {}),
+                args: [
+                    '--no-sandbox',
+                    '--disable-setuid-sandbox',
+                    '--disable-blink-features=AutomationControlled'
+                ]
+            });
+            channelUsed = ch || 'chromium';
+            break;
+        } catch {
+            // channel not installed, try next
+        }
+    }
+    if (!browser) {
+        console.error('ERROR: Could not launch any browser. Install Chrome or run: npx playwright install chromium');
+        process.exit(1);
+    }
+
+    if (channelUsed === 'chromium') {
+        console.log('  NOTE: Using Playwright Chromium — Google may block sign-in.');
+        console.log('  Install Chrome or Edge for a smoother login experience.\n');
+    } else {
+        console.log(`  Using ${channelUsed} browser.\n`);
+    }
 
     const context = await browser.newContext({
-        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         viewport: { width: 1280, height: 900 }
     });
 
     const page = await context.newPage();
+
+    // Hide automation indicators so Google doesn't block sign-in
+    await page.addInitScript(() => {
+        Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+        // Remove Playwright-injected properties
+        delete window.__playwright;
+        delete window.__pw_manual;
+    });
+
     await page.goto('https://accounts.google.com/ServiceLogin?service=youtube&continue=https://www.youtube.com/', {
         waitUntil: 'domcontentloaded',
         timeout: 60000
@@ -190,14 +227,32 @@ async function main() {
     console.log(`Output: ${OUTPUT_DIR}/`);
     console.log('');
 
-    const browser = await chromium.launch({
-        headless: !HEADED,
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
-    });
+    // Try real Chrome first, then Edge, then Playwright Chromium
+    let browser;
+    for (const ch of ['chrome', 'msedge', null]) {
+        try {
+            browser = await chromium.launch({
+                headless: !HEADED,
+                ...(ch ? { channel: ch } : {}),
+                args: [
+                    '--no-sandbox',
+                    '--disable-setuid-sandbox',
+                    '--disable-blink-features=AutomationControlled'
+                ]
+            });
+            break;
+        } catch {
+            // channel not installed, try next
+        }
+    }
+    if (!browser) {
+        console.error('ERROR: Could not launch any browser.');
+        process.exit(1);
+    }
 
     // Load saved auth state if available
     const contextOptions = {
-        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
         viewport: { width: 1280, height: 900 }
     };
     if (hasAuth) {
@@ -211,6 +266,11 @@ async function main() {
     const context = await browser.newContext(contextOptions);
 
     const page = await context.newPage();
+
+    // Hide automation indicators
+    await page.addInitScript(() => {
+        Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+    });
 
     // Step 1: Get playlist video list
     console.log('[1/3] Loading playlist page...');
