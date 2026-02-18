@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Lesson Recorder</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0f0f0f;
+            color: #e1e1e1;
+            min-height: 100vh;
+        }
+        header {
+            background: #1a1a2e;
+            padding: 16px 24px;
+            border-bottom: 2px solid #e94560;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header h1 {
+            font-size: 1.4rem;
+            color: #fff;
+        }
+        header .badge {
+            background: #e94560;
+            color: #fff;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        .instructions {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin: 16px 24px;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+        .instructions h3 { color: #e94560; margin-bottom: 8px; }
+        .instructions ol { padding-left: 20px; }
+        .instructions li { margin-bottom: 4px; }
+        .instructions code {
+            background: #333;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8rem;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 1fr 360px;
+            gap: 20px;
+            padding: 20px 24px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        #player-section { display: flex; flex-direction: column; gap: 16px; }
+        #player-container {
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            aspect-ratio: 16/9;
+            width: 100%;
+        }
+        #player-container iframe { width: 100%; height: 100%; border: 0; }
+        #now-playing {
+            background: #1a1a2e;
+            padding: 12px 16px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        #now-playing .video-title {
+            flex: 1;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        #now-playing .video-index {
+            background: #e94560;
+            color: #fff;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 700;
+            flex-shrink: 0;
+        }
+        #controls {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        button:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+        #record-btn {
+            background: #e94560;
+            color: #fff;
+        }
+        #record-btn:hover:not(:disabled) { background: #d63851; }
+        #record-btn.recording {
+            background: #ff1744;
+            animation: pulse 1.5s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(255, 23, 68, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(255, 23, 68, 0); }
+        }
+        #stop-btn { background: #555; color: #fff; }
+        #stop-btn:hover:not(:disabled) { background: #666; }
+        #prev-btn, #next-btn { background: #2a2a4a; color: #fff; }
+        #prev-btn:hover:not(:disabled), #next-btn:hover:not(:disabled) { background: #3a3a5a; }
+        #timer {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            color: #e94560;
+            min-width: 60px;
+        }
+        #sidebar { display: flex; flex-direction: column; gap: 16px; }
+        #progress-card {
+            background: #1a1a2e;
+            border-radius: 8px;
+            padding: 16px;
+        }
+        #progress-card h3 { margin-bottom: 12px; font-size: 0.95rem; }
+        .progress-bar {
+            background: #333;
+            border-radius: 4px;
+            height: 8px;
+            overflow: hidden;
+            margin-bottom: 8px;
+        }
+        .progress-bar-fill {
+            background: linear-gradient(90deg, #e94560, #ff6b6b);
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.3s;
+        }
+        .progress-text {
+            font-size: 0.8rem;
+            color: #888;
+        }
+        #playlist-card {
+            background: #1a1a2e;
+            border-radius: 8px;
+            padding: 16px;
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        #playlist-card h3 { margin-bottom: 12px; font-size: 0.95rem; }
+        #video-list {
+            list-style: none;
+            overflow-y: auto;
+            flex: 1;
+            max-height: 500px;
+        }
+        #video-list li {
+            padding: 10px 12px;
+            border-radius: 6px;
+            margin-bottom: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 0.82rem;
+            transition: background 0.2s;
+        }
+        #video-list li:hover { background: #2a2a4a; }
+        #video-list li.active { background: #2a2a4a; border-left: 3px solid #e94560; }
+        #video-list li .index {
+            color: #666;
+            min-width: 24px;
+            text-align: right;
+            font-size: 0.75rem;
+        }
+        #video-list li .title { flex: 1; line-height: 1.3; }
+        #video-list li .status {
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+        .status-recorded { background: #1b5e20; color: #81c784; }
+        .status-pending { background: #333; color: #888; }
+        .status-current { background: #e94560; color: #fff; }
+        #recordings-card {
+            background: #1a1a2e;
+            border-radius: 8px;
+            padding: 16px;
+        }
+        #recordings-card h3 { margin-bottom: 12px; font-size: 0.95rem; }
+        #download-all-btn {
+            background: #1b5e20;
+            color: #81c784;
+            width: 100%;
+            justify-content: center;
+            margin-bottom: 8px;
+        }
+        #download-all-btn:hover:not(:disabled) { background: #2e7d32; }
+        .recording-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 0;
+            border-bottom: 1px solid #222;
+            font-size: 0.78rem;
+        }
+        .recording-item .name { flex: 1; color: #aaa; }
+        .recording-item .size { color: #666; font-size: 0.7rem; }
+        .recording-item a {
+            color: #e94560;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .recording-item a:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #555;
+            font-size: 0.75rem;
+        }
+        @media (max-width: 900px) {
+            main { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>YouTube Lesson Recorder</h1>
+        <span class="badge" id="status-badge">Ready</span>
+    </header>
+
+    <div class="instructions">
+        <h3>How to Use</h3>
+        <ol>
+            <li>Click <strong>"Start Recording"</strong> — your browser will ask you to share a tab</li>
+            <li>Select <strong>THIS tab</strong> and make sure <strong>"Share tab audio"</strong> is checked</li>
+            <li>The YouTube video will <strong>auto-play</strong> — audio is being recorded</li>
+            <li>When the lesson ends, click <strong>"Stop & Save"</strong> to download the audio file</li>
+            <li>Click <strong>"Next"</strong> to move to the next lesson and repeat</li>
+            <li>After recording all lessons, run: <code>bash tools/transcribe-recordings.sh</code></li>
+        </ol>
+    </div>
+
+    <main>
+        <div id="player-section">
+            <div id="player-container">
+                <div id="youtube-player"></div>
+            </div>
+            <div id="now-playing">
+                <div class="video-index" id="current-index">-</div>
+                <div class="video-title" id="current-title">Loading playlist...</div>
+            </div>
+            <div id="controls">
+                <button id="prev-btn" disabled>Prev</button>
+                <button id="record-btn">Start Recording</button>
+                <button id="stop-btn" disabled>Stop & Save</button>
+                <button id="next-btn" disabled>Next</button>
+                <span id="timer">00:00</span>
+            </div>
+        </div>
+
+        <div id="sidebar">
+            <div id="progress-card">
+                <h3>Progress</h3>
+                <div class="progress-bar">
+                    <div class="progress-bar-fill" id="progress-fill" style="width: 0%"></div>
+                </div>
+                <div class="progress-text" id="progress-text">0 / 0 recorded</div>
+            </div>
+
+            <div id="playlist-card">
+                <h3>Lessons</h3>
+                <ul id="video-list"></ul>
+            </div>
+
+            <div id="recordings-card">
+                <h3>Recordings</h3>
+                <button id="download-all-btn" disabled>Download All as ZIP</button>
+                <div id="recordings-list"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        After recording, transcribe with: <code>bash tools/transcribe-recordings.sh recordings/</code>
+    </footer>
+
+    <script>
+        // ===== Configuration =====
+        const PLAYLIST_ID = 'PL3KSApovQlbnOM2QWLWQgg_Bd_qhPusxR';
+        const STORAGE_KEY = 'yt-recorder-progress';
+
+        // ===== State =====
+        let player = null;
+        let mediaRecorder = null;
+        let recordedChunks = [];
+        let displayStream = null;
+        let timerInterval = null;
+        let recordingStartTime = null;
+        let currentVideoIndex = 0;
+        let playlistVideoIds = [];
+        let videoTitles = {};
+        let recordings = {}; // { index: { blob, title, size } }
+
+        // Load saved progress
+        try {
+            const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+            if (saved.recordedIndices) {
+                saved.recordedIndices.forEach(i => { recordings[i] = { saved: true }; });
+            }
+            if (saved.videoTitles) videoTitles = saved.videoTitles;
+        } catch(e) {}
+
+        // ===== YouTube IFrame API =====
+        const tag = document.createElement('script');
+        tag.src = 'https://www.youtube.com/iframe_api';
+        document.head.appendChild(tag);
+
+        window.onYouTubeIframeAPIReady = function() {
+            player = new YT.Player('youtube-player', {
+                height: '100%',
+                width: '100%',
+                playerVars: {
+                    listType: 'playlist',
+                    list: PLAYLIST_ID,
+                    autoplay: 0,
+                    controls: 1,
+                    rel: 0,
+                    modestbranding: 1
+                },
+                events: {
+                    onReady: onPlayerReady,
+                    onStateChange: onPlayerStateChange
+                }
+            });
+        };
+
+        function onPlayerReady(event) {
+            // Small delay to let playlist load
+            setTimeout(() => {
+                playlistVideoIds = player.getPlaylist() || [];
+                updateCurrentVideo();
+                renderPlaylist();
+                updateProgress();
+                document.getElementById('next-btn').disabled = false;
+                document.getElementById('prev-btn').disabled = false;
+            }, 2000);
+        }
+
+        function onPlayerStateChange(event) {
+            // Update current video info when video changes
+            updateCurrentVideo();
+
+            // Auto-stop recording when video ends
+            if (event.data === YT.PlayerState.ENDED && mediaRecorder && mediaRecorder.state === 'recording') {
+                stopRecording();
+            }
+        }
+
+        function updateCurrentVideo() {
+            try {
+                const idx = player.getPlaylistIndex();
+                if (idx >= 0) currentVideoIndex = idx;
+                const data = player.getVideoData();
+                const title = data.title || `Video ${currentVideoIndex + 1}`;
+                videoTitles[currentVideoIndex] = title;
+
+                document.getElementById('current-index').textContent = currentVideoIndex + 1;
+                document.getElementById('current-title').textContent = title;
+
+                // Highlight in playlist
+                document.querySelectorAll('#video-list li').forEach((li, i) => {
+                    li.classList.toggle('active', i === currentVideoIndex);
+                });
+
+                saveProgress();
+            } catch(e) {}
+        }
+
+        // ===== Recording =====
+        async function startRecording() {
+            try {
+                // Request tab audio capture
+                displayStream = await navigator.mediaDevices.getDisplayMedia({
+                    video: true, // Required by API, we'll discard it
+                    audio: true
+                });
+
+                // Check if we got audio
+                const audioTracks = displayStream.getAudioTracks();
+                if (audioTracks.length === 0) {
+                    alert('No audio track captured! Make sure you checked "Share tab audio" when selecting the tab.');
+                    displayStream.getTracks().forEach(t => t.stop());
+                    return;
+                }
+
+                // Create audio-only stream for recording
+                const audioStream = new MediaStream(audioTracks);
+
+                // Set up MediaRecorder
+                const mimeType = MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
+                    ? 'audio/webm;codecs=opus'
+                    : 'audio/webm';
+
+                mediaRecorder = new MediaRecorder(audioStream, { mimeType });
+                recordedChunks = [];
+
+                mediaRecorder.ondataavailable = (e) => {
+                    if (e.data.size > 0) recordedChunks.push(e.data);
+                };
+
+                mediaRecorder.onstop = () => {
+                    const blob = new Blob(recordedChunks, { type: mimeType });
+                    const title = videoTitles[currentVideoIndex] || `Video_${currentVideoIndex + 1}`;
+                    recordings[currentVideoIndex] = {
+                        blob,
+                        title,
+                        size: blob.size,
+                        saved: false
+                    };
+                    saveAndDownload(currentVideoIndex);
+                    updateProgress();
+                    renderPlaylist();
+                    renderRecordings();
+                    saveProgress();
+                };
+
+                mediaRecorder.start(1000); // Collect data every second
+
+                // Start the YouTube video
+                player.playVideo();
+
+                // Update UI
+                document.getElementById('record-btn').textContent = 'Recording...';
+                document.getElementById('record-btn').classList.add('recording');
+                document.getElementById('record-btn').disabled = true;
+                document.getElementById('stop-btn').disabled = false;
+                document.getElementById('status-badge').textContent = 'Recording';
+                document.getElementById('status-badge').style.background = '#ff1744';
+
+                // Start timer
+                recordingStartTime = Date.now();
+                timerInterval = setInterval(updateTimer, 1000);
+
+                // Handle stream ending (user stops sharing)
+                displayStream.getVideoTracks()[0].onended = () => {
+                    if (mediaRecorder && mediaRecorder.state === 'recording') {
+                        stopRecording();
+                    }
+                };
+
+            } catch (err) {
+                console.error('Recording failed:', err);
+                if (err.name === 'NotAllowedError') {
+                    alert('Screen sharing was denied. Please try again and select this tab.');
+                } else {
+                    alert('Recording failed: ' + err.message);
+                }
+            }
+        }
+
+        function stopRecording() {
+            if (mediaRecorder && mediaRecorder.state === 'recording') {
+                mediaRecorder.stop();
+            }
+            if (displayStream) {
+                displayStream.getTracks().forEach(t => t.stop());
+                displayStream = null;
+            }
+            clearInterval(timerInterval);
+
+            // Update UI
+            document.getElementById('record-btn').textContent = 'Start Recording';
+            document.getElementById('record-btn').classList.remove('recording');
+            document.getElementById('record-btn').disabled = false;
+            document.getElementById('stop-btn').disabled = true;
+            document.getElementById('status-badge').textContent = 'Saved';
+            document.getElementById('status-badge').style.background = '#1b5e20';
+        }
+
+        function saveAndDownload(index) {
+            const rec = recordings[index];
+            if (!rec || !rec.blob) return;
+
+            const safeTitle = (rec.title || `Video_${index + 1}`)
+                .replace(/[^a-zA-Z0-9_\-\s]/g, '')
+                .replace(/\s+/g, '_')
+                .substring(0, 80);
+
+            const filename = `${String(index + 1).padStart(3, '0')}_${safeTitle}.webm`;
+            const url = URL.createObjectURL(rec.blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+
+            rec.filename = filename;
+            rec.saved = true;
+        }
+
+        // ===== Timer =====
+        function updateTimer() {
+            if (!recordingStartTime) return;
+            const elapsed = Math.floor((Date.now() - recordingStartTime) / 1000);
+            const mins = String(Math.floor(elapsed / 60)).padStart(2, '0');
+            const secs = String(elapsed % 60).padStart(2, '0');
+            document.getElementById('timer').textContent = `${mins}:${secs}`;
+        }
+
+        // ===== Navigation =====
+        function nextVideo() {
+            if (!player || !playlistVideoIds.length) return;
+            player.nextVideo();
+            setTimeout(updateCurrentVideo, 1000);
+        }
+
+        function prevVideo() {
+            if (!player || !playlistVideoIds.length) return;
+            player.previousVideo();
+            setTimeout(updateCurrentVideo, 1000);
+        }
+
+        function goToVideo(index) {
+            if (!player || !playlistVideoIds.length) return;
+            player.playVideoAt(index);
+            currentVideoIndex = index;
+            setTimeout(updateCurrentVideo, 1000);
+        }
+
+        // ===== UI Rendering =====
+        function renderPlaylist() {
+            const list = document.getElementById('video-list');
+            const total = playlistVideoIds.length || Object.keys(videoTitles).length || 0;
+            list.innerHTML = '';
+
+            for (let i = 0; i < total; i++) {
+                const li = document.createElement('li');
+                if (i === currentVideoIndex) li.classList.add('active');
+
+                const title = videoTitles[i] || `Video ${i + 1}`;
+                const isRecorded = recordings[i] && recordings[i].saved;
+
+                li.innerHTML = `
+                    <span class="index">${i + 1}</span>
+                    <span class="title">${escapeHtml(title)}</span>
+                    <span class="status ${isRecorded ? 'status-recorded' : (i === currentVideoIndex ? 'status-current' : 'status-pending')}">
+                        ${isRecorded ? 'Done' : (i === currentVideoIndex ? 'Current' : 'Pending')}
+                    </span>
+                `;
+                li.addEventListener('click', () => goToVideo(i));
+                list.appendChild(li);
+            }
+        }
+
+        function renderRecordings() {
+            const container = document.getElementById('recordings-list');
+            const entries = Object.entries(recordings).filter(([_, r]) => r.saved);
+
+            if (entries.length === 0) {
+                container.innerHTML = '<div style="color:#666;font-size:0.8rem;padding:8px 0;">No recordings yet</div>';
+                return;
+            }
+
+            container.innerHTML = entries.map(([idx, rec]) => {
+                const title = rec.title || `Video ${parseInt(idx) + 1}`;
+                const sizeKB = rec.size ? (rec.size / 1024).toFixed(0) + ' KB' : 'saved';
+                return `<div class="recording-item">
+                    <span class="name">${escapeHtml(title.substring(0, 40))}</span>
+                    <span class="size">${sizeKB}</span>
+                </div>`;
+            }).join('');
+        }
+
+        function updateProgress() {
+            const total = playlistVideoIds.length || Object.keys(videoTitles).length || 1;
+            const done = Object.values(recordings).filter(r => r.saved).length;
+            const pct = Math.round((done / total) * 100);
+
+            document.getElementById('progress-fill').style.width = pct + '%';
+            document.getElementById('progress-text').textContent = `${done} / ${total} recorded`;
+            document.getElementById('download-all-btn').disabled = done === 0;
+        }
+
+        // ===== Persistence =====
+        function saveProgress() {
+            const data = {
+                recordedIndices: Object.entries(recordings)
+                    .filter(([_, r]) => r.saved)
+                    .map(([i]) => parseInt(i)),
+                videoTitles
+            };
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+        }
+
+        // ===== Utilities =====
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function formatSize(bytes) {
+            if (bytes < 1024) return bytes + ' B';
+            if (bytes < 1048576) return (bytes / 1024).toFixed(1) + ' KB';
+            return (bytes / 1048576).toFixed(1) + ' MB';
+        }
+
+        // ===== Event Listeners =====
+        document.getElementById('record-btn').addEventListener('click', startRecording);
+        document.getElementById('stop-btn').addEventListener('click', stopRecording);
+        document.getElementById('next-btn').addEventListener('click', nextVideo);
+        document.getElementById('prev-btn').addEventListener('click', prevVideo);
+        document.getElementById('download-all-btn').addEventListener('click', () => {
+            Object.entries(recordings).forEach(([idx, rec]) => {
+                if (rec.blob) saveAndDownload(parseInt(idx));
+            });
+        });
+
+        // Initial render
+        renderRecordings();
+    </script>
+</body>
+</html>
