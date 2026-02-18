@@ -4,5 +4,8 @@ whisper.log
 failed.log
 downloaded.txt
 audio/
-transcripts/
+# Ignore root transcripts (YouTube download artifacts)
+/transcripts/
+# But allow robotic-poker-dealer transcripts
+!robotic-poker-dealer/transcripts/
 node_modules/
