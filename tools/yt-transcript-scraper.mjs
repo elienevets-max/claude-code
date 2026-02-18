@@ -7,16 +7,21 @@
  *
  * Usage:
  *   node tools/yt-transcript-scraper.mjs [--start N] [--count N] [--headed]
+ *   node tools/yt-transcript-scraper.mjs --login
  *
  * Options:
  *   --start N    Start from video index N (0-based, default: 0)
  *   --count N    Process N videos in this batch (default: 10)
  *   --headed     Run with visible browser (default: headless)
  *   --slow       Add delays for slower connections
+ *   --login      Open browser so you can sign into YouTube. Saves your
+ *                session so future runs can access members-only videos.
+ *   --logout     Delete saved YouTube session
  */
 
-import { writeFileSync, mkdirSync, existsSync, readFileSync } from 'fs';
+import { writeFileSync, mkdirSync, existsSync, readFileSync, unlinkSync } from 'fs';
 import { join } from 'path';
+import { createInterface } from 'readline';
 
 // Dynamic import — works with both local and global playwright installs
 let chromium;
@@ -39,6 +44,7 @@ try {
 const PLAYLIST_URL = 'https://www.youtube.com/playlist?list=PL3KSApovQlbnOM2QWLWQgg_Bd_qhPusxR';
 const OUTPUT_DIR = join(process.cwd(), 'transcripts');
 const PROGRESS_FILE = join(process.cwd(), 'transcripts', '.progress.json');
+const AUTH_FILE = join(process.cwd(), 'transcripts', '.yt-auth.json');
 
 // Parse CLI args
 const args = process.argv.slice(2);
@@ -50,6 +56,8 @@ const START_INDEX = parseInt(getArg('--start', '0'));
 const BATCH_COUNT = parseInt(getArg('--count', '10'));
 const HEADED = args.includes('--headed');
 const SLOW = args.includes('--slow');
+const LOGIN_MODE = args.includes('--login');
+const LOGOUT_MODE = args.includes('--logout');
 
 mkdirSync(OUTPUT_DIR, { recursive: true });
 
@@ -78,15 +86,107 @@ async function delay(ms) {
     return new Promise(r => setTimeout(r, ms));
 }
 
+// Helper: wait for user to press Enter in the terminal
+function waitForEnter(prompt) {
+    return new Promise(resolve => {
+        const rl = createInterface({ input: process.stdin, output: process.stdout });
+        rl.question(prompt, () => { rl.close(); resolve(); });
+    });
+}
+
+// ===== Login Mode =====
+async function loginFlow() {
+    console.log('\n========================================');
+    console.log('  YouTube Login');
+    console.log('========================================');
+    console.log('A browser window will open to YouTube.');
+    console.log('Sign in with your Google account that has the membership.');
+    console.log('Once you are fully signed in, come back here and press Enter.\n');
+
+    const browser = await chromium.launch({
+        headless: false,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    });
+
+    const context = await browser.newContext({
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        viewport: { width: 1280, height: 900 }
+    });
+
+    const page = await context.newPage();
+    await page.goto('https://accounts.google.com/ServiceLogin?service=youtube&continue=https://www.youtube.com/', {
+        waitUntil: 'domcontentloaded',
+        timeout: 60000
+    });
+
+    await waitForEnter('>>> Press ENTER here after you have signed into YouTube in the browser... ');
+
+    // Give YouTube a moment to settle after login
+    await delay(2000);
+
+    // Verify login by checking the YouTube page
+    await page.goto('https://www.youtube.com/', { waitUntil: 'domcontentloaded', timeout: 30000 });
+    await delay(3000);
+
+    const isLoggedIn = await page.evaluate(() => {
+        // Check for avatar button (signed-in indicator)
+        const avatar = document.querySelector('#avatar-btn, button#avatar-btn, img.yt-spec-avatar-shape__image');
+        return !!avatar;
+    });
+
+    if (isLoggedIn) {
+        // Save the full browser state (cookies + localStorage)
+        const state = await context.storageState();
+        writeFileSync(AUTH_FILE, JSON.stringify(state, null, 2));
+        console.log('\n  Login SAVED successfully!');
+        console.log(`  Auth file: ${AUTH_FILE}`);
+        console.log('  Future runs will automatically use this session.');
+        console.log('  Run with --logout to clear saved login.\n');
+    } else {
+        console.log('\n  WARNING: Could not verify login.');
+        console.log('  Saving session state anyway...');
+        const state = await context.storageState();
+        writeFileSync(AUTH_FILE, JSON.stringify(state, null, 2));
+        console.log(`  Auth file: ${AUTH_FILE}`);
+        console.log('  Try running the scraper — if videos still fail, run --login again.\n');
+    }
+
+    await browser.close();
+    return;
+}
+
+// ===== Logout Mode =====
+function logoutFlow() {
+    if (existsSync(AUTH_FILE)) {
+        unlinkSync(AUTH_FILE);
+        console.log('\n  YouTube session cleared. You will need to --login again for members-only videos.\n');
+    } else {
+        console.log('\n  No saved session found. Nothing to clear.\n');
+    }
+}
+
 // ===== Main =====
 async function main() {
+    // Handle --login and --logout before anything else
+    if (LOGOUT_MODE) { logoutFlow(); return; }
+    if (LOGIN_MODE) { await loginFlow(); return; }
+
     const progress = loadProgress();
+    const hasAuth = existsSync(AUTH_FILE);
+
+    // If we have auth now, clear the failed list so those videos get retried
+    if (hasAuth && progress.failed.length > 0) {
+        console.log(`  Clearing ${progress.failed.length} previously failed videos (will retry with login)...`);
+        progress.failed = [];
+        saveProgress(progress);
+    }
 
     console.log('\n========================================');
     console.log('  YouTube Transcript Scraper');
     console.log('========================================');
     console.log(`Batch: videos ${START_INDEX + 1} to ${START_INDEX + BATCH_COUNT}`);
     console.log(`Mode: ${HEADED ? 'visible browser' : 'headless'}`);
+    console.log(`Auth: ${hasAuth ? 'LOGGED IN (saved session)' : 'not logged in (run --login for members-only videos)'}`);
     console.log(`Output: ${OUTPUT_DIR}/`);
     console.log('');
 
@@ -95,10 +195,20 @@ async function main() {
         args: ['--no-sandbox', '--disable-setuid-sandbox']
     });
 
-    const context = await browser.newContext({
+    // Load saved auth state if available
+    const contextOptions = {
         userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
         viewport: { width: 1280, height: 900 }
-    });
+    };
+    if (hasAuth) {
+        try {
+            contextOptions.storageState = JSON.parse(readFileSync(AUTH_FILE, 'utf-8'));
+        } catch (err) {
+            console.log('  WARNING: Could not load saved auth. Running without login.');
+        }
+    }
+
+    const context = await browser.newContext(contextOptions);
 
     const page = await context.newPage();
 
