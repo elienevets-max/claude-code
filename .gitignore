@@ -5,3 +5,4 @@ failed.log
 downloaded.txt
 audio/
 transcripts/
+node_modules/
