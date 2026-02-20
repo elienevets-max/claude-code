@@ -67,11 +67,12 @@ show_all() {
     echo " 14. Rapid Skill Acquisition         learning/rapid-skill-acquisition.md"
     echo " 23. Prompt Engineering Mastery      learning/prompt-engineering-mastery.md"
     echo " 25. Code Reviewer                   learning/code-reviewer.md"
+    echo " 30. Thinking, Fast and Slow         learning/thinking-fast-and-slow.md"
     echo ""
     echo -e "${CYAN}Tools & Applications${RESET}"
     echo " 15. King of Sparklers Dashboard     king-of-sparklers/ (Next.js app)"
     echo ""
-    echo -e "${DIM}Total: 25 skills | 66 frameworks | 7 categories${RESET}"
+    echo -e "${DIM}Total: 30 skills | 118 frameworks | 7 categories${RESET}"
     echo -e "${DIM}Use './skills_lookup.sh <keyword>' to search${RESET}"
 }
 
@@ -162,6 +163,16 @@ show_frameworks() {
     echo "  Four-Dimension Review            — Correctness, Readability, Performance, Security"
     echo "  Zero-Context Review Protocol     — Unbiased review with no prior codebase knowledge"
     echo "  Severity Ranking System          — High / Medium / Low finding classification"
+    echo ""
+    echo -e "${GREEN}Decision-Making (Kahneman)${RESET}"
+    echo "  System 1 / System 2              — Fast intuitive vs slow deliberate thinking"
+    echo "  Prospect Theory (Four-Fold)      — Risk-averse for gains, risk-seeking for losses"
+    echo "  Pre-Mortem                       — Imagine failure, work backward to find risks"
+    echo "  Reference Class Forecasting      — Estimate from base rates, not optimistic narratives"
+    echo "  WYSIATI                          — You build stories from incomplete data"
+    echo "  Anchoring Effect                 — First number biases all estimates"
+    echo "  Peak-End Rule                    — Experiences judged by peak + ending, not duration"
+    echo "  10-Point Decision Checklist      — Pre-decision bias scan for major decisions"
 }
 
 search_keyword() {

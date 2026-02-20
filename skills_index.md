@@ -38,6 +38,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 27 | Ecommerce Evolved | Entrepreneurship | [`entrepreneurship/ecommerce-evolved.md`](entrepreneurship/ecommerce-evolved.md) | How do I optimize e-commerce retention, CLV, and profitability? |
 | 28 | Marketing Content Engine | Business | [`business/marketing-content-engine.md`](business/marketing-content-engine.md) | How do I create viral, high-converting content for any platform? |
 | 29 | Startup Idea Generator | Entrepreneurship | [`entrepreneurship/startup-idea-generator.md`](entrepreneurship/startup-idea-generator.md) | What startup should I build based on my skills? |
+| 30 | Thinking, Fast and Slow | Learning | [`learning/thinking-fast-and-slow.md`](learning/thinking-fast-and-slow.md) | Why do I keep making bad decisions under pressure? |
 
 ---
 
@@ -217,6 +218,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** Unbiased code review, actionable severity-ranked recommendations, bug detection, security vulnerability identification, error handling at system boundaries, structured review output format
 - **Tags:** `code-review` `software-engineering` `security` `performance` `readability` `correctness` `error-handling` `AI`
 
+#### 30. Thinking, Fast and Slow
+- **File:** [`learning/thinking-fast-and-slow.md`](learning/thinking-fast-and-slow.md)
+- **Source:** Daniel Kahneman — *Thinking, Fast and Slow* (2011)
+- **Core Frameworks:** System 1 / System 2, Prospect Theory (Four-Fold Pattern), Pre-Mortem, Reference Class Forecasting, Mediating Assessments Protocol, Expected Value Thinking, Peak-End Rule, 10-Point Decision Quality Checklist
+- **Key Concepts:** Anchoring, availability heuristic, substitution, WYSIATI, overconfidence, loss aversion (2x), planning fallacy, sunk cost, regression to mean, narrative fallacy, expert intuition validity conditions, experiencing vs remembering self
+- **Tags:** `decision-making` `cognitive-bias` `psychology` `risk` `heuristics` `System-1` `System-2` `probability` `behavioral-economics` `poker` `investing` `loss-aversion` `overconfidence`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -312,6 +320,7 @@ Live applications built from the knowledge base frameworks.
 | **Synthesized (KoS TikTok Shop)** | TikTok Shop strategy for King of Sparklers | `tiktok-shop-king-of-sparklers-playbook.md` |
 | **Synthesized (Code Review)** | Code review best practices | `code-reviewer.md` |
 | **Custom Analysis (Startup Ideas)** | Founder's Triangle + DREAM applied to skill stack | `startup-idea-generator.md` |
+| **Daniel Kahneman** | Decision-making, cognitive bias, prospect theory | `thinking-fast-and-slow.md` |
 | **Russell Brunson** | Funnels, offers, webinar scripts, email sequences | `business-strategy-toolkit.md` |
 | **Gabriel Weinberg & Justin Mares** | Growth channels, Bullseye Method | `business-strategy-toolkit.md` |
 | **Donald Miller** | Brand messaging, StoryBrand framework | `business-strategy-toolkit.md` |
@@ -395,6 +404,10 @@ Use this lookup when you have a specific question or are in a specific situation
 | "What startup should I build with my skills?" | `startup-idea-generator.md` | `ai-era-startup-strategy.md` |
 | "How do I validate a startup idea in 2 weeks?" | `startup-idea-generator.md` | `business-validation-playbook.md` |
 | "What AI business can I start as a solo founder?" | `startup-idea-generator.md` | `side-hustle-playbook.md` |
+| "Why do I keep making bad decisions under pressure?" | `thinking-fast-and-slow.md` | `psychology-of-money.md` |
+| "How do I think more clearly about risk?" | `thinking-fast-and-slow.md` | `business-validation-playbook.md` |
+| "Why does my gut feeling keep losing me money?" | `thinking-fast-and-slow.md` | `poker-to-ai-career-strategy.md` |
+| "How do I avoid cognitive biases in poker?" | `thinking-fast-and-slow.md` | `poker-to-ai-career-strategy.md` |
 
 ---
 
@@ -521,12 +534,20 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Skill-Stack Matching | Startup Idea Generator | Match founder skills to startup ideas using Founder's Triangle vertices |
 | 2-Week Validation Sprint | Startup Idea Generator | 14-day structured plan: build pipeline → create portfolio → outreach → close |
 | Risk Mitigation Matrix | Startup Idea Generator | Pre-identified risks with specific mitigations for each startup idea |
+| System 1 / System 2 | Thinking, Fast and Slow | Fast intuitive thinking vs slow deliberate thinking — know which is running |
+| Prospect Theory (Four-Fold Pattern) | Thinking, Fast and Slow | Risk-averse for gains, risk-seeking for losses; losses hurt 2x more |
+| Pre-Mortem | Thinking, Fast and Slow | Imagine failure, then work backward to identify risks before committing |
+| Reference Class Forecasting | Thinking, Fast and Slow | Estimate from base rates of similar projects, not your optimistic narrative |
+| WYSIATI (What You See Is All There Is) | Thinking, Fast and Slow | System 1 builds stories from incomplete data and never asks what's missing |
+| Anchoring Effect | Thinking, Fast and Slow | First number heard disproportionately influences all estimates |
+| Peak-End Rule | Thinking, Fast and Slow | Experiences judged by peak intensity + ending, not duration |
+| 10-Point Decision Quality Checklist | Thinking, Fast and Slow | Pre-decision bias scan: substitution, anchoring, availability, WYSIATI, base rate, overconfidence, sunk cost, prospect theory, intuition validity, EV |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `CAC` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `monetization` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `performance` `persuasion` `platform-native` `podcasts` `positioning` `practice` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `CAC` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `monetization` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `positioning` `practice` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `System-1` `System-2` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -589,7 +610,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 ├── learning/                          # Skill acquisition methods
 │   ├── rapid-skill-acquisition.md     # 20-hour mastery framework
 │   ├── prompt-engineering-mastery.md  # 12 principles for better AI prompts
-│   └── code-reviewer.md              # Unbiased code review (4 dimensions)
+│   ├── code-reviewer.md              # Unbiased code review (4 dimensions)
+│   └── thinking-fast-and-slow.md     # Decision-making under uncertainty (Kahneman)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -598,4 +620,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-17 | Total skills: 29 | Total frameworks: 110 | Total tags: 165+*
+*Last updated: 2026-02-20 | Total skills: 30 | Total frameworks: 118 | Total tags: 175+*
