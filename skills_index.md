@@ -42,6 +42,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 31 | Superforecasting | Learning | [`learning/superforecasting.md`](learning/superforecasting.md) | How do I make better predictions about uncertain outcomes? |
 | 32 | The Scout Mindset | Learning | [`learning/scout-mindset.md`](learning/scout-mindset.md) | Am I defending this belief because it's true or because it's mine? |
 | 32 | Rationality | Learning | [`learning/rationality.md`](learning/rationality.md) | Am I rationalizing or actually reasoning? |
+| 33 | Munger Mental Models | Learning | [`learning/munger-mental-models.md`](learning/munger-mental-models.md) | What mental models apply and what would guarantee failure? |
 
 ---
 
@@ -242,6 +243,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** Motivated reasoning as emotional protection, beliefs serving comfort/self-esteem/morale/belonging/persuasion, identity ratchet (beliefs hardening into identity), holding opinions loosely, provisional language, changing your mind as a power move, fastest updater wins, meeting emotional needs separately from beliefs
 - **Tags:** `scout-mindset` `motivated-reasoning` `intellectual-honesty` `identity` `decision-making` `updating` `sunk-cost` `team-culture` `poker` `investing`
 
+#### 33. Munger Mental Models (Poor Charlie's Almanack)
+- **File:** [`learning/munger-mental-models.md`](learning/munger-mental-models.md)
+- **Source:** Charlie Munger — *Poor Charlie's Almanack*
+- **Core Frameworks:** Latticework of Mental Models, Inversion, Munger's Full Decision Checklist, Moat Assessment Framework, Incentive Audit, Business/Investment Evaluation Checklist, Anti-Stupidity Audit, Multi-Model Analysis, Lollapalooza Check, Act-or-Wait Framework, Disconfirming Evidence Drill, Margin of Safety Gate
+- **Key Concepts:** 25 Tendencies of Human Misjudgment, circle of competence, lollapalooza effects (multiplicative convergence), incentive super-response, structural vs operational moats, inversion as default problem-solving, patience as competitive advantage, checklist discipline, compounding knowledge, multi-causal thinking, "show me the incentive," margin of safety, defense beats offense
+- **Tags:** `mental-models` `inversion` `incentives` `lollapalooza` `circle-of-competence` `margin-of-safety` `multidisciplinary-thinking` `checklists` `moats` `competitive-advantage` `misjudgment` `psychology` `decision-making` `risk` `investing` `poker` `business-strategy`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -358,6 +366,7 @@ Live applications built from the knowledge base frameworks.
 | **Seth Godin** | Purple cow, remarkable positioning, permission marketing | `marketing-content-engine.md` |
 | **Ryan Deiss** | Customer value optimization, funnel stacking | `marketing-content-engine.md` |
 | **Eliezer Yudkowsky** | Rationality, epistemology, debiasing, clear thinking | `rationality.md` |
+| **Charlie Munger** | Mental models, inversion, incentives, multidisciplinary thinking | `munger-mental-models.md` |
 
 ---
 
@@ -444,6 +453,18 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I improve group decision-making?" | `rationality.md` | `superforecasting.md` |
 | "What would change my mind about this belief?" | `rationality.md` | `superforecasting.md` |
 | "Am I defending a belief because it's true or because it's mine?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "What mental models should I use for this decision?" | `munger-mental-models.md` | `thinking-fast-and-slow.md` |
+| "What would guarantee failure here?" | `munger-mental-models.md` | `rationality.md` |
+| "Why are smart people doing obviously dumb things?" | `munger-mental-models.md` | `scout-mindset.md` |
+| "How do I evaluate a business's competitive moat?" | `munger-mental-models.md` | `ecommerce-evolved.md` |
+| "What are the incentives driving this behavior?" | `munger-mental-models.md` | `rationality.md` |
+| "Am I operating inside my circle of competence?" | `munger-mental-models.md` | `scout-mindset.md` |
+| "Should I act now or wait for more clarity?" | `munger-mental-models.md` | `superforecasting.md` |
+| "How do I avoid catastrophic errors in investing?" | `munger-mental-models.md` | `psychology-of-money.md` |
+| "Why did this extreme outcome happen?" | `munger-mental-models.md` | `superforecasting.md` |
+| "How do I stress-test a major decision?" | `munger-mental-models.md` | `rationality.md` |
+| "Does my strategy have enough margin of safety?" | `munger-mental-models.md` | `thinking-fast-and-slow.md` |
+| "How do I apply multi-model thinking to my business?" | `munger-mental-models.md` | `business-strategy-toolkit.md` |
 
 ---
 
@@ -597,6 +618,20 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Rationalist Taboo | Rationality | Replace vague terms with specific descriptions — if the argument collapses, it wasn't an argument |
 | Litany of Tarski | Rationality | Commitment device: "If X is true, I desire to believe X is true" — tests for motivated reasoning |
 | Belief Audit Playbook | Rationality | 7-step structured audit: state → pay rent → motivated → origin → privileging → falsifiability → cached |
+| Latticework of Mental Models | Munger Mental Models | Network of big ideas from every discipline — applied together to stress-test decisions |
+| Inversion | Munger Mental Models | Solve problems backward — "what would guarantee failure?" then avoid those things |
+| Munger's Full Decision Checklist | Munger Mental Models | 8-step stress test: Models → Invert → Incentives → Psychology → Lollapalooza → Circle → Margin → Patience |
+| Moat Assessment Framework | Munger Mental Models | 5-step evaluation: What is the moat? How wide? Widening or narrowing? What destroys it? Management maintaining it? |
+| Incentive Audit | Munger Mental Models | Map compensation, hidden incentives, alignment — "show me the incentive and I'll show you the outcome" |
+| Business/Investment Evaluation Checklist | Munger Mental Models | 6 gates: Understand? Moat? Trustworthy people? Fair price? Tailwinds? Multi-model convergence? If any NO → pass |
+| Anti-Stupidity Audit | Munger Mental Models | Quarterly catastrophe scan: list risks → severity → defenses → convergence check → early warning → pre-commit |
+| Multi-Model Analysis | Munger Mental Models | 7 disciplinary lenses (psych, econ, math, bio, history, engineering) + synthesis for convergence |
+| Lollapalooza Check | Munger Mental Models | Hunt for 3+ independent forces combining — multiplicative effects create extreme outcomes |
+| Act-or-Wait Framework | Munger Mental Models | 6-step patience test — default to waiting; only act when clarity score ≥ 8/10 |
+| Disconfirming Evidence Drill | Munger Mental Models | 10-minute exercise: write strongest argument against your plan; steel-man the opposition |
+| Margin of Safety Gate | Munger Mental Models | Numeric buffer required — if 1-2 assumptions can be wrong and outcome is still acceptable, proceed |
+| 25 Tendencies of Human Misjudgment | Munger Mental Models | Practitioner's catalog of systematic psychological errors — check incentives, denial, social proof first |
+| Circle of Competence | Munger Mental Models | Boundary of genuine understanding — the edge is where the biggest mistakes happen |
 
 ---
 
@@ -669,7 +704,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── code-reviewer.md              # Unbiased code review (4 dimensions)
 │   ├── thinking-fast-and-slow.md     # Decision-making under uncertainty (Kahneman)
 │   ├── superforecasting.md           # Prediction, calibration & forecasting (Tetlock)
-│   └── scout-mindset.md              # Intellectual honesty, identity & motivated reasoning (Galef)
+│   ├── scout-mindset.md              # Intellectual honesty, identity & motivated reasoning (Galef)
+│   └── munger-mental-models.md       # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -678,4 +714,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 32 | Total frameworks: 133 | Total tags: 187+*
+*Last updated: 2026-02-20 | Total skills: 33 | Total frameworks: 148 | Total tags: 200+*
