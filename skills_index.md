@@ -39,6 +39,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 28 | Marketing Content Engine | Business | [`business/marketing-content-engine.md`](business/marketing-content-engine.md) | How do I create viral, high-converting content for any platform? |
 | 29 | Startup Idea Generator | Entrepreneurship | [`entrepreneurship/startup-idea-generator.md`](entrepreneurship/startup-idea-generator.md) | What startup should I build based on my skills? |
 | 30 | Thinking, Fast and Slow | Learning | [`learning/thinking-fast-and-slow.md`](learning/thinking-fast-and-slow.md) | Why do I keep making bad decisions under pressure? |
+| 31 | Superforecasting | Learning | [`learning/superforecasting.md`](learning/superforecasting.md) | How do I make better predictions about uncertain outcomes? |
 
 ---
 
@@ -225,6 +226,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** Anchoring, availability heuristic, substitution, WYSIATI, overconfidence, loss aversion (2x), planning fallacy, sunk cost, regression to mean, narrative fallacy, expert intuition validity conditions, experiencing vs remembering self
 - **Tags:** `decision-making` `cognitive-bias` `psychology` `risk` `heuristics` `System-1` `System-2` `probability` `behavioral-economics` `poker` `investing` `loss-aversion` `overconfidence`
 
+#### 31. Superforecasting
+- **File:** [`learning/superforecasting.md`](learning/superforecasting.md)
+- **Source:** Philip Tetlock — *Superforecasting: The Art and Science of Prediction* (2015)
+- **Core Frameworks:** 8-Step Superforecasting Method, Bayesian Updating, Fermi Decomposition, Base Rate Reasoning, Fox vs. Hedgehog Thinking, Calibration Assessment, Granularity Principle, Premortem, Prediction Journal Practice
+- **Key Concepts:** Base rates (outside view), reference class forecasting, Brier Score, diagnosticity, incremental updating, dragonfly eye (multiple perspectives), perpetual beta, calibrated uncertainty, keeping score, vague-to-precise probability conversion
+- **Tags:** `prediction` `calibration` `Bayesian-updating` `Fermi-estimation` `base-rates` `forecasting` `decision-making` `probability` `Brier-score` `fox-vs-hedgehog` `poker` `investing` `risk`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -321,6 +329,7 @@ Live applications built from the knowledge base frameworks.
 | **Synthesized (Code Review)** | Code review best practices | `code-reviewer.md` |
 | **Custom Analysis (Startup Ideas)** | Founder's Triangle + DREAM applied to skill stack | `startup-idea-generator.md` |
 | **Daniel Kahneman** | Decision-making, cognitive bias, prospect theory | `thinking-fast-and-slow.md` |
+| **Philip Tetlock** | Prediction, calibration, Bayesian updating, forecasting | `superforecasting.md` |
 | **Russell Brunson** | Funnels, offers, webinar scripts, email sequences | `business-strategy-toolkit.md` |
 | **Gabriel Weinberg & Justin Mares** | Growth channels, Bullseye Method | `business-strategy-toolkit.md` |
 | **Donald Miller** | Brand messaging, StoryBrand framework | `business-strategy-toolkit.md` |
@@ -407,7 +416,15 @@ Use this lookup when you have a specific question or are in a specific situation
 | "Why do I keep making bad decisions under pressure?" | `thinking-fast-and-slow.md` | `psychology-of-money.md` |
 | "How do I think more clearly about risk?" | `thinking-fast-and-slow.md` | `business-validation-playbook.md` |
 | "Why does my gut feeling keep losing me money?" | `thinking-fast-and-slow.md` | `poker-to-ai-career-strategy.md` |
-| "How do I avoid cognitive biases in poker?" | `thinking-fast-and-slow.md` | `poker-to-ai-career-strategy.md` |
+| "How do I avoid cognitive biases in poker?" | `thinking-fast-and-slow.md` | `superforecasting.md` |
+| "How do I make better predictions?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
+| "What's the probability this business idea will work?" | `superforecasting.md` | `business-validation-playbook.md` |
+| "How do I estimate the size of a market?" | `superforecasting.md` | `ecommerce-playbook-knowledge.md` |
+| "Should I trust this analyst's forecast?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
+| "How do I track and improve my prediction accuracy?" | `superforecasting.md` | — |
+| "How do I think about poker decisions probabilistically?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
+| "How do I run a premortem before a big decision?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
+| "How do I decompose a complex question into estimable parts?" | `superforecasting.md` | — |
 
 ---
 
@@ -542,12 +559,21 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Anchoring Effect | Thinking, Fast and Slow | First number heard disproportionately influences all estimates |
 | Peak-End Rule | Thinking, Fast and Slow | Experiences judged by peak intensity + ending, not duration |
 | 10-Point Decision Quality Checklist | Thinking, Fast and Slow | Pre-decision bias scan: substitution, anchoring, availability, WYSIATI, base rate, overconfidence, sunk cost, prospect theory, intuition validity, EV |
+| 8-Step Superforecasting Method | Superforecasting | Forecastable? → Base rate → Decompose → Analyze specifics → Synthesize → Assign probability → Update → Score |
+| Bayesian Updating | Superforecasting | Adjust probability incrementally as new evidence arrives — assess diagnosticity before updating |
+| Fermi Decomposition | Superforecasting | Break unanswerable questions into 3-6 estimable sub-questions; errors cancel out |
+| Base Rate Reasoning (Outside View) | Superforecasting | Start every prediction with "what usually happens?" before analyzing specifics |
+| Fox vs. Hedgehog Thinking | Superforecasting | Integrate multiple perspectives (fox) instead of filtering through one theory (hedgehog) |
+| Calibration Assessment | Superforecasting | Match confidence levels to actual outcomes; when you say 80%, right ~80% of the time |
+| Granularity Principle | Superforecasting | 73% beats "likely" — precision forces more careful thinking |
+| Prediction Journal Practice | Superforecasting | Log predictions with probability, date, reasoning; score quarterly; identify systematic biases |
+| Premortem (Superforecasting) | Superforecasting | Before any major bet, imagine failure and diagnose why — cheapest risk management available |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `batch-filming` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `budgeting` `business` `business-ideas` `CAC` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `finance` `forgiveness` `founders-triangle` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `monetization` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `positioning` `practice` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `System-1` `System-2` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `base-rates` `batch-filming` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `CAC` `calibration` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `monetization` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `System-1` `System-2` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -611,7 +637,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── rapid-skill-acquisition.md     # 20-hour mastery framework
 │   ├── prompt-engineering-mastery.md  # 12 principles for better AI prompts
 │   ├── code-reviewer.md              # Unbiased code review (4 dimensions)
-│   └── thinking-fast-and-slow.md     # Decision-making under uncertainty (Kahneman)
+│   ├── thinking-fast-and-slow.md     # Decision-making under uncertainty (Kahneman)
+│   └── superforecasting.md           # Prediction, calibration & forecasting (Tetlock)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -620,4 +647,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 30 | Total frameworks: 118 | Total tags: 175+*
+*Last updated: 2026-02-20 | Total skills: 31 | Total frameworks: 127 | Total tags: 182+*
