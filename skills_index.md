@@ -41,6 +41,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 30 | Thinking, Fast and Slow | Learning | [`learning/thinking-fast-and-slow.md`](learning/thinking-fast-and-slow.md) | Why do I keep making bad decisions under pressure? |
 | 31 | Superforecasting | Learning | [`learning/superforecasting.md`](learning/superforecasting.md) | How do I make better predictions about uncertain outcomes? |
 | 32 | The Scout Mindset | Learning | [`learning/scout-mindset.md`](learning/scout-mindset.md) | Am I defending this belief because it's true or because it's mine? |
+| 32 | Rationality | Learning | [`learning/rationality.md`](learning/rationality.md) | Am I rationalizing or actually reasoning? |
 
 ---
 
@@ -356,6 +357,7 @@ Live applications built from the knowledge base frameworks.
 | **Dan Kennedy** | Direct response, urgency, risk reversal | `marketing-content-engine.md` |
 | **Seth Godin** | Purple cow, remarkable positioning, permission marketing | `marketing-content-engine.md` |
 | **Ryan Deiss** | Customer value optimization, funnel stacking | `marketing-content-engine.md` |
+| **Eliezer Yudkowsky** | Rationality, epistemology, debiasing, clear thinking | `rationality.md` |
 
 ---
 
@@ -434,13 +436,14 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I think about poker decisions probabilistically?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
 | "How do I run a premortem before a big decision?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
 | "How do I decompose a complex question into estimable parts?" | `superforecasting.md` | — |
-| "Am I defending this belief because it's true or because it's mine?" | `scout-mindset.md` | `thinking-fast-and-slow.md` |
-| "Should I pivot or am I just afraid to admit failure?" | `scout-mindset.md` | `superforecasting.md` |
-| "Why can't I change my mind even when the evidence is clear?" | `scout-mindset.md` | `thinking-fast-and-slow.md` |
-| "How do I build a team culture of honest feedback?" | `scout-mindset.md` | `superforecasting.md` |
-| "Why do smart people hold wrong beliefs?" | `scout-mindset.md` | `thinking-fast-and-slow.md` |
-| "Am I continuing this because the evidence supports it, or because quitting feels like failure?" | `scout-mindset.md` | `psychology-of-money.md` |
-| "How do I separate my ego from my business decisions?" | `scout-mindset.md` | `thinking-fast-and-slow.md` |
+| "Am I rationalizing or actually reasoning?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "How do I check if my belief is grounded in evidence?" | `rationality.md` | `superforecasting.md` |
+| "Why do smart people believe wrong things?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "How do I detect motivated reasoning in myself?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "Is my business strategy testable or just applause lights?" | `rationality.md` | `superforecasting.md` |
+| "How do I improve group decision-making?" | `rationality.md` | `superforecasting.md` |
+| "What would change my mind about this belief?" | `rationality.md` | `superforecasting.md` |
+| "Am I defending a belief because it's true or because it's mine?" | `rationality.md` | `thinking-fast-and-slow.md` |
 
 ---
 
@@ -584,18 +587,23 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Granularity Principle | Superforecasting | 73% beats "likely" — precision forces more careful thinking |
 | Prediction Journal Practice | Superforecasting | Log predictions with probability, date, reasoning; score quarterly; identify systematic biases |
 | Premortem (Superforecasting) | Superforecasting | Before any major bet, imagine failure and diagnose why — cheapest risk management available |
-| Soldier vs. Scout Mindset | The Scout Mindset | Two modes of reasoning: soldier defends beliefs, scout tests them — notice which you're in |
-| Five Emotional Functions of Beliefs | The Scout Mindset | Beliefs serve comfort, self-esteem, morale, belonging, and persuasion — identify which is at stake |
-| Identity Ratchet | The Scout Mindset | Beliefs harden into identity through public commitment — use provisional language to prevent |
-| Thought Experiment Battery | The Scout Mindset | Six rapid self-diagnostic tests: Double Standard, Outsider, Conformity, Selective Skeptic, Status Quo, Sunk Cost |
-| Update Process | The Scout Mindset | Structured approach: notice resistance → name the stake → separate belief from identity → outsider test → smallest honest update → reward |
-| Scout Culture Building | The Scout Mindset | Leaders model updating, celebrate mind-changing, separate analysis from execution, track predictions |
+| Map/Territory Distinction | Rationality | Your beliefs are a model of reality — when they diverge, update the model, not reality |
+| Motivated Reasoning / Bottom Line | Rationality | Your brain writes conclusions first, then constructs justifications — check which came first |
+| Making Beliefs Pay Rent | Rationality | Every belief must generate testable predictions or it contains no information about reality |
+| Bayesian Framework (Rationality) | Rationality | Update strength proportional to how diagnostic the evidence is — likely under hypothesis vs. alternatives |
+| Semantic Stopsign Detection | Rationality | Words that feel like explanations but terminate inquiry — push past them |
+| Cached Thought Identification | Rationality | Pre-formed conclusions retrieved from memory instead of generated through reasoning |
+| Privileging the Hypothesis | Rationality | Testing a specific hypothesis for non-evidential reasons — broaden the search |
+| Rationalist Taboo | Rationality | Replace vague terms with specific descriptions — if the argument collapses, it wasn't an argument |
+| Litany of Tarski | Rationality | Commitment device: "If X is true, I desire to believe X is true" — tests for motivated reasoning |
+| Belief Audit Playbook | Rationality | 7-step structured audit: state → pay rent → motivated → origin → privileging → falsifiability → cached |
 
 ---
 
 ## All Tags
 
 `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `base-rates` `batch-filming` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `CAC` `calibration` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `team-culture` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `CAC` `calibration` `cart-abandonment` `categorization` `clear-thinking` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `debiasing` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `exit-strategy` `experimentation` `falsifiability` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `rationality` `readability` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `System-1` `System-2` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
