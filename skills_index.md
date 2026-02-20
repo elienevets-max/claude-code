@@ -46,6 +46,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 34 | The Art of Thinking Clearly | Learning | [`learning/thinking-clearly.md`](learning/thinking-clearly.md) | Which specific reasoning error is operating right now? |
 | 35 | The Black Swan | Learning | [`learning/black-swan.md`](learning/black-swan.md) | Am I positioned to survive the worst and benefit from the best? |
 | 36 | Antifragile | Learning | [`learning/antifragile.md`](learning/antifragile.md) | How do I build systems that improve from volatility and stress? |
+| 37 | Radical Candor | Learning | [`learning/radical-candor.md`](learning/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
 
 ---
 
@@ -274,6 +275,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** Fragile-robust-antifragile triad, via negativa (subtract before you add), skin in the game (accountability as quality mechanism), Lindy Effect (time-tested = trustworthy), hormesis (right dose of stress builds strength), optionality and convexity (bounded downside, unlimited upside), naive interventionism (first do no harm), efficiency as fragility, small failures prevent catastrophic failures, redundancy as insurance not waste, Taleb's razor (one reason or don't do it)
 - **Tags:** `antifragility` `via-negativa` `skin-in-the-game` `lindy-effect` `hormesis` `optionality` `convexity` `fragility` `robustness` `redundancy` `barbell-strategy` `risk-management` `ruin-avoidance` `asymmetry` `naive-interventionism` `decision-making` `poker` `investing` `business-strategy`
 
+#### 37. Radical Candor
+- **File:** [`learning/radical-candor.md`](learning/radical-candor.md)
+- **Source:** Kim Scott — *Radical Candor: Be a Kick-Ass Boss Without Losing Your Humanity* (2017)
+- **Core Frameworks:** Radical Candor Matrix (Care Personally × Challenge Directly), Four Feedback Quadrants (Radical Candor, Ruinous Empathy, Obnoxious Aggression, Manipulative Insincerity), HHIPP (Humble, Helpful, Immediate, In Person, Private), SBI (Situation-Behavior-Impact), Soliciting Criticism Process, Rockstars vs. Superstars, Feedback Culture Building (8-step), Career Conversation Framework
+- **Key Concepts:** Care personally + challenge directly, Ruinous Empathy as the most common and dangerous failure mode, soliciting criticism before giving it, specificity as kindness, praise in public / criticize in private, feedback sandwich anti-pattern, behavior vs. character, the make-or-break moment (response to first criticism), rockstars (stability/mastery) vs. superstars (growth/challenge), two-minute correction, upward feedback delivery
+- **Tags:** `radical-candor` `feedback` `leadership` `management` `communication` `team-culture` `1-on-1` `performance` `coaching` `career-development` `poker` `investing`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -393,6 +401,7 @@ Live applications built from the knowledge base frameworks.
 | **Charlie Munger** | Mental models, inversion, incentives, multidisciplinary thinking | `munger-mental-models.md` |
 | **Rolf Dobelli** | Rapid bias detection, reasoning errors, cognitive error field guide | `thinking-clearly.md` |
 | **Nassim Nicholas Taleb** | Black Swan events, tail risk, fragility, robustness, antifragility, barbell strategy, via negativa, skin in the game, Lindy Effect, hormesis, convexity | `black-swan.md`, `antifragile.md` |
+| **Kim Scott** | Radical Candor, feedback culture, leadership communication, team management | `radical-candor.md` |
 
 ---
 
@@ -523,6 +532,16 @@ Use this lookup when you have a specific question or are in a specific situation
 | "Am I avoiding necessary stress out of comfort-seeking?" | `antifragile.md` | `scout-mindset.md` |
 | "Is this approach time-tested or just trendy?" | `antifragile.md` | `superforecasting.md` |
 | "How do I design my poker career to get stronger from variance?" | `antifragile.md` | `black-swan.md` |
+| "How do I give difficult feedback without damaging the relationship?" | `radical-candor.md` | `scout-mindset.md` |
+| "Why isn't my team giving me honest information?" | `radical-candor.md` | `scout-mindset.md` |
+| "I'm avoiding a hard conversation I know I need to have" | `radical-candor.md` | `antifragile.md` |
+| "Am I being too nice or too harsh with feedback?" | `radical-candor.md` | `thinking-fast-and-slow.md` |
+| "How do I build a culture of honest feedback in my team?" | `radical-candor.md` | `scout-mindset.md` |
+| "How do I handle an underperformer on my team?" | `radical-candor.md` | `munger-mental-models.md` |
+| "How do I give feedback to someone more senior than me?" | `radical-candor.md` | `scout-mindset.md` |
+| "How do I praise someone effectively, not just 'good job'?" | `radical-candor.md` | — |
+| "How do I fire someone and handle it with both honesty and care?" | `radical-candor.md` | `munger-mental-models.md` |
+| "How do I receive feedback without getting defensive?" | `radical-candor.md` | `scout-mindset.md` |
 
 ---
 
@@ -725,12 +744,20 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Via Negativa Sprint | Antifragile | Quarterly elimination exercise: list everything → "if gone, better/worse/same?" → eliminate "better/same" items |
 | Taleb's Razor | Antifragile | If you need more than one reason to justify a decision, don't do it — multiple justifications = rationalization |
 | Rationality Stack (8-layer, with Antifragile) | Antifragile | Layer 0 (Structural/Black Swan) → Layers 1-6 (tools) → Layer 7 (Antifragile: the operational endpoint) |
+| Radical Candor Matrix | Radical Candor | Two-axis framework: Care Personally × Challenge Directly → four quadrants of feedback behavior |
+| Four Feedback Quadrants | Radical Candor | Radical Candor (care + challenge), Ruinous Empathy (care without challenge), Obnoxious Aggression (challenge without care), Manipulative Insincerity (neither) |
+| HHIPP (Feedback Delivery) | Radical Candor | Humble, Helpful, Immediate, In Person, Private — checklist for delivering critical feedback |
+| SBI (Situation-Behavior-Impact) | Radical Candor | Anchor to specific moment → describe observed behavior → describe consequence — structure for specific, actionable feedback |
+| Soliciting Criticism Process | Radical Candor | Ask specific questions → listen without defending → act on it → close the loop — earning the right to challenge by inviting challenge first |
+| Rockstars vs. Superstars | Radical Candor | Two types of high performers: rockstars (mastery, stability) vs. superstars (growth, challenge) — different management required |
+| Feedback Culture Building (8-step) | Radical Candor | Go first → solicit before giving → respond well → make structural → praise candor → never punish honesty → name Ruinous Empathy → hire for candor |
+| Career Conversation Framework | Radical Candor | Understanding each person's trajectory and managing rockstars vs. superstars accordingly |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `cart-abandonment` `categorization` `clear-thinking` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `debiasing` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `rationality` `readability` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`1-on-1` `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `career-development` `cart-abandonment` `categorization` `clear-thinking` `CLV` `coaching` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `communication` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `debiasing` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `feedback` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `leadership` `learning` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `management` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `radical-candor` `rationality` `readability` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -800,7 +827,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── munger-mental-models.md       # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
 │   ├── thinking-clearly.md           # Rapid bias detection & reasoning error field guide (Dobelli)
 │   ├── black-swan.md                 # Extreme events, fragility & robustness under uncertainty (Taleb)
-│   └── antifragile.md                # Systems that gain from disorder, via negativa & convex positioning (Taleb)
+│   ├── antifragile.md                # Systems that gain from disorder, via negativa & convex positioning (Taleb)
+│   └── radical-candor.md             # Honest feedback, caring leadership & communication (Scott)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -809,4 +837,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 36 | Total frameworks: 185 | Total tags: 230+*
+*Last updated: 2026-02-20 | Total skills: 37 | Total frameworks: 193 | Total tags: 237+*
