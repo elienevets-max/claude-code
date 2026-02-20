@@ -45,6 +45,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 33 | Munger Mental Models | Learning | [`learning/munger-mental-models.md`](learning/munger-mental-models.md) | What mental models apply and what would guarantee failure? |
 | 34 | The Art of Thinking Clearly | Learning | [`learning/thinking-clearly.md`](learning/thinking-clearly.md) | Which specific reasoning error is operating right now? |
 | 35 | The Black Swan | Learning | [`learning/black-swan.md`](learning/black-swan.md) | Am I positioned to survive the worst and benefit from the best? |
+| 36 | Antifragile | Learning | [`learning/antifragile.md`](learning/antifragile.md) | How do I build systems that improve from volatility and stress? |
 
 ---
 
@@ -266,6 +267,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** Black Swan events (three properties), Mediocristan vs. Extremistan, narrative fallacy (Taleb's version), ludic fallacy, turkey problem, barbell strategy, optionality, antifragility, epistemic humility, skin in the game, positive vs. negative asymmetry, fat tails vs. bell curves, absence of evidence vs. evidence of absence, redundancy as insurance, stability as hidden fragility
 - **Tags:** `black-swan` `tail-risk` `fat-tails` `extremistan` `mediocristan` `barbell-strategy` `optionality` `antifragility` `ruin-avoidance` `asymmetry` `robustness` `fragility` `risk-management` `position-sizing` `poker` `investing` `decision-making`
 
+#### 36. Antifragile
+- **File:** [`learning/antifragile.md`](learning/antifragile.md)
+- **Source:** Nassim Nicholas Taleb — *Antifragile: Things That Gain from Disorder* (2012)
+- **Core Frameworks:** Fragile-Robust-Antifragile Triad, Via Negativa (Improvement by Subtraction), Skin in the Game Filter, Lindy Effect, Hormesis (Beneficial Stress), Convexity/Optionality Test, Naive Interventionism Checklist, Antifragility Audit (8-step), Designing for Convexity (6-step), Via Negativa Sprint, Taleb's Razor
+- **Key Concepts:** Fragile-robust-antifragile triad, via negativa (subtract before you add), skin in the game (accountability as quality mechanism), Lindy Effect (time-tested = trustworthy), hormesis (right dose of stress builds strength), optionality and convexity (bounded downside, unlimited upside), naive interventionism (first do no harm), efficiency as fragility, small failures prevent catastrophic failures, redundancy as insurance not waste, Taleb's razor (one reason or don't do it)
+- **Tags:** `antifragility` `via-negativa` `skin-in-the-game` `lindy-effect` `hormesis` `optionality` `convexity` `fragility` `robustness` `redundancy` `barbell-strategy` `risk-management` `ruin-avoidance` `asymmetry` `naive-interventionism` `decision-making` `poker` `investing` `business-strategy`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -384,7 +392,7 @@ Live applications built from the knowledge base frameworks.
 | **Eliezer Yudkowsky** | Rationality, epistemology, debiasing, clear thinking | `rationality.md` |
 | **Charlie Munger** | Mental models, inversion, incentives, multidisciplinary thinking | `munger-mental-models.md` |
 | **Rolf Dobelli** | Rapid bias detection, reasoning errors, cognitive error field guide | `thinking-clearly.md` |
-| **Nassim Nicholas Taleb** | Black Swan events, tail risk, fragility, robustness, antifragility, barbell strategy | `black-swan.md` |
+| **Nassim Nicholas Taleb** | Black Swan events, tail risk, fragility, robustness, antifragility, barbell strategy, via negativa, skin in the game, Lindy Effect, hormesis, convexity | `black-swan.md`, `antifragile.md` |
 
 ---
 
@@ -505,6 +513,16 @@ Use this lookup when you have a specific question or are in a specific situation
 | "Why do long periods of stability make me nervous?" | `black-swan.md` | `thinking-clearly.md` |
 | "How do I make many small bets instead of one big one?" | `black-swan.md` | `munger-mental-models.md` |
 | "What's the worst that could happen even if it's never happened before?" | `black-swan.md` | `rationality.md` |
+| "How do I build a system that improves from stress?" | `antifragile.md` | `black-swan.md` |
+| "Should I add something new or remove something bad?" | `antifragile.md` | `munger-mental-models.md` |
+| "Is this optimization actually increasing fragility?" | `antifragile.md` | `black-swan.md` |
+| "Does this advisor have skin in the game?" | `antifragile.md` | `rationality.md` |
+| "Should I intervene in this system or leave it alone?" | `antifragile.md` | `thinking-clearly.md` |
+| "Is my business fragile, robust, or antifragile?" | `antifragile.md` | `black-swan.md` |
+| "What should I eliminate before adding anything new?" | `antifragile.md` | `munger-mental-models.md` |
+| "Am I avoiding necessary stress out of comfort-seeking?" | `antifragile.md` | `scout-mindset.md` |
+| "Is this approach time-tested or just trendy?" | `antifragile.md` | `superforecasting.md` |
+| "How do I design my poker career to get stronger from variance?" | `antifragile.md` | `black-swan.md` |
 
 ---
 
@@ -695,13 +713,24 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Narrative Fallacy (Taleb) | The Black Swan | Post-hoc stories make the unpredictable feel predictable — ask "Could I tell an equally compelling opposite story?" |
 | Ludic Fallacy | The Black Swan | Game-like models (known rules, defined outcomes) misapplied to open-ended real-world situations |
 | Rationality Stack (7-layer, with Black Swan) | The Black Swan | Layer 0 (Structural/Taleb) → Layer 1 (Detection/Dobelli) → Layer 2 (Science/Kahneman) → Layer 3 (Epistemology/Yudkowsky) → Layer 4 (Motivation/Galef) → Layer 5 (Integration/Munger) → Layer 6 (Measurement/Tetlock) |
+| Fragile-Robust-Antifragile Triad | Antifragile | Three responses to volatility: breaks, survives, or improves — classify every system component |
+| Via Negativa (Improvement by Subtraction) | Antifragile | Remove bad things before adding good things — subtraction has known effects, addition has unknown side effects |
+| Skin in the Game Filter | Antifragile | Only trust advice from people who bear consequences of being wrong — accountability as quality mechanism |
+| Lindy Effect | Antifragile | For non-perishable things, expected remaining lifespan is proportional to current age — time-tested = trustworthy |
+| Hormesis (Beneficial Stress) | Antifragile | Small doses of stress trigger strengthening; too little = atrophy, too much = destruction — find the sweet spot |
+| Convexity/Optionality Test | Antifragile | Structure exposure for bounded downside and unlimited upside — the mathematical mechanism of antifragility |
+| Naive Interventionism Checklist | Antifragile | Before intervening in complex systems: is it broken? Could intervention make it worse? Can you subtract instead? |
+| Antifragility Audit (8-step) | Antifragile | Inventory → Classify → Map fragilities → Via negativa → Optionality → Ruin check → Skin in game → Prioritize |
+| Designing for Convexity (6-step) | Antifragile | Define bounds → Calculate ratio → Hidden downside → Hidden upside → Restructure → Allocate by convexity |
+| Via Negativa Sprint | Antifragile | Quarterly elimination exercise: list everything → "if gone, better/worse/same?" → eliminate "better/same" items |
+| Taleb's Razor | Antifragile | If you need more than one reason to justify a decision, don't do it — multiple justifications = rationalization |
+| Rationality Stack (8-layer, with Antifragile) | Antifragile | Layer 0 (Structural/Black Swan) → Layers 1-6 (tools) → Layer 7 (Antifragile: the operational endpoint) |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `CAC` `calibration` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `extremistan` `fat-tails` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `CAC` `calibration` `cart-abandonment` `categorization` `clear-thinking` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `debiasing` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `rationality` `readability` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `cart-abandonment` `categorization` `clear-thinking` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `debiasing` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `rationality` `readability` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -770,7 +799,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── scout-mindset.md              # Intellectual honesty, identity & motivated reasoning (Galef)
 │   ├── munger-mental-models.md       # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
 │   ├── thinking-clearly.md           # Rapid bias detection & reasoning error field guide (Dobelli)
-│   └── black-swan.md                 # Extreme events, fragility & robustness under uncertainty (Taleb)
+│   ├── black-swan.md                 # Extreme events, fragility & robustness under uncertainty (Taleb)
+│   └── antifragile.md                # Systems that gain from disorder, via negativa & convex positioning (Taleb)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -779,4 +809,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 35 | Total frameworks: 173 | Total tags: 220+*
+*Last updated: 2026-02-20 | Total skills: 36 | Total frameworks: 185 | Total tags: 230+*
