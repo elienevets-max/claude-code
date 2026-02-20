@@ -48,6 +48,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 36 | Antifragile | Learning | [`learning/antifragile.md`](learning/antifragile.md) | How do I build systems that improve from volatility and stress? |
 | 37 | Radical Candor | Learning | [`learning/radical-candor.md`](learning/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
 | 38 | Thanks for the Feedback | Learning | [`learning/thanks-for-the-feedback.md`](learning/thanks-for-the-feedback.md) | How do I receive feedback without getting defensive and extract value from any criticism? |
+| 39 | Difficult Conversations | Learning | [`learning/difficult-conversations.md`](learning/difficult-conversations.md) | How do I navigate a high-stakes conversation without it going sideways? |
 
 ---
 
@@ -290,6 +291,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** Receiver as bottleneck (not giver), truth triggers (content seems wrong), relationship triggers (source seems wrong), identity triggers (self-concept threatened), wrong spotting as confirmation bias, right finding override, intentions vs. impact gap, feedback type mismatch (appreciation/coaching/evaluation), feedback footprint mapping, the Second Look practice, switchtracking (counter-criticizing instead of processing), blind spots as unknown unknowns, pattern recognition across sources, buying time before responding, growth identity vs. fixed identity
 - **Tags:** `feedback` `receiving-feedback` `triggers` `identity` `coaching` `evaluation` `appreciation` `defensiveness` `blind-spots` `growth` `self-awareness` `leadership` `communication` `poker` `investing`
 
+#### 39. Difficult Conversations
+- **File:** [`learning/difficult-conversations.md`](learning/difficult-conversations.md)
+- **Source:** Douglas Stone, Bruce Patton & Sheila Heen — *Difficult Conversations: How to Discuss What Matters Most* (1999, updated 2010)
+- **Core Frameworks:** Three Conversations Model (What Happened, Feelings, Identity), Third Story Opening, Contribution vs. Blame Mapping, Intent vs. Impact Distinction, Learning Conversation, AND Stance, Full Preparation Protocol (8-step), Real-Time Navigation (10-step), Conversation Reset Protocol, Avoidance Breaking Protocol, Rationality Stack (10-layer, with Difficult Conversations)
+- **Key Concepts:** Three simultaneous conversation layers, Third Story (neutral observer opening), contribution mapping (systemic, forward-looking) vs. blame (individual, backward-looking), intent vs. impact gap, learning conversation (curiosity over certainty), AND stance (holding contradictory truths), acknowledging feelings before problem-solving, identity management in conflict, meta-communication (naming the dynamic), the cost of avoidance, switchtracking prevention
+- **Tags:** `difficult-conversations` `conflict-resolution` `three-conversations` `feelings` `identity` `contribution` `third-story` `learning-conversation` `blame` `intent-vs-impact` `de-escalation` `poker` `investing` `partnerships` `negotiation`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -411,6 +419,7 @@ Live applications built from the knowledge base frameworks.
 | **Nassim Nicholas Taleb** | Black Swan events, tail risk, fragility, robustness, antifragility, barbell strategy, via negativa, skin in the game, Lindy Effect, hormesis, convexity | `black-swan.md`, `antifragile.md` |
 | **Kim Scott** | Radical Candor, feedback culture, leadership communication, team management | `radical-candor.md` |
 | **Douglas Stone & Sheila Heen** | Receiving feedback, feedback triggers, identity management, extracting value from criticism | `thanks-for-the-feedback.md` |
+| **Douglas Stone, Bruce Patton & Sheila Heen** | Difficult conversations, three-conversation model, contribution vs. blame, Third Story opening, conflict resolution | `difficult-conversations.md` |
 
 ---
 
@@ -563,6 +572,18 @@ Use this lookup when you have a specific question or are in a specific situation
 | "Why does feedback threaten my identity?" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
 | "How do I process a bad session review without tilting?" | `thanks-for-the-feedback.md` | `thinking-fast-and-slow.md` |
 | "How do I build a reputation as someone who can handle honesty?" | `thanks-for-the-feedback.md` | `radical-candor.md` |
+| "I need to have a hard conversation and don't know how to start" | `difficult-conversations.md` | `radical-candor.md` |
+| "We keep arguing in circles without resolution" | `difficult-conversations.md` | `scout-mindset.md` |
+| "I'm avoiding a conversation I know I need to have" | `difficult-conversations.md` | `radical-candor.md` |
+| "How do I deliver bad news without destroying the relationship?" | `difficult-conversations.md` | `radical-candor.md` |
+| "How do I navigate a co-founder or partnership disagreement?" | `difficult-conversations.md` | `munger-mental-models.md` |
+| "Both sides think they're right and progress has stalled" | `difficult-conversations.md` | `rationality.md` |
+| "How do I raise a sensitive issue without damaging the relationship?" | `difficult-conversations.md` | `radical-candor.md` |
+| "Why does this conversation feel harder than it should?" | `difficult-conversations.md` | `thinking-fast-and-slow.md` |
+| "How do I address a broken agreement without making it adversarial?" | `difficult-conversations.md` | `radical-candor.md` |
+| "How do I end a partnership or business relationship gracefully?" | `difficult-conversations.md` | `radical-candor.md` |
+| "Emotions are running high and getting in the way of resolution" | `difficult-conversations.md` | `scout-mindset.md` |
+| "A conversation went badly — how do I do it differently next time?" | `difficult-conversations.md` | `thanks-for-the-feedback.md` |
 
 ---
 
@@ -783,12 +804,23 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Feedback Receiving Checklist | Thanks for the Feedback | Trigger management → content extraction → identity check → pattern recognition → response planning |
 | Feedback-Receptive Reputation | Thanks for the Feedback | Ask specifically → listen without defending → act visibly → close the loop → never punish honesty |
 | Rationality Stack (9-layer, with Feedback) | Thanks for the Feedback | Layers 0-7 (all tools) → Layer 8 (Thanks for the Feedback: the human reception layer) |
+| Three Conversations Model | Difficult Conversations | Every hard talk has three layers: What Happened (facts/stories), Feelings (emotions), Identity (self-concept) |
+| Third Story Opening | Difficult Conversations | Open from a neutral observer's perspective — "We seem to see this differently" — rather than from your side or theirs |
+| Contribution vs. Blame Mapping | Difficult Conversations | Replace "Whose fault?" with "How did each of us contribute?" — systemic, forward-looking analysis including your own role |
+| Intent vs. Impact Distinction | Difficult Conversations | You know your intent, they know your impact — both are real; acknowledge impact without defending intent |
+| Learning Conversation | Difficult Conversations | Shift from "I'm right and need to convince you" to "We both have perspectives and I want to understand yours" |
+| AND Stance | Difficult Conversations | Hold contradictory truths simultaneously — "I'm competent AND I made this mistake" — antidote to all-or-nothing thinking |
+| Full Preparation Protocol (8-step) | Difficult Conversations | Map three layers → list feelings → identify identity stakes → map contributions → craft Third Story → define purpose → prepare for reaction |
+| Real-Time Navigation (10-step) | Difficult Conversations | Third Story → explore their story → listen actively → acknowledge feelings → share your story → share contribution → find overlap → problem-solve → next steps → follow-up |
+| Conversation Reset Protocol | Difficult Conversations | Name the dynamic → acknowledge difficulty → reset to Third Story → check for unaddressed feelings → check identity threat → re-enter learning stance |
+| Avoidance Breaking Protocol | Difficult Conversations | Name avoidance → calculate cost → identify fear layer → prepare → schedule within 48 hours → remember anticipated > actual |
+| Rationality Stack (10-layer, with Difficult Conversations) | Difficult Conversations | Layers 0-8 (all tools) → Layer 9 (Difficult Conversations: the conversation navigation layer) |
 
 ---
 
 ## All Tags
 
-`1-on-1` `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `appreciation` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `blind-spots` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `career-development` `cart-abandonment` `categorization` `clear-thinking` `CLV` `coaching` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `communication` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `debiasing` `decision-making` `defensiveness` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `evaluation` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `feedback` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `leadership` `learning` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `management` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `radical-candor` `rationality` `readability` `receiving-feedback` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `self-awareness` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `triggers` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`1-on-1` `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `appreciation` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `blame` `blind-spots` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `career-development` `cart-abandonment` `categorization` `clear-thinking` `CLV` `coaching` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `communication` `compound-interest` `conflict-resolution` `consistency` `consulting` `content-creation` `content-repurposing` `contribution` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `de-escalation` `debiasing` `decision-making` `defensiveness` `detachment` `difficult-conversations` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `evaluation` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `feedback` `feelings` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `intent-vs-impact` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `leadership` `learning` `learning-conversation` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `management` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `negotiation` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `partnerships` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `radical-candor` `rationality` `readability` `receiving-feedback` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `self-awareness` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `third-story` `three-conversations` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `triggers` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -860,7 +892,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── black-swan.md                 # Extreme events, fragility & robustness under uncertainty (Taleb)
 │   ├── antifragile.md                # Systems that gain from disorder, via negativa & convex positioning (Taleb)
 │   ├── radical-candor.md             # Honest feedback, caring leadership & communication (Scott)
-│   └── thanks-for-the-feedback.md    # Receiving feedback, managing triggers & extracting value from criticism (Stone & Heen)
+│   ├── thanks-for-the-feedback.md    # Receiving feedback, managing triggers & extracting value from criticism (Stone & Heen)
+│   └── difficult-conversations.md    # Navigating high-stakes talks across all three layers (Stone, Patton & Heen)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -869,4 +902,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 38 | Total frameworks: 204 | Total tags: 244+*
+*Last updated: 2026-02-20 | Total skills: 39 | Total frameworks: 216 | Total tags: 254+*
