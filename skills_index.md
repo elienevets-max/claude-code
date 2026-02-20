@@ -49,6 +49,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 37 | Radical Candor | Learning | [`learning/radical-candor.md`](learning/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
 | 38 | Thanks for the Feedback | Learning | [`learning/thanks-for-the-feedback.md`](learning/thanks-for-the-feedback.md) | How do I receive feedback without getting defensive and extract value from any criticism? |
 | 39 | Difficult Conversations | Learning | [`learning/difficult-conversations.md`](learning/difficult-conversations.md) | How do I navigate a high-stakes conversation without it going sideways? |
+| 40 | Robotics, Vision and Control | Learning | [`learning/robotics-vision-control.md`](learning/robotics-vision-control.md) | What can this robot actually do vs. what the vendor claims? |
 
 ---
 
@@ -298,6 +299,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** Three simultaneous conversation layers, Third Story (neutral observer opening), contribution mapping (systemic, forward-looking) vs. blame (individual, backward-looking), intent vs. impact gap, learning conversation (curiosity over certainty), AND stance (holding contradictory truths), acknowledging feelings before problem-solving, identity management in conflict, meta-communication (naming the dynamic), the cost of avoidance, switchtracking prevention
 - **Tags:** `difficult-conversations` `conflict-resolution` `three-conversations` `feelings` `identity` `contribution` `third-story` `learning-conversation` `blame` `intent-vs-impact` `de-escalation` `poker` `investing` `partnerships` `negotiation`
 
+#### 40. Robotics, Vision and Control
+- **File:** [`learning/robotics-vision-control.md`](learning/robotics-vision-control.md)
+- **Source:** Peter Corke — *Robotics, Vision and Control: Fundamental Algorithms in MATLAB* (adapted for domain consultants)
+- **Core Frameworks:** Sense-Plan-Act Pipeline, State Estimation Over Reality, Perception-as-Inference, Control-as-Feedback, Models-as-Approximations, Reality-Check Process (5-step), Vendor Evaluation Question Battery, Deployment Risk Scan (4-question), Human-in-the-Loop Architecture, Capability Bounding, Failure-Mode Disclosure, Autonomy Envelope, Minimum Viable Robotic Dealer, Rationality Stack (11-layer)
+- **Key Concepts:** Compounding error through pipeline stages, vision as bottleneck, speed-precision tradeoff (physics-level), open vs closed-loop control, compliance and force control, error accumulation over time, thin flexible object manipulation (cards), tactile feedback gap, demo vs deployment gap, last 5% costs 95%, autonomy vs automation distinction, sim-to-real gap, minimum viable robotic dealer requirements, poker-specific edge cases
+- **Tags:** `robotics` `computer-vision` `control-systems` `automation` `state-estimation` `feedback-loops` `manipulation` `sensors` `vendor-evaluation` `deployment-risk` `failure-modes` `human-in-the-loop` `poker` `casino-automation` `sense-plan-act` `sim-to-real` `calibration` `perception` `end-effectors` `compliance`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -420,6 +428,7 @@ Live applications built from the knowledge base frameworks.
 | **Kim Scott** | Radical Candor, feedback culture, leadership communication, team management | `radical-candor.md` |
 | **Douglas Stone & Sheila Heen** | Receiving feedback, feedback triggers, identity management, extracting value from criticism | `thanks-for-the-feedback.md` |
 | **Douglas Stone, Bruce Patton & Sheila Heen** | Difficult conversations, three-conversation model, contribution vs. blame, Third Story opening, conflict resolution | `difficult-conversations.md` |
+| **Peter Corke** | Robotics evaluation, vision system limits, control tradeoffs, vendor reality filter, poker-specific automation | `robotics-vision-control.md` |
 
 ---
 
@@ -550,6 +559,16 @@ Use this lookup when you have a specific question or are in a specific situation
 | "Am I avoiding necessary stress out of comfort-seeking?" | `antifragile.md` | `scout-mindset.md` |
 | "Is this approach time-tested or just trendy?" | `antifragile.md` | `superforecasting.md` |
 | "How do I design my poker career to get stronger from variance?" | `antifragile.md` | `black-swan.md` |
+| "Is this robotics vendor overselling their system's capability?" | `robotics-vision-control.md` | `antifragile.md` |
+| "What questions should I ask the engineering team about this robot?" | `robotics-vision-control.md` | `munger-mental-models.md` |
+| "Where will this robotic system fail in live casino operation?" | `robotics-vision-control.md` | `black-swan.md` |
+| "What's the realistic capability envelope for a robotic poker dealer?" | `robotics-vision-control.md` | `superforecasting.md` |
+| "How do I evaluate a robotics demo without being fooled?" | `robotics-vision-control.md` | `thinking-clearly.md` |
+| "What's the human-in-the-loop architecture for this deployment?" | `robotics-vision-control.md` | `antifragile.md` |
+| "Can this robot handle 8 hours of continuous dealing?" | `robotics-vision-control.md` | `superforecasting.md` |
+| "What are the failure modes I should worry about?" | `robotics-vision-control.md` | `black-swan.md` |
+| "Is this 'AI-powered' robot claim real or marketing?" | `robotics-vision-control.md` | `rationality.md` |
+| "How do I talk to engineers about robotics without losing credibility?" | `robotics-vision-control.md` | `scout-mindset.md` |
 | "How do I give difficult feedback without damaging the relationship?" | `radical-candor.md` | `scout-mindset.md` |
 | "Why isn't my team giving me honest information?" | `radical-candor.md` | `scout-mindset.md` |
 | "I'm avoiding a hard conversation I know I need to have" | `radical-candor.md` | `antifragile.md` |
@@ -815,12 +834,26 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Conversation Reset Protocol | Difficult Conversations | Name the dynamic → acknowledge difficulty → reset to Third Story → check for unaddressed feelings → check identity threat → re-enter learning stance |
 | Avoidance Breaking Protocol | Difficult Conversations | Name avoidance → calculate cost → identify fear layer → prepare → schedule within 48 hours → remember anticipated > actual |
 | Rationality Stack (10-layer, with Difficult Conversations) | Difficult Conversations | Layers 0-8 (all tools) → Layer 9 (Difficult Conversations: the conversation navigation layer) |
+| Sense-Plan-Act Pipeline | Robotics, Vision & Control | Sensors → Perception → Planning → Actuation → Feedback — errors compound at each stage |
+| State Estimation Over Reality | Robotics, Vision & Control | Robots never know the world — they maintain estimated state from noisy sensors and imperfect models |
+| Perception-as-Inference | Robotics, Vision & Control | Computer vision is statistical inference, not sight — bounded by lighting, occlusion, and processing speed |
+| Control-as-Feedback | Robotics, Vision & Control | Robots continuously correct errors via feedback loops — stability depends on sensor quality and latency |
+| Models-as-Approximations | Robotics, Vision & Control | All robot models simplify physics — sim-to-real gap must be acknowledged and bridged |
+| Reality-Check Process (5-step) | Robotics, Vision & Control | Sensing assumptions → estimation method → control dependencies → environmental constraints → failure modes |
+| Vendor Evaluation Question Battery | Robotics, Vision & Control | Structured questions across sensing, planning, control, integration, and failure modes |
+| Deployment Risk Scan (4-question) | Robotics, Vision & Control | Lighting changes → geometry changes → timing/latency → sensor failure — stress test before deployment |
+| Human-in-the-Loop Architecture | Robotics, Vision & Control | Map robot-handles vs. human-handles for every task category — the realistic near-term path |
+| Capability Bounding | Robotics, Vision & Control | Force every claim into conditions + limits: "Under X, with Y error, at Z speed" |
+| Failure-Mode Disclosure | Robotics, Vision & Control | Proactively state where the robot fails — builds trust by acknowledging limitations |
+| Autonomy Envelope | Robotics, Vision & Control | Conditions under which the system operates without human intervention — everything outside requires fallback |
+| Minimum Viable Robotic Dealer | Robotics, Vision & Control | Threshold requirements: hands/hr, double-deal rate, damage rate, detection rate, recovery time, shift duration |
+| Rationality Stack (11-layer) | Robotics, Vision & Control | Layers 0-9 + Layer 10: Robotics Reality Filter — ground all claims in physics, translate marketing to math |
 
 ---
 
 ## All Tags
 
-`1-on-1` `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `appreciation` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `blame` `blind-spots` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `career-development` `cart-abandonment` `categorization` `clear-thinking` `CLV` `coaching` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `communication` `compound-interest` `conflict-resolution` `consistency` `consulting` `content-creation` `content-repurposing` `contribution` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `de-escalation` `debiasing` `decision-making` `defensiveness` `detachment` `difficult-conversations` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `evaluation` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `feedback` `feelings` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `intent-vs-impact` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `leadership` `learning` `learning-conversation` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `management` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `negotiation` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `partnerships` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `radical-candor` `rationality` `readability` `receiving-feedback` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `self-awareness` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `third-story` `three-conversations` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `triggers` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`1-on-1` `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `appreciation` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `blame` `blind-spots` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `career-development` `cart-abandonment` `casino-automation` `categorization` `clear-thinking` `CLV` `coaching` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `communication` `compliance` `compound-interest` `computer-vision` `conflict-resolution` `consistency` `consulting` `content-creation` `content-repurposing` `contribution` `control-systems` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `de-escalation` `debiasing` `decision-making` `defensiveness` `deployment-risk` `detachment` `difficult-conversations` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `end-effectors` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `evaluation` `exit-strategy` `experimentation` `extremistan` `failure-modes` `falsifiability` `fat-tails` `feedback` `feedback-loops` `feelings` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `human-in-the-loop` `ideation` `identity` `instagram` `intellectual-honesty` `intent-vs-impact` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `leadership` `learning` `learning-conversation` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `management` `manipulation` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `negotiation` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `partnerships` `perception` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `radical-candor` `rationality` `readability` `receiving-feedback` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robotics` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `self-awareness` `sense-plan-act` `sensors` `side-hustle` `sim-to-real` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `state-estimation` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `third-story` `three-conversations` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `triggers` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `vendor-evaluation` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -893,7 +926,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── antifragile.md                # Systems that gain from disorder, via negativa & convex positioning (Taleb)
 │   ├── radical-candor.md             # Honest feedback, caring leadership & communication (Scott)
 │   ├── thanks-for-the-feedback.md    # Receiving feedback, managing triggers & extracting value from criticism (Stone & Heen)
-│   └── difficult-conversations.md    # Navigating high-stakes talks across all three layers (Stone, Patton & Heen)
+│   ├── difficult-conversations.md    # Navigating high-stakes talks across all three layers (Stone, Patton & Heen)
+│   └── robotics-vision-control.md    # Robotics evaluation, vision limits & vendor reality filter (Corke)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -902,4 +936,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 39 | Total frameworks: 216 | Total tags: 254+*
+*Last updated: 2026-02-20 | Total skills: 40 | Total frameworks: 231 | Total tags: 274+*
