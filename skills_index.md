@@ -47,6 +47,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 35 | The Black Swan | Learning | [`learning/black-swan.md`](learning/black-swan.md) | Am I positioned to survive the worst and benefit from the best? |
 | 36 | Antifragile | Learning | [`learning/antifragile.md`](learning/antifragile.md) | How do I build systems that improve from volatility and stress? |
 | 37 | Radical Candor | Learning | [`learning/radical-candor.md`](learning/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
+| 38 | Thanks for the Feedback | Learning | [`learning/thanks-for-the-feedback.md`](learning/thanks-for-the-feedback.md) | How do I receive feedback without getting defensive and extract value from any criticism? |
 
 ---
 
@@ -282,6 +283,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** Care personally + challenge directly, Ruinous Empathy as the most common and dangerous failure mode, soliciting criticism before giving it, specificity as kindness, praise in public / criticize in private, feedback sandwich anti-pattern, behavior vs. character, the make-or-break moment (response to first criticism), rockstars (stability/mastery) vs. superstars (growth/challenge), two-minute correction, upward feedback delivery
 - **Tags:** `radical-candor` `feedback` `leadership` `management` `communication` `team-culture` `1-on-1` `performance` `coaching` `career-development` `poker` `investing`
 
+#### 38. Thanks for the Feedback
+- **File:** [`learning/thanks-for-the-feedback.md`](learning/thanks-for-the-feedback.md)
+- **Source:** Douglas Stone & Sheila Heen — *Thanks for the Feedback: The Science and Art of Receiving Feedback Well* (2014)
+- **Core Frameworks:** Three Feedback Triggers (Truth, Relationship, Identity), Three Feedback Types (Appreciation, Coaching, Evaluation), Wrong Spotting vs. Right Finding, Intentions vs. Impact, Feedback Footprint (Baseline, Swing, Sustain/Recovery), The Second Look (24-48 Hour Re-evaluation), Switchtracking Detection, Feedback Receiving Checklist, Feedback-Receptive Reputation Building
+- **Key Concepts:** Receiver as bottleneck (not giver), truth triggers (content seems wrong), relationship triggers (source seems wrong), identity triggers (self-concept threatened), wrong spotting as confirmation bias, right finding override, intentions vs. impact gap, feedback type mismatch (appreciation/coaching/evaluation), feedback footprint mapping, the Second Look practice, switchtracking (counter-criticizing instead of processing), blind spots as unknown unknowns, pattern recognition across sources, buying time before responding, growth identity vs. fixed identity
+- **Tags:** `feedback` `receiving-feedback` `triggers` `identity` `coaching` `evaluation` `appreciation` `defensiveness` `blind-spots` `growth` `self-awareness` `leadership` `communication` `poker` `investing`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -402,6 +410,7 @@ Live applications built from the knowledge base frameworks.
 | **Rolf Dobelli** | Rapid bias detection, reasoning errors, cognitive error field guide | `thinking-clearly.md` |
 | **Nassim Nicholas Taleb** | Black Swan events, tail risk, fragility, robustness, antifragility, barbell strategy, via negativa, skin in the game, Lindy Effect, hormesis, convexity | `black-swan.md`, `antifragile.md` |
 | **Kim Scott** | Radical Candor, feedback culture, leadership communication, team management | `radical-candor.md` |
+| **Douglas Stone & Sheila Heen** | Receiving feedback, feedback triggers, identity management, extracting value from criticism | `thanks-for-the-feedback.md` |
 
 ---
 
@@ -541,7 +550,19 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I give feedback to someone more senior than me?" | `radical-candor.md` | `scout-mindset.md` |
 | "How do I praise someone effectively, not just 'good job'?" | `radical-candor.md` | — |
 | "How do I fire someone and handle it with both honesty and care?" | `radical-candor.md` | `munger-mental-models.md` |
-| "How do I receive feedback without getting defensive?" | `radical-candor.md` | `scout-mindset.md` |
+| "How do I receive feedback without getting defensive?" | `radical-candor.md` | `thanks-for-the-feedback.md` |
+| "I got feedback that feels unfair — how do I process it?" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "Why do I shut down when criticized?" | `thanks-for-the-feedback.md` | `thinking-fast-and-slow.md` |
+| "I keep hearing the same feedback from multiple people" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "How do I stop getting defensive when I receive criticism?" | `thanks-for-the-feedback.md` | `radical-candor.md` |
+| "The feedback is wrong but I can't stop thinking about it" | `thanks-for-the-feedback.md` | `rationality.md` |
+| "I dismiss feedback from certain people — is that a problem?" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "How do I extract value from badly delivered feedback?" | `thanks-for-the-feedback.md` | `radical-candor.md` |
+| "Criticism makes me feel like a fraud" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "How do I separate useful feedback from noise?" | `thanks-for-the-feedback.md` | `rationality.md` |
+| "Why does feedback threaten my identity?" | `thanks-for-the-feedback.md` | `scout-mindset.md` |
+| "How do I process a bad session review without tilting?" | `thanks-for-the-feedback.md` | `thinking-fast-and-slow.md` |
+| "How do I build a reputation as someone who can handle honesty?" | `thanks-for-the-feedback.md` | `radical-candor.md` |
 
 ---
 
@@ -752,12 +773,22 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Rockstars vs. Superstars | Radical Candor | Two types of high performers: rockstars (mastery, stability) vs. superstars (growth, challenge) — different management required |
 | Feedback Culture Building (8-step) | Radical Candor | Go first → solicit before giving → respond well → make structural → praise candor → never punish honesty → name Ruinous Empathy → hire for candor |
 | Career Conversation Framework | Radical Candor | Understanding each person's trajectory and managing rockstars vs. superstars accordingly |
+| Three Feedback Triggers | Thanks for the Feedback | Truth (content wrong), Relationship (source wrong), Identity (self-concept threatened) — name the trigger to create space |
+| Three Feedback Types | Thanks for the Feedback | Appreciation (recognition), Coaching (improvement), Evaluation (standing) — type mismatch is the silent killer |
+| Wrong Spotting vs. Right Finding | Thanks for the Feedback | Brain defaults to finding what's wrong; override by asking "What's right?" first |
+| Intentions vs. Impact | Thanks for the Feedback | You know intentions, they know impact — both are real; don't dismiss impact by explaining intention |
+| Feedback Footprint | Thanks for the Feedback | Baseline, swing, and sustain/recovery — your characteristic reaction pattern; don't decide at peak trigger |
+| The Second Look | Thanks for the Feedback | Structured 24-48 hour re-evaluation: name trigger → find what's right → neutral party test → pattern check → action plan |
+| Switchtracking Detection | Thanks for the Feedback | Counter-criticizing the giver instead of processing their feedback — kills both conversations |
+| Feedback Receiving Checklist | Thanks for the Feedback | Trigger management → content extraction → identity check → pattern recognition → response planning |
+| Feedback-Receptive Reputation | Thanks for the Feedback | Ask specifically → listen without defending → act visibly → close the loop → never punish honesty |
+| Rationality Stack (9-layer, with Feedback) | Thanks for the Feedback | Layers 0-7 (all tools) → Layer 8 (Thanks for the Feedback: the human reception layer) |
 
 ---
 
 ## All Tags
 
-`1-on-1` `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `career-development` `cart-abandonment` `categorization` `clear-thinking` `CLV` `coaching` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `communication` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `debiasing` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `feedback` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `leadership` `learning` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `management` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `radical-candor` `rationality` `readability` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`1-on-1` `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `appreciation` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `blind-spots` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `career-development` `cart-abandonment` `categorization` `clear-thinking` `CLV` `coaching` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `communication` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `debiasing` `decision-making` `defensiveness` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `evaluation` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `feedback` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `leadership` `learning` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `management` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `radical-candor` `rationality` `readability` `receiving-feedback` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `self-awareness` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `triggers` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -828,7 +859,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── thinking-clearly.md           # Rapid bias detection & reasoning error field guide (Dobelli)
 │   ├── black-swan.md                 # Extreme events, fragility & robustness under uncertainty (Taleb)
 │   ├── antifragile.md                # Systems that gain from disorder, via negativa & convex positioning (Taleb)
-│   └── radical-candor.md             # Honest feedback, caring leadership & communication (Scott)
+│   ├── radical-candor.md             # Honest feedback, caring leadership & communication (Scott)
+│   └── thanks-for-the-feedback.md    # Receiving feedback, managing triggers & extracting value from criticism (Stone & Heen)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -837,4 +869,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 37 | Total frameworks: 193 | Total tags: 237+*
+*Last updated: 2026-02-20 | Total skills: 38 | Total frameworks: 204 | Total tags: 244+*
