@@ -40,6 +40,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 29 | Startup Idea Generator | Entrepreneurship | [`entrepreneurship/startup-idea-generator.md`](entrepreneurship/startup-idea-generator.md) | What startup should I build based on my skills? |
 | 30 | Thinking, Fast and Slow | Learning | [`learning/thinking-fast-and-slow.md`](learning/thinking-fast-and-slow.md) | Why do I keep making bad decisions under pressure? |
 | 31 | Superforecasting | Learning | [`learning/superforecasting.md`](learning/superforecasting.md) | How do I make better predictions about uncertain outcomes? |
+| 32 | Rationality | Learning | [`learning/rationality.md`](learning/rationality.md) | Am I rationalizing or actually reasoning? |
 
 ---
 
@@ -233,6 +234,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** Base rates (outside view), reference class forecasting, Brier Score, diagnosticity, incremental updating, dragonfly eye (multiple perspectives), perpetual beta, calibrated uncertainty, keeping score, vague-to-precise probability conversion
 - **Tags:** `prediction` `calibration` `Bayesian-updating` `Fermi-estimation` `base-rates` `forecasting` `decision-making` `probability` `Brier-score` `fox-vs-hedgehog` `poker` `investing` `risk`
 
+#### 32. Rationality
+- **File:** [`learning/rationality.md`](learning/rationality.md)
+- **Source:** Eliezer Yudkowsky — *Rationality: From AI to Zombies*
+- **Core Frameworks:** Map/Territory Distinction, Motivated Reasoning Detection, Making Beliefs Pay Rent, Bayesian Framework, Semantic Stopsign Detection, Cached Thought Identification, Privileging the Hypothesis Check, Belief Audit Playbook, Rationalist Taboo, Litany of Tarski
+- **Key Concepts:** Epistemic vs instrumental rationality, the bottom line was written first, beliefs paying rent in anticipated experiences, structural debiasing (not just knowledge), falsifiability, applause lights, fake utility functions, pre-commitment, one argument against an army, conservation of expected evidence
+- **Tags:** `rationality` `epistemology` `Bayesian-reasoning` `debiasing` `motivated-reasoning` `clear-thinking` `decision-making` `cognitive-bias` `falsifiability` `prediction` `poker` `investing`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -347,6 +355,7 @@ Live applications built from the knowledge base frameworks.
 | **Dan Kennedy** | Direct response, urgency, risk reversal | `marketing-content-engine.md` |
 | **Seth Godin** | Purple cow, remarkable positioning, permission marketing | `marketing-content-engine.md` |
 | **Ryan Deiss** | Customer value optimization, funnel stacking | `marketing-content-engine.md` |
+| **Eliezer Yudkowsky** | Rationality, epistemology, debiasing, clear thinking | `rationality.md` |
 
 ---
 
@@ -425,6 +434,14 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I think about poker decisions probabilistically?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
 | "How do I run a premortem before a big decision?" | `superforecasting.md` | `thinking-fast-and-slow.md` |
 | "How do I decompose a complex question into estimable parts?" | `superforecasting.md` | — |
+| "Am I rationalizing or actually reasoning?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "How do I check if my belief is grounded in evidence?" | `rationality.md` | `superforecasting.md` |
+| "Why do smart people believe wrong things?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "How do I detect motivated reasoning in myself?" | `rationality.md` | `thinking-fast-and-slow.md` |
+| "Is my business strategy testable or just applause lights?" | `rationality.md` | `superforecasting.md` |
+| "How do I improve group decision-making?" | `rationality.md` | `superforecasting.md` |
+| "What would change my mind about this belief?" | `rationality.md` | `superforecasting.md` |
+| "Am I defending a belief because it's true or because it's mine?" | `rationality.md` | `thinking-fast-and-slow.md` |
 
 ---
 
@@ -568,12 +585,22 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Granularity Principle | Superforecasting | 73% beats "likely" — precision forces more careful thinking |
 | Prediction Journal Practice | Superforecasting | Log predictions with probability, date, reasoning; score quarterly; identify systematic biases |
 | Premortem (Superforecasting) | Superforecasting | Before any major bet, imagine failure and diagnose why — cheapest risk management available |
+| Map/Territory Distinction | Rationality | Your beliefs are a model of reality — when they diverge, update the model, not reality |
+| Motivated Reasoning / Bottom Line | Rationality | Your brain writes conclusions first, then constructs justifications — check which came first |
+| Making Beliefs Pay Rent | Rationality | Every belief must generate testable predictions or it contains no information about reality |
+| Bayesian Framework (Rationality) | Rationality | Update strength proportional to how diagnostic the evidence is — likely under hypothesis vs. alternatives |
+| Semantic Stopsign Detection | Rationality | Words that feel like explanations but terminate inquiry — push past them |
+| Cached Thought Identification | Rationality | Pre-formed conclusions retrieved from memory instead of generated through reasoning |
+| Privileging the Hypothesis | Rationality | Testing a specific hypothesis for non-evidential reasons — broaden the search |
+| Rationalist Taboo | Rationality | Replace vague terms with specific descriptions — if the argument collapses, it wasn't an argument |
+| Litany of Tarski | Rationality | Commitment device: "If X is true, I desire to believe X is true" — tests for motivated reasoning |
+| Belief Audit Playbook | Rationality | 7-step structured audit: state → pay rent → motivated → origin → privileging → falsifiability → cached |
 
 ---
 
 ## All Tags
 
-`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `base-rates` `batch-filming` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `CAC` `calibration` `cart-abandonment` `categorization` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `equity` `error-handling` `exit-strategy` `experimentation` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `monetization` `money-scripts` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `readability` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `System-1` `System-2` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `AOV` `application` `attention` `automation` `B2B` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `CAC` `calibration` `cart-abandonment` `categorization` `clear-thinking` `CLV` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `compound-interest` `consistency` `consulting` `content-creation` `content-repurposing` `conversion` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `debiasing` `decision-making` `detachment` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `exit-strategy` `experimentation` `falsifiability` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hospitality` `human-drives` `ideation` `identity` `instagram` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `learning` `lifetime-value` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `marketing` `marketplace` `market-research` `mastery` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `nextjs` `nightclub` `offers` `operations` `opportunity` `outlier-content` `overconfidence` `performance` `persuasion` `platform-native` `podcasts` `poker` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `rationality` `readability` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `security` `side-hustle` `skill-acquisition` `skill-stack-matching` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `System-1` `System-2` `system-prompts` `systems` `testing` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `tutorial` `twitter` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -638,7 +665,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── prompt-engineering-mastery.md  # 12 principles for better AI prompts
 │   ├── code-reviewer.md              # Unbiased code review (4 dimensions)
 │   ├── thinking-fast-and-slow.md     # Decision-making under uncertainty (Kahneman)
-│   └── superforecasting.md           # Prediction, calibration & forecasting (Tetlock)
+│   ├── superforecasting.md           # Prediction, calibration & forecasting (Tetlock)
+│   └── rationality.md               # Epistemology, clear thinking & debiasing (Yudkowsky)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -647,4 +675,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 31 | Total frameworks: 127 | Total tags: 182+*
+*Last updated: 2026-02-20 | Total skills: 32 | Total frameworks: 138 | Total tags: 189+*
