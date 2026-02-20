@@ -43,6 +43,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 32 | The Scout Mindset | Learning | [`learning/scout-mindset.md`](learning/scout-mindset.md) | Am I defending this belief because it's true or because it's mine? |
 | 32 | Rationality | Learning | [`learning/rationality.md`](learning/rationality.md) | Am I rationalizing or actually reasoning? |
 | 33 | Munger Mental Models | Learning | [`learning/munger-mental-models.md`](learning/munger-mental-models.md) | What mental models apply and what would guarantee failure? |
+| 34 | The Art of Thinking Clearly | Learning | [`learning/thinking-clearly.md`](learning/thinking-clearly.md) | Which specific reasoning error is operating right now? |
 
 ---
 
@@ -250,6 +251,13 @@ Methods for rapidly acquiring new capabilities.
 - **Key Concepts:** 25 Tendencies of Human Misjudgment, circle of competence, lollapalooza effects (multiplicative convergence), incentive super-response, structural vs operational moats, inversion as default problem-solving, patience as competitive advantage, checklist discipline, compounding knowledge, multi-causal thinking, "show me the incentive," margin of safety, defense beats offense
 - **Tags:** `mental-models` `inversion` `incentives` `lollapalooza` `circle-of-competence` `margin-of-safety` `multidisciplinary-thinking` `checklists` `moats` `competitive-advantage` `misjudgment` `psychology` `decision-making` `risk` `investing` `poker` `business-strategy`
 
+#### 34. The Art of Thinking Clearly
+- **File:** [`learning/thinking-clearly.md`](learning/thinking-clearly.md)
+- **Source:** Rolf Dobelli — *The Art of Thinking Clearly*
+- **Core Frameworks:** 6-Situation Rapid Bias Detection System, Master Pre-Flight Checklist (24-point), Bias-First Analysis, Luck Audit, Counter-Anchoring, Kill-the-Idea Drill, Quick Bias Scan (2-min), Post-Decision Review, "Would I Start Today?" Test, Rationality Stack (6-layer positioning)
+- **Key Concepts:** Survivorship bias, swimmer's body illusion (selection vs causation), action bias, domain dependence, information bias (research as procrastination), clustering illusion, effort justification, social comparison bias, contrast effect, conjunction fallacy, zero-risk bias, hot hand fallacy, decoy effect, endowment effect, framing effect, not-invented-here syndrome
+- **Tags:** `cognitive-bias` `decision-making` `bias-detection` `reasoning-errors` `checklists` `survivorship-bias` `confirmation-bias` `action-bias` `risk` `psychology` `poker` `investing` `field-guide`
+
 ---
 
 ### TikTok Growth & Marketing
@@ -367,6 +375,7 @@ Live applications built from the knowledge base frameworks.
 | **Ryan Deiss** | Customer value optimization, funnel stacking | `marketing-content-engine.md` |
 | **Eliezer Yudkowsky** | Rationality, epistemology, debiasing, clear thinking | `rationality.md` |
 | **Charlie Munger** | Mental models, inversion, incentives, multidisciplinary thinking | `munger-mental-models.md` |
+| **Rolf Dobelli** | Rapid bias detection, reasoning errors, cognitive error field guide | `thinking-clearly.md` |
 
 ---
 
@@ -465,6 +474,16 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I stress-test a major decision?" | `munger-mental-models.md` | `rationality.md` |
 | "Does my strategy have enough margin of safety?" | `munger-mental-models.md` | `thinking-fast-and-slow.md` |
 | "How do I apply multi-model thinking to my business?" | `munger-mental-models.md` | `business-strategy-toolkit.md` |
+| "Something feels off about this decision but I can't name what" | `thinking-clearly.md` | `thinking-fast-and-slow.md` |
+| "I need a quick bias check before committing" | `thinking-clearly.md` | `munger-mental-models.md` |
+| "Is this success story trustworthy or just survivorship bias?" | `thinking-clearly.md` | `superforecasting.md` |
+| "Am I acting because it's right or because doing nothing feels wrong?" | `thinking-clearly.md` | `scout-mindset.md` |
+| "Is this a real pattern or random noise?" | `thinking-clearly.md` | `superforecasting.md` |
+| "Am I still in this because of sunk costs?" | `thinking-clearly.md` | `scout-mindset.md` |
+| "Which specific bias is operating here?" | `thinking-clearly.md` | `thinking-fast-and-slow.md` |
+| "Do I need more information or am I procrastinating by researching?" | `thinking-clearly.md` | `rationality.md` |
+| "Is the group driving this conclusion or the evidence?" | `thinking-clearly.md` | `scout-mindset.md` |
+| "What went wrong with that decision?" | `thinking-clearly.md` | `rationality.md` |
 
 ---
 
@@ -632,6 +651,16 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Margin of Safety Gate | Munger Mental Models | Numeric buffer required — if 1-2 assumptions can be wrong and outcome is still acceptable, proceed |
 | 25 Tendencies of Human Misjudgment | Munger Mental Models | Practitioner's catalog of systematic psychological errors — check incentives, denial, social proof first |
 | Circle of Competence | Munger Mental Models | Boundary of genuine understanding — the edge is where the biggest mistakes happen |
+| 6-Situation Rapid Bias Detection | The Art of Thinking Clearly | Organized by situation: evaluating success, committing resources, group settings, processing info, assessing risk, comparing options |
+| Master Pre-Flight Checklist (24-point) | The Art of Thinking Clearly | Evidence quality → reasoning → motivations → social influences → risk assessment — run before any major decision |
+| Bias-First Analysis | The Art of Thinking Clearly | Assume bias is present; identify WHICH bias, not WHETHER bias exists; neutralize before deciding |
+| Luck Audit | The Art of Thinking Clearly | Separate outcome from decision quality — "Would I repeat this decision with the same info?" |
+| Counter-Anchoring | The Art of Thinking Clearly | Generate your own estimate before seeing others' numbers; write it down privately first |
+| Kill-the-Idea Drill | The Art of Thinking Clearly | Actively try to disprove your preferred option — "What evidence would force me to abandon this?" |
+| Quick Bias Scan (2-min) | The Art of Thinking Clearly | Name the situation → check the top bias → ask one diagnostic question → decide |
+| Post-Decision Review | The Art of Thinking Clearly | Decision quality independent of outcome → biases active → structural safeguard for next time |
+| "Would I Start Today?" Test | The Art of Thinking Clearly | Ignore past investment — if you wouldn't start today, sunk cost is keeping you in |
+| Rationality Stack (6-layer) | The Art of Thinking Clearly | Detection (Dobelli) → Science (Kahneman) → Epistemology (Yudkowsky) → Motivation (Galef) → Integration (Munger) → Measurement (Tetlock) |
 
 ---
 
@@ -705,7 +734,8 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── thinking-fast-and-slow.md     # Decision-making under uncertainty (Kahneman)
 │   ├── superforecasting.md           # Prediction, calibration & forecasting (Tetlock)
 │   ├── scout-mindset.md              # Intellectual honesty, identity & motivated reasoning (Galef)
-│   └── munger-mental-models.md       # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
+│   ├── munger-mental-models.md       # Latticework of mental models, inversion & multidisciplinary thinking (Munger)
+│   └── thinking-clearly.md           # Rapid bias detection & reasoning error field guide (Dobelli)
 │
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
@@ -714,4 +744,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 33 | Total frameworks: 148 | Total tags: 200+*
+*Last updated: 2026-02-20 | Total skills: 34 | Total frameworks: 159 | Total tags: 210+*
