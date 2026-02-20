@@ -58,6 +58,7 @@ Practical frameworks extracted from podcast teachings by Josh Kaufman (The Perso
 | [Rapid Skill Acquisition](learning/rapid-skill-acquisition.md) | The 10 principles for learning anything in 20 hours. Covers the frustration barrier, the research trap, pre-commitment, and the explore/exploit trade-off. |
 | [Prompt Engineering Mastery](learning/prompt-engineering-mastery.md) | 12 principles for writing effective AI prompts. Information density, System/User/Assistant structure, one-shot prompting, Monte Carlo testing, Spartan tone, structured data formats, model selection, and a self-audit checklist. |
 | [Code Reviewer](learning/code-reviewer.md) | Unbiased code review framework covering 4 dimensions: correctness, readability, performance, and security. Returns severity-ranked actionable recommendations. Also available as `/code-reviewer` Claude Code command. |
+| [Thinking, Fast and Slow](learning/thinking-fast-and-slow.md) | Daniel Kahneman's two-system decision framework. System 1/System 2, prospect theory, 10 cognitive biases (anchoring, availability, WYSIATI, overconfidence, loss aversion, planning fallacy, sunk cost, regression to mean, narrative fallacy, substitution), pre-mortem technique, reference class forecasting, and a 10-point decision quality checklist. Applications to poker, business, and investing. |
 
 ### Tools — [`king-of-sparklers/`](king-of-sparklers/)
 
