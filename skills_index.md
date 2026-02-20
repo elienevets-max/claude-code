@@ -49,6 +49,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 37 | Radical Candor | Learning | [`learning/radical-candor.md`](learning/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
 | 38 | Thanks for the Feedback | Learning | [`learning/thanks-for-the-feedback.md`](learning/thanks-for-the-feedback.md) | How do I receive feedback without getting defensive and extract value from any criticism? |
 | 39 | Difficult Conversations | Learning | [`learning/difficult-conversations.md`](learning/difficult-conversations.md) | How do I navigate a high-stakes conversation without it going sideways? |
+| 40 | Introduction to Autonomous Robots | Learning | [`learning/autonomous-robots.md`](learning/autonomous-robots.md) | How do subsystem errors compound into system-level failures? |
 
 ---
 
@@ -297,6 +298,13 @@ Methods for rapidly acquiring new capabilities.
 - **Core Frameworks:** Three Conversations Model (What Happened, Feelings, Identity), Third Story Opening, Contribution vs. Blame Mapping, Intent vs. Impact Distinction, Learning Conversation, AND Stance, Full Preparation Protocol (8-step), Real-Time Navigation (10-step), Conversation Reset Protocol, Avoidance Breaking Protocol, Rationality Stack (10-layer, with Difficult Conversations)
 - **Key Concepts:** Three simultaneous conversation layers, Third Story (neutral observer opening), contribution mapping (systemic, forward-looking) vs. blame (individual, backward-looking), intent vs. impact gap, learning conversation (curiosity over certainty), AND stance (holding contradictory truths), acknowledging feelings before problem-solving, identity management in conflict, meta-communication (naming the dynamic), the cost of avoidance, switchtracking prevention
 - **Tags:** `difficult-conversations` `conflict-resolution` `three-conversations` `feelings` `identity` `contribution` `third-story` `learning-conversation` `blame` `intent-vs-impact` `de-escalation` `poker` `investing` `partnerships` `negotiation`
+
+#### 40. Introduction to Autonomous Robots
+- **File:** [`learning/autonomous-robots.md`](learning/autonomous-robots.md)
+- **Source:** Nikolaus Correll — *Introduction to Autonomous Robots* (adapted for domain consultants evaluating integrated robotic systems)
+- **Core Frameworks:** Sense-Plan-Act Loop (systems integration view), Error Propagation Analysis, Layer Coupling Model, Environment Assumptions as Hidden Dependencies, Decentralized vs Centralized Control, Autonomy Levels (4-tier), Failure Mode Taxonomy (6 categories), Systems Integration Checklist, Vendor Autonomy Decomposition (5-step), Deployment Environment Fit Check
+- **Key Concepts:** System performance = weakest subsystem, error compounding through pipeline, integration failures invisible in component testing, supervised autonomy as realistic near-term architecture, graceful degradation vs catastrophic failure, continuous operation reveals failures demos hide, maintenance cycle determined by shortest-lived component, autonomy scales by reducing coupling not adding intelligence, environment assumptions define autonomy limits, integration risk dominates algorithm risk
+- **Tags:** `robotics` `autonomous-systems` `systems-integration` `error-propagation` `autonomy-levels` `failure-modes` `sense-plan-act` `deployment-architecture` `graceful-degradation` `vendor-evaluation` `subsystem-coupling` `human-in-the-loop` `poker` `casino-automation` `supervised-autonomy` `environmental-assumptions` `operational-endurance`
 
 ---
 
