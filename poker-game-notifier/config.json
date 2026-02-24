@@ -1,0 +1,104 @@
+{
+  "watchlist": [
+    {
+      "venue": "Green Valley Ranch",
+      "location": "Henderson, NV",
+      "bravo_slug": "green-valley-ranch",
+      "games": [
+        { "type": "NL Hold'em", "stakes": "10/25" },
+        { "type": "NL Hold'em", "stakes": "5/10" },
+        { "type": "PLO", "stakes": "5/10/25" }
+      ],
+      "notify_when": "game_starts",
+      "notification_methods": ["sms"],
+      "quiet_hours": { "start": "02:00", "end": "08:00" }
+    },
+    {
+      "venue": "Bellagio",
+      "location": "Las Vegas, NV",
+      "bravo_slug": "bellagio",
+      "games": [
+        { "type": "NL Hold'em", "stakes": "5/10" },
+        { "type": "NL Hold'em", "stakes": "10/25" }
+      ],
+      "notify_when": "game_starts",
+      "notification_methods": ["sms"],
+      "quiet_hours": { "start": "03:00", "end": "09:00" }
+    },
+    {
+      "venue": "Aria",
+      "location": "Las Vegas, NV",
+      "bravo_slug": "aria",
+      "games": [
+        { "type": "NL Hold'em", "stakes": "5/10" },
+        { "type": "NL Hold'em", "stakes": "10/25" }
+      ],
+      "notify_when": "game_starts",
+      "notification_methods": ["sms"],
+      "quiet_hours": { "start": "02:00", "end": "08:00" }
+    },
+    {
+      "venue": "Wynn",
+      "location": "Las Vegas, NV",
+      "bravo_slug": "wynn-las-vegas",
+      "games": [
+        { "type": "NL Hold'em", "stakes": "5/10" },
+        { "type": "NL Hold'em", "stakes": "10/25" },
+        { "type": "NL Hold'em", "stakes": "25/50" }
+      ],
+      "notify_when": "game_starts",
+      "notification_methods": ["sms"],
+      "quiet_hours": { "start": "02:00", "end": "08:00" }
+    },
+    {
+      "venue": "The Venetian",
+      "location": "Las Vegas, NV",
+      "bravo_slug": "the-venetian",
+      "games": [
+        { "type": "NL Hold'em", "stakes": "2/5" },
+        { "type": "NL Hold'em", "stakes": "5/10" }
+      ],
+      "notify_when": "game_starts",
+      "notification_methods": ["sms"],
+      "quiet_hours": { "start": "02:00", "end": "08:00" }
+    },
+    {
+      "venue": "South Point",
+      "location": "Las Vegas, NV",
+      "bravo_slug": "south-point",
+      "games": [
+        { "type": "NL Hold'em", "stakes": "1/2" },
+        { "type": "NL Hold'em", "stakes": "2/5" }
+      ],
+      "notify_when": "game_starts",
+      "notification_methods": ["sms"],
+      "quiet_hours": { "start": "02:00", "end": "08:00" }
+    },
+    {
+      "venue": "Red Rock Casino",
+      "location": "Las Vegas, NV",
+      "bravo_slug": "red-rock-casino",
+      "games": [
+        { "type": "NL Hold'em", "stakes": "1/2" },
+        { "type": "NL Hold'em", "stakes": "2/5" },
+        { "type": "NL Hold'em", "stakes": "5/10" }
+      ],
+      "notify_when": "game_starts",
+      "notification_methods": ["sms"],
+      "quiet_hours": { "start": "02:00", "end": "08:00" }
+    },
+    {
+      "venue": "Resorts World",
+      "location": "Las Vegas, NV",
+      "bravo_slug": "resorts-world",
+      "games": [
+        { "type": "NL Hold'em", "stakes": "1/3" },
+        { "type": "NL Hold'em", "stakes": "2/5" },
+        { "type": "NL Hold'em", "stakes": "5/10" }
+      ],
+      "notify_when": "game_starts",
+      "notification_methods": ["sms"],
+      "quiet_hours": { "start": "02:00", "end": "08:00" }
+    }
+  ]
+}
