@@ -49,6 +49,7 @@ A searchable catalog of every capability, framework, and mental model in this kn
 | 37 | Radical Candor | Learning | [`learning/radical-candor.md`](learning/radical-candor.md) | How do I give honest feedback without damaging the relationship? |
 | 38 | Thanks for the Feedback | Learning | [`learning/thanks-for-the-feedback.md`](learning/thanks-for-the-feedback.md) | How do I receive feedback without getting defensive and extract value from any criticism? |
 | 39 | Difficult Conversations | Learning | [`learning/difficult-conversations.md`](learning/difficult-conversations.md) | How do I navigate a high-stakes conversation without it going sideways? |
+| 40 | Poker Game Notifier | Tools | [`tools/poker-game-notifier-prompt.md`](tools/poker-game-notifier-prompt.md) | How do I get notified when a specific poker game starts at a casino? |
 
 ---
 
@@ -362,6 +363,13 @@ Live applications built from the knowledge base frameworks.
 - **Implements:** Dream 100, StoryBrand, Customer Value Journey, KPI tracking, content calendar, seasonal planning, SOP management
 - **Tags:** `tool` `nextjs` `ecommerce` `dashboard` `application`
 
+#### 40. Poker Game Notifier
+- **File:** [`tools/poker-game-notifier-prompt.md`](tools/poker-game-notifier-prompt.md)
+- **Type:** App build prompt (not a knowledge document)
+- **Architecture:** Node.js/Python + Playwright + Twilio + Firebase + PostgreSQL
+- **Implements:** Real-time poker game monitoring via Bravo Poker Live and Poker Atlas, SMS/call/push notifications, state machine for game start detection, configurable watchlists, quiet hours, cooldown logic
+- **Tags:** `tool` `poker` `notifications` `scraping` `twilio` `real-time` `Las-Vegas` `Henderson` `automation`
+
 #### 17. Entrepreneurial Ideas — Beyond Sparklers
 - **File:** [`king-of-sparklers/ENTREPRENEURIAL_IDEAS.md`](king-of-sparklers/ENTREPRENEURIAL_IDEAS.md)
 - **Source:** Original business ideation built on King of Sparklers operational rails
@@ -420,6 +428,7 @@ Live applications built from the knowledge base frameworks.
 | **Kim Scott** | Radical Candor, feedback culture, leadership communication, team management | `radical-candor.md` |
 | **Douglas Stone & Sheila Heen** | Receiving feedback, feedback triggers, identity management, extracting value from criticism | `thanks-for-the-feedback.md` |
 | **Douglas Stone, Bruce Patton & Sheila Heen** | Difficult conversations, three-conversation model, contribution vs. blame, Third Story opening, conflict resolution | `difficult-conversations.md` |
+| **Custom (Poker Game Notifier)** | Poker game monitoring, real-time alerts, Bravo Poker Live & Poker Atlas data | `poker-game-notifier-prompt.md` |
 
 ---
 
@@ -584,6 +593,9 @@ Use this lookup when you have a specific question or are in a specific situation
 | "How do I end a partnership or business relationship gracefully?" | `difficult-conversations.md` | `radical-candor.md` |
 | "Emotions are running high and getting in the way of resolution" | `difficult-conversations.md` | `scout-mindset.md` |
 | "A conversation went badly — how do I do it differently next time?" | `difficult-conversations.md` | `thanks-for-the-feedback.md` |
+| "How do I get notified when a poker game starts?" | `poker-game-notifier-prompt.md` | — |
+| "I want to know when 10/25 starts running at my local casino" | `poker-game-notifier-prompt.md` | — |
+| "How do I build a poker room alert app?" | `poker-game-notifier-prompt.md` | `prompt-engineering-mastery.md` |
 
 ---
 
@@ -815,12 +827,15 @@ A cross-cutting reference of the major mental models and frameworks across all m
 | Conversation Reset Protocol | Difficult Conversations | Name the dynamic → acknowledge difficulty → reset to Third Story → check for unaddressed feelings → check identity threat → re-enter learning stance |
 | Avoidance Breaking Protocol | Difficult Conversations | Name avoidance → calculate cost → identify fear layer → prepare → schedule within 48 hours → remember anticipated > actual |
 | Rationality Stack (10-layer, with Difficult Conversations) | Difficult Conversations | Layers 0-8 (all tools) → Layer 9 (Difficult Conversations: the conversation navigation layer) |
+| Game State Machine | Poker Game Notifier | NOT_RUNNING → RUNNING → NOT_RUNNING with triggers: game_starts, game_stops, tables_added, waitlist_threshold |
+| Polling & Detection Loop | Poker Game Notifier | 60s interval scrape → state comparison → trigger evaluation → notification dispatch with cooldown |
+| Data Merge Strategy | Poker Game Notifier | Bravo (primary) + Poker Atlas (secondary) deduplication by (venue + game_type + stakes) composite key |
 
 ---
 
 ## All Tags
 
-`1-on-1` `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `appreciation` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `blame` `blind-spots` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `career-development` `cart-abandonment` `categorization` `clear-thinking` `CLV` `coaching` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `communication` `compound-interest` `conflict-resolution` `consistency` `consulting` `content-creation` `content-repurposing` `contribution` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `de-escalation` `debiasing` `decision-making` `defensiveness` `detachment` `difficult-conversations` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `evaluation` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `feedback` `feelings` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `intent-vs-impact` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `leadership` `learning` `learning-conversation` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `management` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `negotiation` `nextjs` `nightclub` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `partnerships` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `radical-candor` `rationality` `readability` `receiving-feedback` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `security` `self-awareness` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `third-story` `three-conversations` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `triggers` `tutorial` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
+`1-on-1` `20-hours` `30-day-challenge` `90-day-plan` `acquisition` `action` `adaptation` `affiliate` `affiliate-marketing` `AI` `algorithm` `antifragility` `AOV` `application` `appreciation` `asymmetry` `attention` `automation` `B2B` `barbell-strategy` `base-rates` `batch-filming` `Bayesian-reasoning` `Bayesian-updating` `beginner` `behavioral-economics` `behavioral-psychology` `behavioral-science` `behavior-change` `black-swan` `blame` `blind-spots` `books` `brand` `brand-building` `Brier-score` `budgeting` `business` `business-ideas` `business-strategy` `CAC` `calibration` `career-development` `cart-abandonment` `categorization` `clear-thinking` `CLV` `coaching` `co-founders` `code-review` `cognitive-bias` `comment-reply-loop` `commission` `communication` `compound-interest` `conflict-resolution` `consistency` `consulting` `content-creation` `content-repurposing` `contribution` `conversion` `convexity` `copying-framework` `copywriting` `correctness` `counter-positioning` `creator-army` `creators` `CTA` `curriculum` `customer-acquisition` `customer-value-journey` `d2c` `dashboard` `de-escalation` `debiasing` `decision-making` `defensiveness` `detachment` `difficult-conversations` `digital-business` `direct-response` `DREAM-framework` `ecommerce` `efficiency` `email-marketing` `engagement` `entrepreneurship` `epistemology` `equity` `error-handling` `evaluation` `exit-strategy` `experimentation` `extremistan` `falsifiability` `fat-tails` `feedback` `feelings` `fees` `Fermi-estimation` `finance` `forecasting` `forgiveness` `founders-triangle` `fox-vs-hedgehog` `fragility` `fundamentals` `funnels` `funding` `gmv` `GMV` `going-live` `gold-rush` `growth` `growth-channels` `hashtags` `Henderson` `heuristics` `hiring` `hooks` `hormesis` `hospitality` `human-drives` `ideation` `identity` `instagram` `intellectual-honesty` `intent-vs-impact` `investing` `investors` `iteration` `king-of-sparklers` `landing-pages` `Las-Vegas` `leadership` `learning` `learning-conversation` `lifetime-value` `lindy-effect` `linkedin` `LLM` `loss-aversion` `low-budget` `loyalty` `management` `marketing` `marketplace` `market-research` `mastery` `mediocristan` `messaging` `mindset` `moats` `monetization` `money-scripts` `motivated-reasoning` `MVP` `naive-interventionism` `negotiation` `nextjs` `nightclub` `notifications` `offers` `operations` `opportunity` `optionality` `outlier-content` `overconfidence` `partnerships` `performance` `persuasion` `platform-native` `podcasts` `poker` `position-sizing` `positioning` `practice` `prediction` `probability` `product-listing` `productized-service` `profit` `prompt-engineering` `psychology` `purpose` `radical-candor` `rationality` `readability` `real-time` `receiving-feedback` `redundancy` `relationships` `retention` `rich-life` `risk` `risk-management` `risk-reduction` `ROAS` `robustness` `ruin-avoidance` `SaaS` `SAFEs` `safety-compliance` `sales` `scaling` `scout-mindset` `scraping` `security` `self-awareness` `side-hustle` `skill-acquisition` `skill-stack-matching` `skin-in-the-game` `social-commerce` `social-media` `software-engineering` `solo-founder` `sparklers` `spending-plan` `startup` `startup-ideas` `storytelling` `strategy` `structured-data` `subscriptions` `sunk-cost` `System-1` `System-2` `system-prompts` `systems` `tail-risk` `team-culture` `testing` `third-story` `three-conversations` `tiktok` `tiktok-algorithm` `tiktok-shop` `tool` `traffic` `triggers` `tutorial` `twilio` `twitter` `updating` `upsells` `validation` `value-creation` `value-equation` `value-ladder` `via-negativa` `video` `video-marketing` `viral-content` `volume` `wealth-building` `webinars` `wedding` `win-back` `youtube` `zero-to-one`
 
 ---
 
@@ -895,6 +910,15 @@ A cross-cutting reference of the major mental models and frameworks across all m
 │   ├── thanks-for-the-feedback.md    # Receiving feedback, managing triggers & extracting value from criticism (Stone & Heen)
 │   └── difficult-conversations.md    # Navigating high-stakes talks across all three layers (Stone, Patton & Heen)
 │
+├── tools/                             # Utility scripts and app prompts
+│   ├── poker-game-notifier-prompt.md  # Poker game start notification app prompt
+│   ├── extract-youtube-captions.sh
+│   ├── transcribe-recordings.sh
+│   ├── youtube-audio-download.sh
+│   ├── youtube-recorder.html
+│   ├── yt-audio-recorder.mjs
+│   └── yt-transcript-scraper.mjs
+│
 └── king-of-sparklers/                 # Full-stack ecommerce dashboard (Next.js app)
     ├── ENTREPRENEURIAL_IDEAS.md       # 5 business ideas built on KoS rails
     └── ...                            # Complete application code
@@ -902,4 +926,4 @@ A cross-cutting reference of the major mental models and frameworks across all m
 
 ---
 
-*Last updated: 2026-02-20 | Total skills: 39 | Total frameworks: 216 | Total tags: 254+*
+*Last updated: 2026-02-21 | Total skills: 40 | Total frameworks: 219 | Total tags: 259+*
