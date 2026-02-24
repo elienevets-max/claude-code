@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsdk": "node_modules/typescript/lib",
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"files.exclude": {
+			"**/node_modules": true,
+			"**/dist": true,
+			"**/.next": true
+		}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Run Notifier",
+				"type": "node",
+				"request": "launch",
+				"program": "${workspaceFolder}/dist/index.js",
+				"preLaunchTask": "npm: build",
+				"console": "integratedTerminal"
+			},
+			{
+				"name": "Dashboard Dev",
+				"type": "node",
+				"request": "launch",
+				"runtimeExecutable": "npm",
+				"runtimeArgs": ["run", "dashboard:dev"],
+				"console": "integratedTerminal"
+			}
+		]
+	}
+}
