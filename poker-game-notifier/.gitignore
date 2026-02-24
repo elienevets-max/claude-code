@@ -4,3 +4,5 @@ data/
 .env
 *.db
 *.log
+dashboard/.next/
+dashboard/node_modules/
